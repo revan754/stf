@@ -1,0 +1,4745 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name" translatable="false">stf</string>
+
+    <!-- login-->
+    <string name="text1">Giriş</string>
+    <string name="phone" tools:ignore="MissingTranslation">Telefon Numarası</string>
+    <string name="password" tools:ignore="MissingTranslation">Şifre</string>
+    <string name="login" tools:ignore="MissingTranslation">Giriş</string>
+    <string name="kayitYap" tools:ignore="MissingTranslation">Kaydol</string>
+    <string name="şifremiUnuttum" tools:ignore="MissingTranslation">Şifremi Unuttum</string>
+
+    <!-- sign Up-->
+    <string name="isimSuyisim" tools:ignore="MissingTranslation">İsim Soyisim</string>
+    <string name="telefonNum" tools:ignore="MissingTranslation">Telefon Numarası</string>
+    <string name="passwordTekrar" tools:ignore="MissingTranslation">Şifre Onay</string>
+    <string name="mail" tools:ignore="ExtraTranslation,MissingTranslation">E-Posta</string>
+    <string name="ileri" tools:ignore="MissingTranslation">İlerle</string>
+    <string name="kayitOl" tools:ignore="MissingTranslation">Kayıt Ol</string>
+
+    <string name="telefonNumarasiEksik" tools:ignore="MissingTranslation">Lütfen Telefon Numarasını Eksiksiz Giriniz</string>
+
+
+    <!-- add device -->
+    <string name="sayin" tools:ignore="MissingTranslation">Hoşgeldiniz</string>
+    <string name="cihazId" tools:ignore="MissingTranslation">Tarla Mevkii</string>
+    <string name="cihazAdi" tools:ignore="MissingTranslation">Cihaz Adı</string>
+
+    <string name="eklenenCihazListesi" tools:ignore="MissingTranslation">Eklenen Cihaz Bilgileri</string>
+    <string name="cihazEkle" tools:ignore="MissingTranslation">Cihaz Ekle</string>
+    <string name="kayidiTamamla" tools:ignore="MissingTranslation">Kayıt İşlemini Tamamla</string>
+
+    <!-- device list-->
+    <string name="bildirim" tools:ignore="MissingTranslation">Bildirimler</string>
+    <string name="uyariMesaji" tools:ignore="MissingTranslation">Uyarı Mesajları</string>
+    <string name="cihaz" tools:ignore="MissingTranslation">Cihaz</string>
+    <string name="calismaZamani" tools:ignore="MissingTranslation">Çalışma Zamanı</string>
+    <string name="sonYikamaZamani" tools:ignore="MissingTranslation">Son Yıkama Zamanı</string>
+    <string name="saat" tools:ignore="MissingTranslation">saat</string>
+    <string name="simdi" tools:ignore="MissingTranslation">Şimdi</string>
+
+    <!--  device details-->
+    <string name="calisiyor" tools:ignore="MissingTranslation">Çalışıyor</string>
+    <string name="batariye" tools:ignore="MissingTranslation">Batarya</string>
+    <string name="sarjDurumu" tools:ignore="MissingTranslation">Şarj Durumu</string>
+    <string name="filtreAyarlari" tools:ignore="MissingTranslation">Filtre Ayarları</string>
+    <string name="icBasinc" tools:ignore="MissingTranslation">İç Basıncı</string>
+    <string name="disBasinc" tools:ignore="MissingTranslation">Dış Basıncı</string>
+    <string name="calismaSuresi" tools:ignore="MissingTranslation">Çalışma Süresi:</string>
+    <string name="calismaDetayi" tools:ignore="MissingTranslation">Çalışma Detayı</string>
+    <string name="gecmisSaat" tools:ignore="MissingTranslation">Saat Önce</string>
+    <string name="sonBildirimler" tools:ignore="MissingTranslation">Son Bildirimler</string>
+
+
+    <!--  work details-->
+    <string name="cihazAyarlari" tools:ignore="MissingTranslation">Cihaz Ayarları</string>
+    <string name="donanimSürümü" tools:ignore="MissingTranslation">Donanım Yazılımı Sürümü</string>
+    <string name="sonGuncellem" tools:ignore="MissingTranslation">Son Güncelleme</string>
+    <string name="cihazDurumu" tools:ignore="MissingTranslation">Cihaz Durumu</string>
+    <string name="bagli" tools:ignore="MissingTranslation">Bağlı</string>
+    <string name="cihaziOku" tools:ignore="MissingTranslation">Cihazı Oku</string>
+
+    <!-- washing Setting -->
+    <string name="numaraliCihaz" tools:ignore="MissingTranslation">No\'lu Cihaz</string>
+    <string name="yikamaAyarlari" tools:ignore="MissingTranslation">Yıkama Ayarları</string>
+    <string name="basincAyari" tools:ignore="MissingTranslation">Basınç Ayarı</string>
+    <string name="yikamaTarihi" tools:ignore="MissingTranslation">Yıkama Tarihi</string>
+    <string name="yikamaSaati" tools:ignore="MissingTranslation">Yıkama Saati</string>
+    <string name="ayarlariKaydet" tools:ignore="MissingTranslation">Ayarları Kaydet</string>
+
+    <!--  user page-->
+    <string name="sifreIslemleri" tools:ignore="MissingTranslation">Şifre İşlemleri</string>
+    <string name="sifreyiOnayla" tools:ignore="MissingTranslation">Şifre Onayla</string>
+    <string name="iletisimIslemleri" tools:ignore="MissingTranslation">Şifre İşlemleri</string>
+
+
+
+
+    <!--   Alert Dialog Text-->
+    <string name="cihazGirinUyari" tools:ignore="MissingTranslation">Lütfen Bir Cihaz Kimliği Giriniz</string>
+    <string name="bosAlanUyarisi" tools:ignore="MissingTranslation">Lütfen Boş Alanları Doldurunuz</string>
+    <string name="kullaniciSifreYanlisUyari" tools:ignore="MissingTranslation">Kullanıcı Adı Veya Şifre Yanlış</string>
+    <string name="ulkeSecUyari" tools:ignore="MissingTranslation">Lütfen Bir Ülke Seçiniz</string>
+    <string name="sehirSecUyari" tools:ignore="MissingTranslation">Lütfen Bir İl Seçiniz</string>
+    <string name="ulke" tools:ignore="MissingTranslation">Ülke</string>
+    <string name="sehir" tools:ignore="MissingTranslation">İl</string>
+    <string name="ayniSifreUyari" tools:ignore="MissingTranslation">Lütfen Aynı Şifreyi Giriniz</string>
+    <string name="hataUyari" tools:ignore="MissingTranslation">Bir Hata Oluştu! Tekrar Deneyiniz</string>
+    <string name="cikisYap" tools:ignore="MissingTranslation">Çıkış Yap</string>
+    <string name="sifreDegistir" tools:ignore="MissingTranslation">Şifre Değiştir</string>
+    <string name="baslanmadi" tools:ignore="MissingTranslation">Başlatılmadı</string>
+    <string name="sarjOlmuyor" tools:ignore="MissingTranslation">Şarj Olmuyor</string>
+    <string name="sarjOluyor" tools:ignore="MissingTranslation">Şarj Oluyor</string>
+
+
+    <string-array name="ulkeler">
+        <item>1-Afghanistan</item>
+        <item>2-Albania</item>
+        <item>3-Algeria</item>
+        <item>4-American Samoa</item>
+        <item>5-Andorra</item>
+        <item>6-Angola</item>
+        <item>7-Anguilla</item>
+        <item>8-Antarctica</item>
+        <item>9-Antigua And Barbuda</item>
+        <item>10-Argentina</item>
+        <item>11-Armenia</item>
+        <item>12-Aruba</item>
+        <item>13-Australia</item>
+        <item>14-Austria</item>
+        <item>15-Azerbaijan</item>
+        <item>16-Bahamas The</item>
+        <item>17-Bahrain</item>
+        <item>18-Bangladesh</item>
+        <item>19-Barbados</item>
+        <item>20-Belarus</item>
+        <item>21-Belgium</item>
+        <item>22-Belize</item>
+        <item>23-Benin</item>
+        <item>24-Bermuda</item>
+        <item>25-Bhutan</item>
+        <item>26-Bolivia</item>
+        <item>27-Bosnia and Herzegovina</item>
+        <item>28-Botswana</item>
+        <item>29-Bouvet Island</item>
+        <item>30-Brazil</item>
+        <item>31-British Indian Ocean Territory</item>
+        <item>32-Brunei</item>
+        <item>33-Bulgaria</item>
+        <item>34-Burkina Faso</item>
+        <item>35-Burundi</item>
+        <item>36-Cambodia</item>
+        <item>37-Cameroon</item>
+        <item>38-Canada</item>
+        <item>39-Cape Verde</item>
+        <item>40-Cayman Islands</item>
+        <item>41-Central African Republic</item>
+        <item>42-Chad</item>
+        <item>43-Chile</item>
+        <item>44-China</item>
+        <item>45-Christmas Island</item>
+        <item>46-Cocos (Keeling) Islands</item>
+        <item>47-Colombia</item>
+        <item>48-Comoros</item>
+        <item>49-Republic Of The Congo</item>
+        <item>50-Democratic Republic Of The Congo</item>
+        <item>51-Cook Islands</item>
+        <item>52-Costa Rica</item>
+        <item>53-Cote D Ivoire (Ivory Coast)</item>
+        <item>54-Croatia (Hrvatska)</item>
+        <item>55-Cuba</item>
+        <item>56-Cyprus</item>
+        <item>57-Czech Republic</item>
+        <item>58-Denmark</item>
+        <item>59-Djibouti</item>
+        <item>60-Dominica</item>
+        <item>61-Dominican Republic</item>
+        <item>62-East Timor</item>
+        <item>63-Ecuador</item>
+        <item>64-Egypt</item>
+        <item>65-El Salvador</item>
+        <item>66-Equatorial Guinea</item>
+        <item>67-Eritrea</item>
+        <item>68-Estonia</item>
+        <item>69-Ethiopia</item>
+        <item>70-External Territories of Australia</item>
+        <item>71-Falkland Islands</item>
+        <item>72-Faroe Islands</item>
+        <item>73-Fiji Islands</item>
+        <item>74-Finland</item>
+        <item>75-France</item>
+        <item>76-French Guiana</item>
+        <item>77-French Polynesia</item>
+        <item>78-French Southern Territories</item>
+        <item>79-Gabon</item>
+        <item>80-Gambia The</item>
+        <item>81-Georgia</item>
+        <item>82-Germany</item>
+        <item>83-Ghana</item>
+        <item>84-Gibraltar</item>
+        <item>85-Greece</item>
+        <item>86-Greenland</item>
+        <item>87-Grenada</item>
+        <item>88-Guadeloupe</item>
+        <item>89-Guam</item>
+        <item>90-Guatemala</item>
+        <item>91-Guernsey and Alderney</item>
+        <item>92-Guinea</item>
+        <item>93-Guinea-Bissau</item>
+        <item>94-Guyana</item>
+        <item>95-Haiti</item>
+        <item>96-Heard and McDonald Islands</item>
+        <item>97-Honduras</item>
+        <item>98-Hong Kong S.A.R</item>
+        <item>99-Hungary</item>
+        <item>100-Iceland</item>
+        <item>101-India</item>
+        <item>102-Indonesia</item>
+        <item>103-Iran</item>
+        <item>104-Iraq</item>
+        <item>105-Ireland</item>
+        <item>106-Israel</item>
+        <item>107-Italy</item>
+        <item>108-Jamaica</item>
+        <item>109-Japan</item>
+        <item>110-Jersey</item>
+        <item>111-Jordan</item>
+        <item>112-Kazakhstan</item>
+        <item>113-Kenya</item>
+        <item>114-Kiribati</item>
+        <item>115-Korea North</item>
+        <item>116-Korea South</item>
+        <item>117-Kuwait</item>
+        <item>118-Kyrgyzstan</item>
+        <item>119-Laos</item>
+        <item>120-Latvia</item>
+        <item>121-Lebanon</item>
+        <item>122-Lesotho</item>
+        <item>123-Liberia</item>
+        <item>124-Libya</item>
+        <item>125-Liechtenstein</item>
+        <item>126-Lithuania</item>
+        <item>127-Luxembourg</item>
+        <item>128-Macau S.A.R</item>
+        <item>129-Macedonia</item>
+        <item>130-Madagascar</item>
+        <item>131-Malawi</item>
+        <item>132-Malaysia</item>
+        <item>133-Maldives</item>
+        <item>134-Mali</item>
+        <item>135-Malta</item>
+        <item>136-Man (Isle of)</item>
+        <item>137-Marshall Islands</item>
+        <item>138-Martinique</item>
+        <item>139-Mauritania</item>
+        <item>140-Mauritius</item>
+        <item>141-Mayotte</item>
+        <item>142-Mexico</item>
+        <item>143-Micronesia</item>
+        <item>144-Moldova</item>
+        <item>145-Monaco</item>
+        <item>146-Mongolia</item>
+        <item>147-Montserrat</item>
+        <item>148-Morocco</item>
+        <item>149-Mozambique</item>
+        <item>150-Myanmar</item>
+        <item>151-Namibia</item>
+        <item>152-Nauru</item>
+        <item>153-Nepal</item>
+        <item>154-Netherlands Antilles</item>
+        <item>155-Netherlands The</item>
+        <item>156-New Caledonia</item>
+        <item>157-New Zealand</item>
+        <item>158-Nicaragua</item>
+        <item>159-Niger</item>
+        <item>160-Nigeria</item>
+        <item>161-Niue</item>
+        <item>162-Norfolk Island</item>
+        <item>163-Northern Mariana Islands</item>
+        <item>164-Norway</item>
+        <item>165-Oman</item>
+        <item>166-Pakistan</item>
+        <item>167-Palau</item>
+        <item>168-Palestinian Territory Occupied</item>
+        <item>169-Panama</item>
+        <item>170-Papua new Guinea</item>
+        <item>171-Paraguay</item>
+        <item>172-Peru</item>
+        <item>173-Philippines</item>
+        <item>174-Pitcairn Island</item>
+        <item>175-Poland</item>
+        <item>176-Portugal</item>
+        <item>177-Puerto Rico</item>
+        <item>178-Qatar</item>
+        <item>179-Reunion</item>
+        <item>180-Romania</item>
+        <item>181-Russia</item>
+        <item>182-Rwanda</item>
+        <item>183-Saint Helena</item>
+        <item>184-Saint Kitts And Nevis</item>
+        <item>185-Saint Lucia</item>
+        <item>186-Saint Pierre and Miquelon</item>
+        <item>187-Saint Vincent And The Grenadines</item>
+        <item>188-Samoa</item>
+        <item>189-San Marino</item>
+        <item>190-Sao Tome and Principe</item>
+        <item>191-Saudi Arabia</item>
+        <item>192-Senegal</item>
+        <item>193-Serbia</item>
+        <item>194-Seychelles</item>
+        <item>195-Sierra Leone</item>
+        <item>196-Singapore</item>
+        <item>197-Slovakia</item>
+        <item>198-Slovenia</item>
+        <item>199-Smaller Territories of the UK</item>
+        <item>200-Solomon Islands</item>
+        <item>201-Somalia</item>
+        <item>202-South Africa</item>
+        <item>203-South Georgia</item>
+        <item>204-South Sudan</item>
+        <item>205-Spain</item>
+        <item>206-Sri Lanka</item>
+        <item>207-Sudan</item>
+        <item>208-Suriname</item>
+        <item>209-Svalbard And Jan Mayen Islands</item>
+        <item>210-Swaziland</item>
+        <item>211-Sweden</item>
+        <item>212-Switzerland</item>
+        <item>213-Syria</item>
+        <item>214-Taiwan</item>
+        <item>215-Tajikistan</item>
+        <item>216-Tanzania</item>
+        <item>217-Thailand</item>
+        <item>218-Togo</item>
+        <item>219-Tokelau</item>
+        <item>220-Tonga</item>
+        <item>221-Trinidad And Tobago</item>
+        <item>222-Tunisia</item>
+        <item>223-Turkey</item>
+        <item>224-Turkmenistan</item>
+        <item>225-Turks And Caicos Islands</item>
+        <item>226-Tuvalu</item>
+        <item>227-Uganda</item>
+        <item>228-Ukraine</item>
+        <item>229-United Arab Emirates</item>
+        <item>230-United Kingdom</item>
+        <item>231-United States</item>
+        <item>232-United States Minor Outlying Islands</item>
+        <item>233-Uruguay</item>
+        <item>234-Uzbekistan</item>
+        <item>235-Vanuatu</item>
+        <item>236-Vatican City State (Holy See)</item>
+        <item>237-Venezuela</item>
+        <item>238-Vietnam</item>
+        <item>239-Virgin Islands (British)</item>
+        <item>240-Virgin Islands (US)</item>
+        <item>241-Wallis And Futuna Islands</item>
+        <item>242-Western Sahara</item>
+        <item>243-Yemen</item>
+        <item>244-Yugoslavia</item>
+        <item>245-Zambia</item>
+        <item>246-Zimbabwe</item>
+    </string-array>
+
+    <string-array name="iller">
+
+        <item >1-Badakhshan</item>
+        <item >1-Badghis</item>
+        <item >1-Baghlan</item>
+        <item >1-Balkh</item>
+        <item >1-Bamiyan</item>
+        <item >1-Daikondi</item>
+        <item >1-Farah</item>
+        <item >1-Faryab</item>
+        <item >1-Ghazni</item>
+        <item >1-Ghowr</item>
+        <item >1-Helmand</item>
+        <item >1-Herat</item>
+        <item >1-Jowzjan</item>
+        <item >1-Kabil</item>
+        <item >1-Kandahar</item>
+        <item >1-Kapisa</item>
+        <item >1-Khost</item>
+        <item >1-Kunar</item>
+        <item >1-Kunduz</item>
+        <item >1-Laghman</item>
+        <item >1-Lowgar</item>
+        <item >1-Nangarhar</item>
+        <item >1-Nimruz</item>
+        <item >1-Nurestan</item>
+        <item >1-Oruzgan</item>
+        <item >1-Paktia</item>
+        <item >1-Paktika</item>
+        <item >1-Panjshir</item>
+        <item >1-Parvan</item>
+        <item >1-Samangan</item>
+        <item >1-Sar-e Pol</item>
+        <item >1-Takhar</item>
+        <item >1-Vardak</item>
+        <item >1-Zabol</item>
+
+
+        <item >2-Berat</item>>
+        <item >2-Bulqize</item>>
+        <item >2-Delvine</item>>
+        <item >2-Devoll</item>>
+        <item >2-Dibre</item>>
+        <item >2-Durres</item>>
+        <item >2-Elbasan</item>>
+        <item >2-Fier</item>>
+        <item >2-Gjirokaster</item>>
+        <item >2-Gramsh</item>>
+        <item >2-Has</item>>
+        <item >2-Kavaje</item>>
+        <item >2-Kolonje</item>>
+        <item >2-Korce</item>>
+        <item >2-Kruje</item>>
+        <item >2-Kucove</item>>
+        <item >2-Kukes</item>>
+        <item >2-Kurbin</item>>
+        <item >2-Lezhe</item>>
+        <item >2-Librazhd</item>>
+        <item >2-Lushnje</item>>
+        <item >2-Mallakaster</item>>
+        <item >2-Malsi e Madhe</item>>
+        <item >2-Mat</item>>
+        <item >2-Mirdite</item>>
+        <item >2-Peqin</item>>
+        <item >2-Permet</item>>
+        <item >2-Pogradec</item>>
+        <item >2-Puke</item>>
+        <item >2-Sarande</item>>
+        <item >2-Shkoder</item>>
+        <item >2-Skrapar</item>>
+        <item >2-Tepelene</item>>
+        <item >2-Tirane</item>>
+        <item >2-Tropoje</item>>
+        <item >2-Vlore</item>>
+
+        <item >3-Ayn Daflah</item>>
+        <item >3-Ayn Tamushanat</item>>
+        <item >3-Adrar</item>>
+        <item >3-Algiers</item>>
+        <item >3-Annabah</item>>
+        <item >3-Bashshar</item>>
+        <item >3-Batnah</item>>
+        <item >3-Bijayah</item>>
+        <item >3-Biskrah</item>>
+        <item >3-Blidah</item>>
+        <item >3-Buirah</item>>
+        <item >3-Bumardas</item>>
+        <item >3-Burj Bu Arririj</item>>
+        <item >3-Ghalizan</item>>
+        <item >3-Ghardayah</item>>
+        <item >3-Ilizi</item>>
+        <item >3-Jijili</item>>
+        <item >3-Jilfah</item>>
+        <item >3-Khanshalah</item>>
+        <item >3-Masilah</item>>
+        <item >3-Midyah</item>>
+        <item >3-Milah</item>>
+        <item >3-Muaskar</item>>
+        <item >3-Mustaghanam</item>>
+        <item >3-Naama</item>>
+        <item >3-Oran</item>>
+        <item >3-Ouargla</item>>
+        <item >3-Qalmah</item>>
+        <item >3-Qustantinah</item>>
+        <item >3-Sakikdah</item>>
+        <item >3-Satif</item>>
+        <item >3-Sayda</item>>
+        <item >3-Sidi ban-al-Abbas</item>>
+        <item >3-Suq Ahras</item>>
+        <item >3-Tamanghasat</item>>
+        <item >3-Tibazah</item>>
+        <item >3-Tibissah</item>>
+        <item >3-Tilimsan</item>>
+        <item >3-Tinduf</item>>
+        <item >3-Tisamsilt</item>>
+        <item >3-Tiyarat</item>>
+        <item >3-Tizi Wazu</item>>
+        <item >3-Umm-al-Bawaghi</item>>
+        <item >3-Wahran</item>>
+        <item >3-Warqla</item>>
+        <item >3-Wilaya d Alger</item>>
+        <item >3-Wilaya de Bejaia</item>>
+        <item >3-Wilaya de Constantine</item>>
+        <item >3-al-Aghwat</item>>
+        <item >3-al-Bayadh</item>>
+        <item >3-al-Jaza ir</item>>
+        <item >3-al-Wad</item>>
+        <item >3-ash-Shalif</item>>
+        <item >3-at-Tarif</item>>
+
+        <item >4-Eastern</item>>
+        <item >4-Manu a</item>
+        <item >4-Swains Island</item>
+        <item >4-Western</item>
+        <item >4-Andorra la Vella</item>
+
+        <item >5-Canillo</item>
+        <item >5-Encamp</item>
+        <item >5-La Massana</item>
+        <item >5-Les Escaldes</item>
+        <item >5-Ordino</item>
+        <item >5-Sant Julia de Loria</item>
+
+        <item >6-Bengo</item>
+        <item >6-Benguela</item>
+        <item >6-Bie</item>>
+        <item >6-Cabinda</item>>
+        <item >6-Cunene</item>>
+        <item >6-Huambo</item>>
+        <item >6-Huila</item>>
+        <item >6-Kuando-Kubango</item>>
+        <item >6-Kwanza Norte</item>>
+        <item >6-Kwanza Sul</item>>
+        <item >6-Luanda</item>>
+        <item >6-Lunda Norte</item>>
+        <item >6-Lunda Sul</item>>
+        <item >6-Malanje</item>>
+        <item >6-Moxico</item>>
+        <item >6-Namibe</item>>
+        <item >6-Uige</item>>
+        <item >6-Zaire</item>>
+
+        <item >7-Other Provinces</item>
+
+        <item >8-Sector claimed by Argentina/Ch</item>>
+        <item >8-Sector claimed by Argentina/UK</item>
+        <item >8-Sector claimed by Australia</item>
+        <item >8-Sector claimed by France</item>
+        <item >8-Sector claimed by New Zealand</item>
+        <item >8-Sector claimed by Norway</item>
+        <item >8-Unclaimed Sector</item>
+
+        <item >9-Barbuda</item>
+        <item >9-Saint George</item>
+        <item >9-Saint John</item>
+        <item >9-Saint Mary</item>
+        <item >9-Saint Paul</item>
+        <item >9-Saint Peter</item>
+        <item >9-Saint Philip</item>
+
+        <item >10-Buenos Aires</item>
+        <item >10-Catamarca</item>
+        <item >10-Chaco</item>
+        <item >10-Chubut</item>
+        <item >10-Cordoba</item>
+        <item >10-Corrientes</item>
+        <item >10-Distrito Federal</item>
+        <item >10-Entre Rios</item>
+        <item >10-Formosa</item>
+        <item >10-Jujuy</item>
+        <item >10-La Pampa</item>
+        <item >10-La Rioja</item>
+        <item >10-Mendoza</item>
+        <item >10-Misiones</item>
+        <item >10-Neuquen</item>
+        <item >10-Rio Negro</item>
+        <item >10-Salta</item>
+        <item >10-San Juan</item>
+        <item >10-San Luis</item>
+        <item >10-Santa Cruz</item>
+        <item >10-Santa Fe</item>
+        <item >10-Santiago del Estero</item>
+        <item >10-Tierra del Fuego</item>
+        <item >10-Tucuman</item>
+
+        <item >11-Aragatsotn</item>
+        <item >11-Ararat</item>
+        <item >11-Armavir</item>
+        <item >11-Gegharkunik</item>
+        <item >11-Kotaik</item>
+        <item >11-Lori</item>
+        <item >11-Shirak</item>
+        <item >11-Stepanakert</item>
+        <item >11-Syunik</item>
+        <item >11-Tavush</item>
+        <item >11-Vayots Dzor</item>
+        <item >11-Yerevan</item>
+
+        <item >12-Aruba</item>
+
+        <item >13-Auckland</item>
+        <item >13-Australian Capital Territory</item>
+        <item >13-Balgowlah</item>
+        <item >13-Balmain</item>
+        <item >13-Bankstown</item>
+        <item >13-Baulkham Hills</item>
+        <item >13-Bonnet Bay</item>
+        <item >13-Camberwell</item>
+        <item >13-Carole Park</item>
+        <item >13-Castle Hill</item>
+        <item >13-Caulfield</item>
+        <item >13-Chatswood</item>
+        <item >13-Cheltenham</item>
+        <item >13-Cherrybrook</item>
+        <item >13-Clayton</item>
+        <item >13-Collingwood</item>
+        <item >13-Frenchs Forest</item>
+        <item >13-Hawthorn</item>
+        <item >13-Jannnali</item>
+        <item >13-Knoxfield</item>
+        <item >13-Melbourne</item>
+        <item >13-New South Wales</item>
+        <item >13-Northern Territory</item>
+        <item >13-Perth</item>
+        <item >13-Queensland</item>
+        <item >13-South Australia</item>
+        <item >13-Tasmania</item>
+        <item >13-Templestowe</item>
+        <item >13-Victoria</item>
+        <item >13-Werribee south</item>
+        <item >13-Western Australia</item>
+        <item >13-Wheeler</item>
+
+        <item >14-Bundesland Salzburg</item>
+        <item >14-Bundesland Steiermark</item>
+        <item >14-Bundesland Tirol</item>
+        <item >14-Burgenland</item>
+        <item >14-Carinthia</item>
+        <item >14-Karnten</item>
+        <item >14-Liezen</item>
+        <item >14-Lower Austria</item>
+        <item >14-Niederosterreich</item>
+        <item >14-Oberosterreich</item>
+        <item >14-Salzburg</item>
+        <item >14-Schleswig-Holstein</item>
+        <item >14-Steiermark</item>
+        <item >14-Styria</item>
+        <item >14-Tirol</item>
+        <item >14-Upper Austria</item>
+        <item >14-Vorarlberg</item>
+        <item >14-Wien</item>
+
+        <item >15-Abseron</item>
+        <item >15-Baki Sahari</item>
+        <item >15-Ganca</item>
+        <item >15-Ganja</item>
+        <item >15-Kalbacar</item>
+        <item >15-Lankaran</item>
+        <item >15-Mil-Qarabax</item>
+        <item >15-Mugan-Salyan</item>
+        <item >15-Nagorni-Qarabax</item>
+        <item >15-Naxcivan</item>
+        <item >15-Priaraks</item>
+        <item >15-Qazax</item>
+        <item >15-Saki</item>
+        <item >15-Sirvan</item>
+        <item >15-Xacmaz</item>
+
+        <item >16-Abaco</item>
+        <item >16-Acklins Island</item>
+        <item >16-Andros</item>
+        <item >16-Berry Islands</item>
+        <item >16-Biminis</item>
+        <item >16-Cat Island</item>
+        <item >16-Crooked Island</item>
+        <item >16-Eleuthera</item>
+        <item >16-Exuma and Cays</item>
+        <item >16-Grand Bahama</item>
+        <item >16-Inagua Islands</item>
+        <item >16-Long Island</item>
+        <item >16-Mayaguana</item>
+        <item >16-New Providence</item>
+        <item >16-Ragged Island</item>
+        <item >16-Rum Cay</item>
+        <item >16-San Salvador</item>
+
+        <item >17-Isa</item>
+        <item >17-Badiyah</item>
+        <item >17-Hidd</item>
+        <item >17-Jidd Hafs</item>
+        <item >17-Mahama</item>
+        <item >17-Manama</item>
+        <item >17-Sitrah</item>
+        <item >17-al-Manamah</item>
+        <item >17-al-Muharraq</item>
+        <item >17-ar-Rifa a</item>
+
+        <item >18-Bagar Hat</item>
+        <item >18-Bandarban</item>
+        <item >18-Barguna</item>
+        <item >18-Barisal</item>
+        <item >18-Bhola</item>
+        <item >18-Bogora</item>
+        <item >18-Brahman Bariya</item>
+        <item >18-Chandpur</item>
+        <item >18-Chattagam</item>
+        <item >18-Chittagong Division</item>
+        <item >18-Chuadanga</item>
+        <item >18-Dhaka</item>
+        <item >18-Dinajpur</item>
+        <item >18-Faridpur</item>
+        <item >18-Feni</item>
+        <item >18-Gaybanda</item>
+        <item >18-Gazipur</item>
+        <item >18-Gopalganj</item>
+        <item >18-Habiganj</item>
+        <item >18-Jaipur Hat</item>
+        <item >18-Jamalpur</item>
+        <item >18-Jessor</item>
+        <item >18-Jhalakati</item>
+        <item >18-Jhanaydah</item>
+        <item >18-Khagrachhari</item>
+        <item >18-Khulna</item>
+        <item >18-Kishorganj</item>
+        <item >18-Koks Bazar</item>
+        <item >18-Komilla</item>
+        <item >18-Kurigram</item>
+        <item >18-Kushtiya</item>
+        <item >18-Lakshmipur</item>
+        <item >18-Lalmanir Hat</item>
+        <item >18-Madaripur</item>
+        <item >18-Magura</item>
+        <item >18-Maimansingh</item>
+        <item >18-Manikganj</item>
+        <item >18-Maulvi Bazar</item>
+        <item >18-Meherpur</item>
+        <item >18-Munshiganj</item>
+        <item >18-Naral</item>
+        <item >18-Narayanganj</item>
+        <item >18-Narsingdi</item>
+        <item >18-Nator</item>
+        <item >18-Naugaon</item>
+        <item >18-Nawabganj</item>
+        <item >18-Netrakona</item>
+        <item >18-Nilphamari</item>
+        <item >18-Noakhali</item>
+        <item >18-Pabna</item>
+        <item >18-Panchagarh</item>
+        <item >18-Patuakhali</item>
+        <item >18-Pirojpur</item>
+        <item >18-Rajbari</item>
+        <item >18-Rajshahi</item>
+        <item >18-Rangamati</item>
+        <item >18-Rangpur</item>
+        <item >18-Satkhira</item>
+        <item >18-Shariatpur</item>
+        <item >18-Sherpur</item>
+        <item >18-Silhat</item>
+        <item >18-Sirajganj</item>
+        <item >18-Sunamganj</item>
+        <item >18-Tangayal</item>
+        <item >18-Thakurgaon</item>
+
+        <item >19-Christ Church</item>
+        <item >19-Saint Andrew</item>
+        <item >19-Saint George</item>
+        <item >19-Saint James</item>
+        <item >19-Saint John</item>
+        <item >19-Saint Joseph</item>
+        <item >19-Saint Lucy</item>
+        <item >19-Saint Michael</item>
+        <item >19-Saint Peter</item>
+        <item >19-Saint Philip</item>
+        <item >19-Saint Thomas</item>
+
+        <item >20-Brest</item>
+        <item >20-Homjel</item>
+        <item >20-Hrodna</item>
+        <item >20-Mahiljow</item>
+        <item >20-Mahilyowskaya Voblasts</item>
+        <item >20-Minsk</item>
+        <item >20-Minskaja Voblasts</item>
+        <item >20-Petrik</item>
+        <item >20-Vicebsk</item>
+
+        <item >21-Antwerpen</item>
+        <item >21-Berchem</item>
+        <item >21-Brabant</item>
+        <item >21-Brabant Wallon</item>
+        <item >21-Brussel</item>
+        <item >21-East Flanders</item>
+        <item >21-Hainaut</item>
+        <item >21-Liege</item>
+        <item >21-Limburg</item>
+        <item >21-Luxembourg</item>
+        <item >21-Namur</item>
+        <item >21-Ontario</item>
+        <item >21-Oost-Vlaanderen</item>
+        <item >21-Provincie Brabant</item>
+        <item >21-Vlaams-Brabant</item>
+        <item >21-Wallonne</item>
+        <item >21-West-Vlaanderen</item>
+
+        <item >22-Belize</item>
+        <item >22-Cayo</item>
+        <item >22-Corozal</item>
+        <item >22-Orange Walk</item>
+        <item >22-Stann Creek</item>
+        <item >22-Toledo</item>
+
+        <item >23-Alibori</item>
+        <item >23-Atacora</item>
+        <item >23-Atlantique</item>
+        <item >23-Borgou</item>
+        <item >23-Collines</item>
+        <item >23-Couffo</item>
+        <item >23-Donga</item>
+        <item >23-Littoral</item>
+        <item >23-Mono</item>
+        <item >23-Oueme</item>
+        <item >23-Plateau</item>
+        <item >23-Zou</item>
+
+        <item >24-Hamilton</item>
+        <item >24-Saint George</item>
+
+        <item >25-Bumthang</item>
+        <item >25-Chhukha</item>
+        <item >25-Chirang</item>
+        <item >25-Daga</item>
+        <item >25-Geylegphug</item>
+        <item >25-Ha</item>
+        <item >25-Lhuntshi</item>
+        <item >25-Mongar</item>
+        <item >25-Pemagatsel</item>
+        <item >25-Punakha</item>
+        <item >25-Rinpung</item>
+        <item >25-Samchi</item>
+        <item >25-Samdrup Jongkhar</item>
+        <item >25-Shemgang</item>
+        <item >25-Tashigang</item>
+        <item >25-Timphu</item>
+        <item >25-Tongsa</item>
+        <item >25-Wangdiphodrang</item>
+
+        <item >26-Beni</item>
+        <item >26-Chuquisaca</item>
+        <item >26-Cochabamba</item>
+        <item >26-La Paz</item>
+        <item >26-Oruro</item>
+        <item >26-Pando</item>
+        <item >26-Potosi</item>
+        <item >26-Santa Cruz</item>
+        <item >26-Tarija</item>
+
+        <item >27-Federacija Bosna i Hercegovina</item>
+        <item >27-Republika Srpska</item>
+
+        <item >28-Central Bobonong</item>
+        <item >28-Central Boteti</item>
+        <item >28-Central Mahalapye</item>
+        <item >28-Central Serowe-Palapye</item>
+        <item >28-Central Tutume</item>
+        <item >28-Chobe</item>
+        <item >28-Francistown</item>
+        <item >28-Gaborone</item>
+        <item >28-Ghanzi</item>
+        <item >28-Jwaneng</item>
+        <item >28-Kgalagadi North</item>
+        <item >28-Kgalagadi South</item>
+        <item >28-Kgatleng</item>
+        <item >28-Kweneng</item>
+        <item >28-Lobatse</item>
+        <item >28-Ngamiland</item>
+        <item >28-Ngwaketse</item>
+        <item >28-North East</item>
+        <item >28-Okavango</item>
+        <item >28-Orapa</item>
+        <item >28-Selibe Phikwe</item>
+        <item >28-South East</item>
+        <item >28-Sowa</item>
+
+        <item >29-Bouvet Island</item>
+
+        <item >30-Acre</item>
+        <item >30-Alagoas</item>
+        <item >30-Amapa</item>
+        <item >30-Amazonas</item>
+        <item >30-Bahia</item>
+        <item >30-Ceara</item>
+        <item >30-Distrito Federal</item>
+        <item >30-Espirito Santo</item>
+        <item >30-Estado de Sao Paulo</item>
+        <item >30-Goias</item>
+        <item >30-Maranhao</item>
+        <item >30-Mato Grosso</item>
+        <item >30-Mato Grosso do Sul</item>
+        <item >30-Minas Gerais</item>
+        <item >30-Para</item>
+        <item >30-Paraiba</item>
+        <item >30-Parana</item>
+        <item >30-Pernambuco</item>
+        <item >30-Piaui</item>
+        <item >30-Rio Grande do Norte</item>
+        <item >30-Rio Grande do Sul</item>
+        <item >30-Rio de Janeiro</item>
+        <item >30-Rondonia</item>
+        <item >30-Roraima</item>
+        <item >30-Santa Catarina</item>
+        <item >30-Sao Paulo</item>
+        <item >30-Sergipe</item>
+        <item >30-Tocantins</item>
+
+        <item >31-British Indian Ocean Territory</item>
+
+        <item >32-Belait</item>
+        <item >32-Brunei-Muara</item>
+        <item >32-Temburong</item>
+        <item >32-Tutong</item>
+
+        <item >33-Blagoevgrad</item>
+        <item >33-Burgas</item>
+        <item >33-Dobrich</item>
+        <item >33-Gabrovo</item>
+        <item >33-Haskovo</item>
+        <item >33-Jambol</item>
+        <item >33-Kardzhali</item>
+        <item >33-Kjustendil</item>
+        <item >33-Lovech</item>
+        <item >33-Montana</item>
+        <item >33-Oblast Sofiya-Grad</item>
+        <item >33-Pazardzhik</item>
+        <item >33-Pernik</item>
+        <item >33-Pleven</item>
+        <item >33-Plovdiv</item>
+        <item >33-Razgrad</item>
+        <item >33-Ruse</item>
+        <item >33-Shumen</item>
+        <item >33-Silistra</item>
+        <item >33-Sliven</item>
+        <item >33-Smoljan</item>
+        <item >33-Sofija grad</item>
+        <item >33-Sofijska oblast</item>
+        <item >33-Stara Zagora</item>
+        <item >33-Targovishte</item>
+        <item >33-Varna</item>
+        <item >33-Veliko Tarnovo</item>
+        <item >33-Vidin</item>
+        <item >33-Vraca</item>
+        <item >33-Yablaniza</item>
+
+        <item >34-Bale</item>
+        <item >34-Bam</item>
+        <item >34-Bazega</item>
+        <item >34-Bougouriba</item>
+        <item >34-Boulgou</item>
+        <item >34-Boulkiemde</item>
+        <item >34-Comoe</item>
+        <item >34-Ganzourgou</item>
+        <item >34-Gnagna</item>
+        <item >34-Gourma</item>
+        <item >34-Houet</item>
+        <item >34-Ioba</item>
+        <item >34-Kadiogo</item>
+        <item >34-Kenedougou</item>
+        <item >34-Komandjari</item>
+        <item >34-Kompienga</item>
+        <item >34-Kossi</item>
+        <item >34-Kouritenga</item>
+        <item >34-Kourweogo</item>
+        <item >34-Leraba</item>
+        <item >34-Mouhoun</item>
+        <item >34-Nahouri</item>
+        <item >34-Namentenga</item>
+        <item >34-Noumbiel</item>
+        <item >34-Oubritenga</item>
+        <item >34-Oudalan</item>
+        <item >34-Passore</item>
+        <item >34-Poni</item>
+        <item >34-Sanguie</item>
+        <item >34-Sanmatenga</item>
+        <item >34-Seno</item>
+        <item >34-Sissili</item>
+        <item >34-Soum</item>
+        <item >34-Sourou</item>
+        <item >34-Tapoa</item>
+        <item >34-Tuy</item>
+        <item >34-Yatenga</item>
+        <item >34-Zondoma</item>
+        <item >34-Zoundweogo</item>
+
+        <item >35-Bubanza</item>
+        <item >35-Bujumbura</item>
+        <item >35-Bururi</item>
+        <item >35-Cankuzo</item>
+        <item >35-Cibitoke</item>
+        <item >35-Gitega</item>
+        <item >35-Karuzi</item>
+        <item >35-Kayanza</item>
+        <item >35-Kirundo</item>
+        <item >35-Makamba</item>
+        <item >35-Muramvya</item>
+        <item >35-Muyinga</item>
+        <item >35-Ngozi</item>
+        <item >35-Rutana</item>
+        <item >35-Ruyigi</item>
+
+        <item >36-Banteay Mean Chey</item>
+        <item >36-Bat Dambang</item>
+        <item >36-Kampong Cham</item>
+        <item >36-Kampong Chhnang</item>
+        <item >36-Kampong Spoeu</item>
+        <item >36-Kampong Thum</item>
+        <item >36-Kampot</item>
+        <item >36-Kandal</item>
+        <item >36-Kaoh Kong</item>
+        <item >36-Kracheh</item>
+        <item >36-Krong Kaeb</item>
+        <item >36-Krong Pailin</item>
+        <item >36-Krong Preah Sihanouk</item>
+        <item >36-Mondol Kiri</item>
+        <item >36-Otdar Mean Chey</item>
+        <item >36-Phnum Penh</item>
+        <item >36-Pousat</item>
+        <item >36-Preah Vihear</item>
+        <item >36-Prey Veaeng</item>
+        <item >36-Rotanak Kiri</item>
+        <item >36-Siem Reab</item>
+        <item >36-Stueng Traeng</item>
+        <item >36-Svay Rieng</item>
+        <item >36-Takaev</item>
+
+        <item >37-Adamaoua</item>
+        <item >37-Centre</item>
+        <item >37-Est</item>
+        <item >37-Littoral</item>
+        <item >37-Nord</item>
+        <item >37-Nord Extreme</item>
+        <item >37-Nordouest</item>
+        <item >37-Ouest</item>
+        <item >37-Sud</item>
+        <item >37-Sudouest</item>
+
+        <item >38-Alberta</item>
+        <item >38-British Columbia</item>
+        <item >38-Manitoba</item>
+        <item >38-New Brunswick</item>
+        <item >38-Newfoundland and Labrador</item>
+        <item >38-Northwest Territories</item>
+        <item >38-Nova Scotia</item>
+        <item >38-Nunavut</item>
+        <item >38-Ontario</item>
+        <item >38-Prince Edward Island</item>
+        <item >38-Quebec</item>
+        <item >38-Saskatchewan</item>
+        <item >38-Yukon</item>
+
+        <item >39-Boavista</item>
+        <item >39-Brava</item>
+        <item >39-Fogo</item>
+        <item >39-Maio</item>
+        <item >39-Sal</item>
+        <item >39-Santo Antao</item>
+        <item >39-Sao Nicolau</item>
+        <item >39-Sao Tiago</item>
+        <item >39-Sao Vicente</item>
+
+        <item >40-Grand Cayman</item>
+
+        <item >41-Bamingui-Bangoran</item>
+        <item >41-Bangui</item>
+        <item >41-Basse-Kotto</item>
+        <item >41-Haut-Mbomou</item>
+        <item >41-Haute-Kotto</item>
+        <item >41-Kemo</item>
+        <item >41-Lobaye</item>
+        <item >41-Mambere-Kadei</item>
+        <item >41-Mbomou</item>
+        <item >41-Nana-Gribizi</item>
+        <item >41-Nana-Mambere</item>
+        <item >41-Ombella Mpoko</item>
+        <item >41-Ouaka</item>
+        <item >41-Ouham</item>
+        <item >41-Ouham-Pende</item>
+        <item >41-Sangha-Mbaere</item>
+        <item >41-Vakaga</item>
+
+        <item >42-Batha</item>
+        <item >42-Biltine</item>
+        <item >42-Bourkou-Ennedi-Tibesti</item>
+        <item >42-Chari-Baguirmi</item>
+        <item >42-Guera</item>
+        <item >42-Kanem</item>
+        <item >42-Lac</item>
+        <item >42-Logone Occidental</item>
+        <item >42-Logone Oriental</item>
+        <item >42-Mayo-Kebbi</item>
+        <item >42-Moyen-Chari</item>
+        <item >42-Ouaddai</item>
+        <item >42-Salamat</item>
+        <item >42-Tandjile</item>
+
+        <item >43-Aisen</item>
+        <item >43-Antofagasta</item>
+        <item >43-Araucania</item>
+        <item >43-Atacama</item>
+        <item >43-Bio Bio</item>
+        <item >43-Coquimbo</item>
+        <item >43-Libertador General Bernardo O</item>
+        <item >43-Los Lagos</item>
+        <item >43-Magellanes</item>
+        <item >43-Maule</item>
+        <item >43-Metropolitana</item>
+        <item >43-Metropolitana de Santiago</item>
+        <item >43-Tarapaca</item>
+        <item >43-Valparaiso</item>
+
+        <item >44-Anhui</item>
+        <item >44-Anhui Province</item>
+        <item >44-Anhui Sheng</item>
+        <item >44-Aomen</item>
+        <item >44-Beijing</item>
+        <item >44-Beijing Shi</item>
+        <item >44-Chongqing</item>
+        <item >44-Fujian</item>
+        <item >44-Fujian Sheng</item>
+        <item >44-Gansu</item>
+        <item >44-Guangdong</item>
+        <item >44-Guangdong Sheng</item>
+        <item >44-Guangxi</item>
+        <item >44-Guizhou</item>
+        <item >44-Hainan</item>
+        <item >44-Hebei</item>
+        <item >44-Heilongjiang</item>
+        <item >44-Henan</item>
+        <item >44-Hubei</item>
+        <item >44-Hunan</item>
+        <item >44-Jiangsu</item>
+        <item >44-Jiangsu Sheng</item>
+        <item >44-Jiangxi</item>
+        <item >44-Jilin</item>
+        <item >44-Liaoning</item>
+        <item >44-Liaoning Sheng</item>
+        <item >44-Nei Monggol</item>
+        <item >44-Ningxia Hui</item>
+        <item >44-Qinghai</item>
+        <item >44-Shaanxi</item>
+        <item >44-Shandong</item>
+        <item >44-Shandong Sheng</item>
+        <item >44-Shanghai</item>
+        <item >44-Shanxi</item>
+        <item >44-Sichuan</item>
+        <item >44-Tianjin</item>
+        <item >44-Xianggang</item>
+        <item >44-Xinjiang</item>
+        <item >44-Xizang</item>
+        <item >44-Yunnan</item>
+        <item >44-Zhejiang</item>
+        <item >44-Zhejiang Sheng</item>
+
+        <item >45-Christmas Island</item>
+
+        <item >46-Cocos (Keeling) Islands</item>
+
+        <item >47-Amazonas</item>
+        <item >47-Antioquia</item>
+        <item >47-Arauca</item>
+        <item >47-Atlantico</item>
+        <item >47-Bogota</item>
+        <item >47-Bolivar</item>
+        <item >47-Boyaca</item>
+        <item >47-Caldas</item>
+        <item >47-Caqueta</item>
+        <item >47-Casanare</item>
+        <item >47-Cauca</item>
+        <item >47-Cesar</item>
+        <item >47-Choco</item>
+        <item >47-Cordoba</item>
+        <item >47-Cundinamarca</item>
+        <item >47-Guainia</item>
+        <item >47-Guaviare</item>
+        <item >47-Huila</item>
+        <item >47-La Guajira</item>
+        <item >47-Magdalena</item>
+        <item >47-Meta</item>
+        <item >47-Narino</item>
+        <item >47-Norte de Santander</item>
+        <item >47-Putumayo</item>
+        <item >47-Quindio</item>
+        <item >47-Risaralda</item>
+        <item >47-San Andres y Providencia</item>
+        <item >47-Santander</item>
+        <item >47-Sucre</item>
+        <item >47-Tolima</item>
+        <item >47-Valle del Cauca</item>
+        <item >47-Vaupes</item>
+        <item >47-Vichada</item>
+
+        <item >48-Mwali</item>
+        <item >48-Njazidja</item>
+        <item >48-Nzwani</item>
+
+        <item >49-Bouenza</item>
+        <item >49-Brazzaville</item>
+        <item >49-Cuvette</item>
+        <item >49-Kouilou</item>
+        <item >49-Lekoumou</item>
+        <item >49-Likouala</item>
+        <item >49-Niari</item>
+        <item >49-Plateaux</item>
+        <item >49-Pool</item>
+        <item >49-Sangha</item>
+
+        <item >50-Bandundu</item>
+        <item >50-Bas-Congo</item>
+        <item >50-Equateur</item>
+        <item >50-Haut-Congo</item>
+        <item >50-Kasai-Occidental</item>
+        <item >50-Kasai-Oriental</item>
+        <item >50-Katanga</item>
+        <item >50-Kinshasa</item>
+        <item >50-Maniema</item>
+        <item >50-Nord-Kivu</item>
+        <item >50-Sud-Kivu</item>
+
+        <item >51-Aitutaki</item>
+        <item >51-Atiu</item>
+        <item >51-Mangaia</item>
+        <item >51-Manihiki</item>
+        <item >51-Mauke</item>
+        <item >51-Mitiaro</item>
+        <item >51-Nassau</item>
+        <item >51-Pukapuka</item>
+        <item >51-Rakahanga</item>
+        <item >51-Rarotonga</item>
+        <item >51-Tongareva</item>
+
+        <item >52-Alajuela</item>
+        <item >52-Cartago</item>
+        <item >52-Guanacaste</item>
+        <item >52-Heredia</item>
+        <item >52-Limon</item>
+        <item >52-Puntarenas</item>
+        <item >52-San Jose</item>
+
+        <item >53-Abidjan</item>
+        <item >53-Agneby</item>
+        <item >53-Bafing</item>
+        <item >53-Denguele</item>
+        <item >53-Dix-huit Montagnes</item>
+        <item >53-Fromager</item>
+        <item >53-Haut-Sassandra</item>
+        <item >53-Lacs</item>
+        <item >53-Lagunes</item>
+        <item >53-Marahoue</item>
+        <item >53-Moyen-Cavally</item>
+        <item >53-Moyen-Comoe</item>
+        <item >53-N zi-Comoe</item>
+        <item >53-Sassandra</item>
+        <item >53-Savanes</item>
+        <item >53-Sud-Bandama</item>
+        <item >53-Sud-Comoe</item>
+        <item >53-Vallee du Bandama</item>
+        <item >53-Worodougou</item>
+        <item >53-Zanzan</item>
+
+        <item >54-Bjelovar-Bilogora</item>
+        <item >54-Dubrovnik-Neretva</item>
+        <item >54-Grad Zagreb</item>
+        <item >54-Istra</item>
+        <item >54-Karlovac</item>
+        <item >54-Koprivnica-Krizhevci</item>
+        <item >54-Krapina-Zagorje</item>
+        <item >54-Lika-Senj</item>
+        <item >54-Medhimurje</item>
+        <item >54-Medimurska Zupanija</item>
+        <item >54-Osijek-Baranja</item>
+        <item >54-Osjecko-Baranjska Zupanija</item>
+        <item >54-Pozhega-Slavonija</item>
+        <item >54-Primorje-Gorski Kotar</item>
+        <item >54-Shibenik-Knin</item>
+        <item >54-Sisak-Moslavina</item>
+        <item >54-Slavonski Brod-Posavina</item>
+        <item >54-Split-Dalmacija</item>
+        <item >54-Varazhdin</item>
+        <item >54-Virovitica-Podravina</item>
+        <item >54-Vukovar-Srijem</item>
+        <item >54-Zadar</item>
+        <item >54-Zagreb</item>
+
+        <item >55-Camaguey</item>
+        <item >55-Ciego de Avila</item>
+        <item >55-Cienfuegos</item>
+        <item >55-Ciudad de la Habana</item>
+        <item >55-Granma</item>
+        <item >55-Guantanamo</item>
+        <item >55-Habana</item>
+        <item >55-Holguin</item>
+        <item >55-Isla de la Juventud</item>
+        <item >55-La Habana</item>
+        <item >55-Las Tunas</item>
+        <item >55-Matanzas</item>
+        <item >55-Pinar del Rio</item>
+        <item >55-Sancti Spiritus</item>
+        <item >55-Santiago de Cuba</item>
+        <item >55-Villa Clara</item>
+
+        <item >56-Government controlled area</item>
+        <item >56-Limassol</item>
+        <item >56-Nicosia District</item>
+        <item >56-Paphos</item>
+        <item >56-Turkish controlled area</item>
+
+        <item >57-Central Bohemian</item>
+        <item >57-Frycovice</item>
+        <item >57-Jihocesky Kraj</item>
+        <item >57-Jihochesky</item>
+        <item >57-Jihomoravsky</item>
+        <item >57-Karlovarsky</item>
+        <item >57-Klecany</item>
+        <item >57-Kralovehradecky</item>
+        <item >57-Liberecky</item>
+        <item >57-Lipov</item>
+        <item >57-Moravskoslezsky</item>
+        <item >57-Olomoucky</item>
+        <item >57-Olomoucky Kraj</item>
+        <item >57-Pardubicky</item>
+        <item >57-Plzensky</item>
+        <item >57-Praha</item>
+        <item >57-Rajhrad</item>
+        <item >57-Smirice</item>
+        <item >57-South Moravian</item>
+        <item >57-Straz nad Nisou</item>
+        <item >57-Stredochesky</item>
+        <item >57-Unicov</item>
+        <item >57-Ustecky</item>
+        <item >57-Valletta</item>
+        <item >57-Velesin</item>
+        <item >57-Vysochina</item>
+        <item >57-Zlinsky</item>
+
+        <item >58-Arhus</item>
+        <item >58-Bornholm</item>
+        <item >58-Frederiksborg</item>
+        <item >58-Fyn</item>
+        <item >58-Hovedstaden</item>
+        <item >58-Kobenhavn</item>
+        <item >58-Kobenhavns Amt</item>
+        <item >58-Kobenhavns Kommune</item>
+        <item >58-Nordjylland</item>
+        <item >58-Ribe</item>
+        <item >58-Ringkobing</item>
+        <item >58-Roervig</item>
+        <item >58-Roskilde</item>
+        <item >58-Roslev</item>
+        <item >58-Sjaelland</item>
+        <item >58-Soeborg</item>
+        <item >58-Sonderjylland</item>
+        <item >58-Storstrom</item>
+        <item >58-Syddanmark</item>
+        <item >58-Toelloese</item>
+        <item >58-Vejle</item>
+        <item >58-Vestsjalland</item>
+        <item >58-Viborg</item>
+
+        <item >59-Ali Sabih</item>
+        <item >59-Dikhil</item>
+        <item >59-Jibuti</item>
+        <item >59-Tajurah</item>
+        <item >59-Ubuk</item>
+
+        <item >60-Saint Andrew</item>
+        <item >60-Saint David</item>
+        <item >60-Saint George</item>
+        <item >60-Saint John</item>
+        <item >60-Saint Joseph</item>
+        <item >60-Saint Luke</item>
+        <item >60-Saint Mark</item>
+        <item >60-Saint Patrick</item>
+        <item >60-Saint Paul</item>
+        <item >60-Saint Peter</item>
+
+        <item >61-Azua</item>
+        <item >61-Bahoruco</item>
+        <item >61-Barahona</item>
+        <item >61-Dajabon</item>
+        <item >61-Distrito Nacional</item>
+        <item >61-Duarte</item>
+        <item >61-El Seybo</item>
+        <item >61-Elias Pina</item>
+        <item >61-Espaillat</item>
+        <item >61-Hato Mayor</item>
+        <item >61-Independencia</item>
+        <item >61-La Altagracia</item>
+        <item >61-La Romana</item>
+        <item >61-La Vega</item>
+        <item >61-Maria Trinidad Sanchez</item>
+        <item >61-Monsenor Nouel</item>
+        <item >61-Monte Cristi</item>
+        <item >61-Monte Plata</item>
+        <item >61-Pedernales</item>
+        <item >61-Peravia</item>
+        <item >61-Puerto Plata</item>
+        <item >61-Salcedo</item>
+        <item >61-Samana</item>
+        <item >61-San Cristobal</item>
+        <item >61-San Juan</item>
+        <item >61-San Pedro de Macoris</item>
+        <item >61-Sanchez Ramirez</item>
+        <item >61-Santiago</item>
+        <item >61-Santiago Rodriguez</item>
+        <item >61-Valverde</item>
+
+        <item >62-Aileu</item>
+        <item >62-Ainaro</item>
+        <item >62-Ambeno</item>
+        <item >62-Baucau</item>
+        <item >62-Bobonaro</item>
+        <item >62-Cova Lima</item>
+        <item >62-Dili</item>
+        <item >62-Ermera</item>
+        <item >62-Lautem</item>
+        <item >62-Liquica</item>
+        <item >62-Manatuto</item>
+        <item >62-Manufahi</item>
+        <item >62-Viqueque</item>
+
+        <item >63-Azuay</item>
+        <item >63-Bolivar</item>
+        <item >63-Canar</item>
+        <item >63-Carchi</item>
+        <item >63-Chimborazo</item>
+        <item >63-Cotopaxi</item>
+        <item >63-El Oro</item>
+        <item >63-Esmeraldas</item>
+        <item >63-Galapagos</item>
+        <item >63-Guayas</item>
+        <item >63-Imbabura</item>
+        <item >63-Loja</item>
+        <item >63-Los Rios</item>
+        <item >63-Manabi</item>
+        <item >63-Morona Santiago</item>
+        <item >63-Napo</item>
+        <item >63-Orellana</item>
+        <item >63-Pastaza</item>
+        <item >63-Pichincha</item>
+        <item >63-Sucumbios</item>
+        <item >63-Tungurahua</item>
+        <item >63-Zamora Chinchipe</item>
+
+        <item >64-Aswan</item>
+        <item >64-Asyut</item>
+        <item >64-Bani Suwayf</item>
+        <item >64-Bur Sa id</item>
+        <item >64-Cairo</item>
+        <item >64-Dumyat</item>
+        <item >64-Kafr-ash-Shaykh</item>
+        <item >64-Matruh</item>
+        <item >64-Muhafazat ad Daqahliyah</item>
+        <item >64-Muhafazat al Fayyum</item>
+        <item >64-Muhafazat al Gharbiyah</item>
+        <item >64-Muhafazat al Iskandariyah</item>
+        <item >64-Muhafazat al Qahirah</item>
+        <item >64-Qina</item>
+        <item >64-Sawhaj</item>
+        <item >64-Sina al-Janubiyah</item>
+        <item >64-Sina ash-Shamaliyah</item>
+        <item >64-ad-Daqahliyah</item>
+        <item >64-al-Bahr-al-Ahmar</item>
+        <item >64-al-Buhayrah</item>
+        <item >64-al-Fayyum</item>
+        <item >64-al-Gharbiyah</item>
+        <item >64-al-Iskandariyah</item>
+        <item >64-al-Ismailiyah</item>
+        <item >64-al-Jizah</item>
+        <item >64-al-Minufiyah</item>
+        <item >64-al-Minya</item>
+        <item >64-al-Qahira</item>
+        <item >64-al-Qalyubiyah</item>
+        <item >64-al-Uqsur</item>
+        <item >64-al-Wadi al-Jadid</item>
+        <item >64-as-Suways</item>
+        <item >64-ash-Sharqiyah</item>
+
+        <item >65-Ahuachapan</item>
+        <item >65-Cabanas</item>
+        <item >65-Chalatenango</item>
+        <item >65-Cuscatlan</item>
+        <item >65-La Libertad</item>
+        <item >65-La Paz</item>
+        <item >65-La Union</item>
+        <item >65-Morazan</item>
+        <item >65-San Miguel</item>
+        <item >65-San Salvador</item>
+        <item >65-San Vicente</item>
+        <item >65-Santa Ana</item>
+        <item >65-Sonsonate</item>
+        <item >65-Usulutan</item>
+
+        <item >66-Annobon</item>
+        <item >66-Bioko Norte</item>
+        <item >66-Bioko Sur</item>
+        <item >66-Centro Sur</item>
+        <item >66-Kie-Ntem</item>
+        <item >66-Litoral</item>
+        <item >66-Wele-Nzas</item>
+
+        <item >67-Anseba</item>
+        <item >67-Debub</item>
+        <item >67-Debub-Keih-Bahri</item>
+        <item >67-Gash-Barka</item>
+        <item >67-Maekel</item>
+        <item >67-Semien-Keih-Bahri</item>
+
+        <item >68-Harju</item>
+        <item >68-Hiiu</item>
+        <item >68-Ida-Viru</item>
+        <item >68-Jarva</item>
+        <item >68-Jogeva</item>
+        <item >68-Laane</item>
+        <item >68-Laane-Viru</item>
+        <item >68-Parnu</item>
+        <item >68-Polva</item>
+        <item >68-Rapla</item>
+        <item >68-Saare</item>
+        <item >68-Tartu</item>
+        <item >68-Valga</item>
+        <item >68-Viljandi</item>
+        <item >68-Voru</item>
+
+        <item >69-Addis Abeba</item>
+        <item >69-Afar</item>
+        <item >69-Amhara</item>
+        <item >69-Benishangul</item>
+        <item >69-Diredawa</item>
+        <item >69-Gambella</item>
+        <item >69-Harar</item>
+        <item >69-Jigjiga</item>
+        <item >69-Mekele</item>
+        <item >69-Oromia</item>
+        <item >69-Somali</item>
+        <item >69-Southern</item>
+        <item >69-Tigray</item>
+
+        <item >70-Christmas Island</item>
+        <item >70-Cocos Islands</item>
+        <item >70-Coral Sea Islands</item>
+
+        <item >71-Falkland Islands</item>
+        <item >71-South Georgia</item>
+
+        <item >72-Klaksvik</item>
+        <item >72-Nor ara Eysturoy</item>
+        <item >72-Nor oy</item>
+        <item >72-Sandoy</item>
+        <item >72-Streymoy</item>
+        <item >72-Su uroy</item>
+        <item >72-Sy ra Eysturoy</item>
+        <item >72-Torshavn</item>
+        <item >72-Vaga</item>
+
+        <item >73-Central</item>
+        <item >73-Eastern</item>
+        <item >73-Northern</item>
+        <item >73-South Pacific</item>
+        <item >73-Western</item>
+
+        <item >74-Ahvenanmaa</item>
+        <item >74-Etela-Karjala</item>
+        <item >74-Etela-Pohjanmaa</item>
+        <item >74-Etela-Savo</item>
+        <item >74-Etela-Suomen Laani</item>
+        <item >74-Ita-Suomen Laani</item>
+        <item >74-Ita-Uusimaa</item>
+        <item >74-Kainuu</item>
+        <item >74-Kanta-Hame</item>
+        <item >74-Keski-Pohjanmaa</item>
+        <item >74-Keski-Suomi</item>
+        <item >74-Kymenlaakso</item>
+        <item >74-Lansi-Suomen Laani</item>
+        <item >74-Lappi</item>
+        <item >74-Northern Savonia</item>
+        <item >74-Ostrobothnia</item>
+        <item >74-Oulun Laani</item>
+        <item >74-Paijat-Hame</item>
+        <item >74-Pirkanmaa</item>
+        <item >74-Pohjanmaa</item>
+        <item >74-Pohjois-Karjala</item>
+        <item >74-Pohjois-Pohjanmaa</item>
+        <item >74-Pohjois-Savo</item>
+        <item >74-Saarijarvi</item>
+        <item >74-Satakunta</item>
+        <item >74-Southern Savonia</item>
+        <item >74-Tavastia Proper</item>
+        <item >74-Uleaborgs Lan</item>
+        <item >74-Uusimaa</item>
+        <item >74-Varsinais-Suomi</item>
+
+        <item >75-Ain</item>
+        <item >75-Aisne</item>
+        <item >75-Albi Le Sequestre</item>
+        <item >75-Allier</item>
+        <item >75-Alpes-Cote dAzur</item>
+        <item >75-Alpes-Maritimes</item>
+        <item >75-Alpes-de-Haute-Provence</item>
+        <item >75-Alsace</item>
+        <item >75-Aquitaine</item>
+        <item >75-Ardeche</item>
+        <item >75-Ardennes</item>
+        <item >75-Ariege</item>
+        <item >75-Aube</item>
+        <item >75-Aude</item>
+        <item >75-Auvergne</item>
+        <item >75-Aveyron</item>
+        <item >75-Bas-Rhin</item>
+        <item >75-Basse-Normandie</item>
+        <item >75-Bouches-du-Rhone</item>
+        <item >75-Bourgogne</item>
+        <item >75-Bretagne</item>
+        <item >75-Brittany</item>
+        <item >75-Burgundy</item>
+        <item >75-Calvados</item>
+        <item >75-Cantal</item>
+        <item >75-Cedex</item>
+        <item >75-Centre</item>
+        <item >75-Charente</item>
+        <item >75-Charente-Maritime</item>
+        <item >75-Cher</item>
+        <item >75-Correze</item>
+        <item >75-Corse-du-Sud</item>
+        <item >75-Cote-d Or</item>
+        <item >75-Cotes-d Armor</item>
+        <item >75-Creuse</item>
+        <item >75-Crolles</item>
+        <item >75-Deux-Sevres</item>
+        <item >75-Dordogne</item>
+        <item >75-Doubs</item>
+        <item >75-Drome</item>
+        <item >75-Essonne</item>
+        <item >75-Eure</item>
+        <item >75-Eure-et-Loir</item>
+        <item >75-Feucherolles</item>
+        <item >75-Finistere</item>
+        <item >75-Franche-Comte</item>
+        <item >75-Gard</item>
+        <item >75-Gers</item>
+        <item >75-Gironde</item>
+        <item >75-Haut-Rhin</item>
+        <item >75-Haute-Corse</item>
+        <item >75-Haute-Garonne</item>
+        <item >75-Haute-Loire</item>
+        <item >75-Haute-Marne</item>
+        <item >75-Haute-Saone</item>
+        <item >75-Haute-Savoie</item>
+        <item >75-Haute-Vienne</item>
+        <item >75-Hautes-Alpes</item>
+        <item >75-Hautes-Pyrenees</item>
+        <item >75-Hauts-de-Seine</item>
+        <item >75-Herault</item>
+        <item >75-Ile-de-France</item>
+        <item >75-Ille-et-Vilaine</item>
+        <item >75-Indre</item>
+        <item >75-Indre-et-Loire</item>
+        <item >75-Isere</item>
+        <item >75-Jura</item>
+        <item >75-Klagenfurt</item>
+        <item >75-Landes</item>
+        <item >75-Languedoc-Roussillon</item>
+        <item >75-Larcay</item>
+        <item >75-Le Castellet</item>
+        <item >75-Le Creusot</item>
+        <item >75-Limousin</item>
+        <item >75-Loir-et-Cher</item>
+        <item >75-Loire</item>
+        <item >75-Loire-Atlantique</item>
+        <item >75-Loiret</item>
+        <item >75-Lorraine</item>
+        <item >75-Lot</item>
+        <item >75-Lot-et-Garonne</item>
+        <item >75-Lower Normandy</item>
+        <item >75-Lozere</item>
+        <item >75-Maine-et-Loire</item>
+        <item >75-Manche</item>
+        <item >75-Marne</item>
+        <item >75-Mayenne</item>
+        <item >75-Meurthe-et-Moselle</item>
+        <item >75-Meuse</item>
+        <item >75-Midi-Pyrenees</item>
+        <item >75-Morbihan</item>
+        <item >75-Moselle</item>
+        <item >75-Nievre</item>
+        <item >75-Nord</item>
+        <item >75-Nord-Pas-de-Calais</item>
+        <item >75-Oise</item>
+        <item >75-Orne</item>
+        <item >75-Paris</item>
+        <item >75-Pas-de-Calais</item>
+        <item >75-Pays de la Loire</item>
+        <item >75-Pays-de-la-Loire</item>
+        <item >75-Picardy</item>
+        <item >75-Puy-de-Dome</item>
+        <item >75-Pyrenees-Atlantiques</item>
+        <item >75-Pyrenees-Orientales</item>
+        <item >75-Quelmes</item>
+        <item >75-Rhone</item>
+        <item >75-Rhone-Alpes</item>
+        <item >75-Saint Ouen</item>
+        <item >75-Saint Viatre</item>
+        <item >75-Saone-et-Loire</item>
+        <item >75-Sarthe</item>
+        <item >75-Savoie</item>
+        <item >75-Seine-Maritime</item>
+        <item >75-Seine-Saint-Denis</item>
+        <item >75-Seine-et-Marne</item>
+        <item >75-Somme</item>
+        <item >75-Sophia Antipolis</item>
+        <item >75-Souvans</item>
+        <item >75-Tarn</item>
+        <item >75-Tarn-et-Garonne</item>
+        <item >75-Territoire de Belfort</item>
+        <item >75-Treignac</item>
+        <item >75-Upper Normandy</item>
+        <item >75-Val-d Oise</item>
+        <item >75-Val-de-Marne</item>
+        <item >75-Var</item>
+        <item >75-Vaucluse</item>
+        <item >75-Vellise</item>
+        <item >75-Vendee</item>
+        <item >75-Vienne</item>
+        <item >75-Vosges</item>
+        <item >75-Yonne</item>
+        <item >75-Yvelines</item>
+
+        <item >76-Cayenne</item>
+        <item >76-Saint-Laurent-du-Maroni</item>
+
+        <item >77-Iles du Vent</item>
+        <item >77-Iles sous le Vent</item>
+        <item >77-Marquesas</item>
+        <item >77-Tuamotu</item>
+        <item >77-Tubuai</item>
+
+        <item >78-Amsterdam</item>
+        <item >78-Crozet Islands</item>
+        <item >78-Kerguelen</item>
+
+        <item >79-Estuaire</item>
+        <item >79-Haut-Ogooue</item>
+        <item >79-Moyen-Ogooue</item>
+        <item >79-Ngounie</item>
+        <item >79-Nyanga</item>
+        <item >79-Ogooue-Ivindo</item>
+        <item >79-Ogooue-Lolo</item>
+        <item >79-Ogooue-Maritime</item>
+        <item >79-Woleu-Ntem</item>
+
+        <item >80-Banjul</item>
+        <item >80-Basse</item>
+        <item >80-Brikama</item>
+        <item >80-Janjanbureh</item>
+        <item >80-Kanifing</item>
+        <item >80-Kerewan</item>
+        <item >80-Kuntaur</item>
+        <item >80-Mansakonko</item>
+
+        <item >81-Abhasia</item>
+        <item >81-Ajaria</item>
+        <item >81-Guria</item>
+        <item >81-Imereti</item>
+        <item >81-Kaheti</item>
+        <item >81-Kvemo Kartli</item>
+        <item >81-Mcheta-Mtianeti</item>
+        <item >81-Racha</item>
+        <item >81-Samagrelo-Zemo Svaneti</item>
+        <item >81-Samche-Zhavaheti</item>
+        <item >81-Shida Kartli</item>
+        <item >81-Tbilisi</item>
+
+        <item >82-Auvergne</item>
+        <item >82-Baden-Wurttemberg</item>
+        <item >82-Bavaria</item>
+        <item >82-Bayern</item>
+        <item >82-Beilstein Wurtt</item>
+        <item >82-Berlin</item>
+        <item >82-Brandenburg</item>
+        <item >82-Bremen</item>
+        <item >82-Dreisbach</item>
+        <item >82-Freistaat Bayern</item>
+        <item >82-Hamburg</item>
+        <item >82-Hannover</item>
+        <item >82-Heroldstatt</item>
+        <item >82-Hessen</item>
+        <item >82-Kortenberg</item>
+        <item >82-Laasdorf</item>
+        <item >82-Land Baden-Wurttemberg</item>
+        <item >82-Land Bayern</item>
+        <item >82-Land Brandenburg</item>
+        <item >82-Land Hessen</item>
+        <item >82-Land Mecklenburg-Vorpommern</item>
+        <item >82-Land Nordrhein-Westfalen</item>
+        <item >82-Land Rheinland-Pfalz</item>
+        <item >82-Land Sachsen</item>
+        <item >82-Land Sachsen-Anhalt</item>
+        <item >82-Land Thuringen</item>
+        <item >82-Lower Saxony</item>
+        <item >82-Mecklenburg-Vorpommern</item>
+        <item >82-Mulfingen</item>
+        <item >82-Munich</item>
+        <item >82-Neubeuern</item>
+        <item >82-Niedersachsen</item>
+        <item >82-Noord-Holland</item>
+        <item >82-Nordrhein-Westfalen</item>
+        <item >82-North Rhine-Westphalia</item>
+        <item >82-Osterode</item>
+        <item >82-Rheinland-Pfalz</item>
+        <item >82-Rhineland-Palatinate</item>
+        <item >82-Saarland</item>
+        <item >82-Sachsen</item>
+        <item >82-Sachsen-Anhalt</item>
+        <item >82-Saxony</item>
+        <item >82-Schleswig-Holstein</item>
+        <item >82-Thuringia</item>
+        <item >82-Webling</item>
+        <item >82-Weinstrabe</item>
+        <item >82-schlobborn</item>
+
+        <item >83-Ashanti</item>
+        <item >83-Brong-Ahafo</item>
+        <item >83-Central</item>
+        <item >83-Eastern</item>
+        <item >83-Greater Accra</item>
+        <item >83-Northern</item>
+        <item >83-Upper East</item>
+        <item >83-Upper West</item>
+        <item >83-Volta</item>
+        <item >83-Western</item>
+
+        <item >84-Gibraltar</item>
+
+        <item >85-Acharnes</item>
+        <item >85-Ahaia</item>
+        <item >85-Aitolia kai Akarnania</item>
+        <item >85-Argolis</item>
+        <item >85-Arkadia</item>
+        <item >85-Arta</item>
+        <item >85-Attica</item>
+        <item >85-Attiki</item>
+        <item >85-Ayion Oros</item>
+        <item >85-Crete</item>
+        <item >85-Dodekanisos</item>
+        <item >85-Drama</item>
+        <item >85-Evia</item>
+        <item >85-Evritania</item>
+        <item >85-Evros</item>
+        <item >85-Evvoia</item>
+        <item >85-Florina</item>
+        <item >85-Fokis</item>
+        <item >85-Fthiotis</item>
+        <item >85-Grevena</item>
+        <item >85-Halandri</item>
+        <item >85-Halkidiki</item>
+        <item >85-Hania</item>
+        <item >85-Heraklion</item>
+        <item >85-Hios</item>
+        <item >85-Ilia</item>
+        <item >85-Imathia</item>
+        <item >85-Ioannina</item>
+        <item >85-Iraklion</item>
+        <item >85-Karditsa</item>
+        <item >85-Kastoria</item>
+        <item >85-Kavala</item>
+        <item >85-Kefallinia</item>
+        <item >85-Kerkira</item>
+        <item >85-Kiklades</item>
+        <item >85-Kilkis</item>
+        <item >85-Korinthia</item>
+        <item >85-Kozani</item>
+        <item >85-Lakonia</item>
+        <item >85-Larisa</item>
+        <item >85-Lasithi</item>
+        <item >85-Lesvos</item>
+        <item >85-Levkas</item>
+        <item >85-Magnisia</item>
+        <item >85-Messinia</item>
+        <item >85-Nomos Attikis</item>
+        <item >85-Nomos Zakynthou</item>
+        <item >85-Pella</item>
+        <item >85-Pieria</item>
+        <item >85-Piraios</item>
+        <item >85-Preveza</item>
+        <item >85-Rethimni</item>
+        <item >85-Rodopi</item>
+        <item >85-Samos</item>
+        <item >85-Serrai</item>
+        <item >85-Thesprotia</item>
+        <item >85-Thessaloniki</item>
+        <item >85-Trikala</item>
+        <item >85-Voiotia</item>
+        <item >85-West Greece</item>
+        <item >85-Xanthi</item>
+        <item >85-Zakinthos</item>
+
+        <item >86-Aasiaat</item>
+        <item >86-Ammassalik</item>
+        <item >86-Illoqqortoormiut</item>
+        <item >86-Ilulissat</item>
+        <item >86-Ivittuut</item>
+        <item >86-Kangaatsiaq</item>
+        <item >86-Maniitsoq</item>
+        <item >86-Nanortalik</item>
+        <item >86-Narsaq</item>
+        <item >86-Nuuk</item>
+        <item >86-Paamiut</item>
+        <item >86-Qaanaaq</item>
+        <item >86-Qaqortoq</item>
+        <item >86-Qasigiannguit</item>
+        <item >86-Qeqertarsuaq</item>
+        <item >86-Sisimiut</item>
+        <item >86-Udenfor kommunal inddeling</item>
+        <item >86-Upernavik</item>
+        <item >86-Uummannaq</item>
+
+        <item >87-Carriacou-Petite Martinique</item>
+        <item >87-Saint Andrew</item>
+        <item >87-Saint Davids</item>
+        <item >87-Saint George s</item>
+        <item >87-Saint John</item>
+        <item >87-Saint Mark</item>
+        <item >87-Saint Patrick</item>
+
+        <item >88-Basse-Terre</item>
+        <item >88-Grande-Terre</item>
+        <item >88-Iles des Saintes</item>
+        <item >88-La Desirade</item>
+        <item >88-Marie-Galante</item>
+        <item >88-Saint Barthelemy</item>
+        <item >88-Saint Martin</item>
+
+        <item >89-Agana Heights</item>
+        <item >89-Agat</item>
+        <item >89-Barrigada</item>
+        <item >89-Chalan-Pago-Ordot</item>
+        <item >89-Dededo</item>
+        <item >89-Hagatna</item>
+        <item >89-Inarajan</item>
+        <item >89-Mangilao</item>
+        <item >89-Merizo</item>
+        <item >89-Mongmong-Toto-Maite</item>
+        <item >89-Santa Rita</item>
+        <item >89-Sinajana</item>
+        <item >89-Talofofo</item>
+        <item >89-Tamuning</item>
+        <item >89-Yigo</item>
+        <item >89-Yona</item>
+
+        <item >90-Alta Verapaz</item>
+        <item >90-Baja Verapaz</item>
+        <item >90-Chimaltenango</item>
+        <item >90-Chiquimula</item>
+        <item >90-El Progreso</item>
+        <item >90-Escuintla</item>
+        <item >90-Guatemala</item>
+        <item >90-Huehuetenango</item>
+        <item >90-Izabal</item>
+        <item >90-Jalapa</item>
+        <item >90-Jutiapa</item>
+        <item >90-Peten</item>
+        <item >90-Quezaltenango</item>
+        <item >90-Quiche</item>
+        <item >90-Retalhuleu</item>
+        <item >90-Sacatepequez</item>
+        <item >90-San Marcos</item>
+        <item >90-Santa Rosa</item>
+        <item >90-Solola</item>
+        <item >90-Suchitepequez</item>
+        <item >90-Totonicapan</item>
+        <item >90-Zacapa</item>
+
+        <item >91-Alderney</item>
+        <item >91-Castel</item>
+        <item >91-Forest</item>
+        <item >91-Saint Andrew</item>
+        <item >91-Saint Martin</item>
+        <item >91-Saint Peter Port</item>
+        <item >91-Saint Pierre du Bois</item>
+        <item >91-Saint Sampson</item>
+        <item >91-Saint Saviour</item>
+        <item >91-Sark</item>
+        <item >91-Torteval</item>
+        <item >91-Vale</item>
+
+        <item >92-Beyla</item>
+        <item >92-Boffa</item>
+        <item >92-Boke</item>
+        <item >92-Conakry</item>
+        <item >92-Coyah</item>
+        <item >92-Dabola</item>
+        <item >92-Dalaba</item>
+        <item >92-Dinguiraye</item>
+        <item >92-Faranah</item>
+        <item >92-Forecariah</item>
+        <item >92-Fria</item>
+        <item >92-Gaoual</item>
+        <item >92-Gueckedou</item>
+        <item >92-Kankan</item>
+        <item >92-Kerouane</item>
+        <item >92-Kindia</item>
+        <item >92-Kissidougou</item>
+        <item >92-Koubia</item>
+        <item >92-Koundara</item>
+        <item >92-Kouroussa</item>
+        <item >92-Labe</item>
+        <item >92-Lola</item>
+        <item >92-Macenta</item>
+        <item >92-Mali</item>
+        <item >92-Mamou</item>
+        <item >92-Mandiana</item>
+        <item >92-Nzerekore</item>
+        <item >92-Pita</item>
+        <item >92-Siguiri</item>
+        <item >92-Telimele</item>
+        <item >92-Tougue</item>
+        <item >92-Yomou</item>
+
+        <item >93-Bafata</item>
+        <item >93-Bissau</item>
+        <item >93-Bolama</item>
+        <item >93-Cacheu</item>
+        <item >93-Gabu</item>
+        <item >93-Oio</item>
+        <item >93-Quinara</item>
+        <item >93-Tombali</item>
+
+        <item >94-Barima-Waini</item>
+        <item >94-Cuyuni-Mazaruni</item>
+        <item >94-Demerara-Mahaica</item>
+        <item >94-East Berbice-Corentyne</item>
+        <item >94-Essequibo Islands-West Demerar</item>
+        <item >94-Mahaica-Berbice</item>
+        <item >94-Pomeroon-Supenaam</item>
+        <item >94-Potaro-Siparuni</item>
+        <item >94-Upper Demerara-Berbice</item>
+        <item >94-Upper Takutu-Upper Essequibo</item>
+
+        <item >95-Artibonite</item>
+        <item >95-Centre</item>
+        <item >95-Grand Anse</item>
+        <item >95-Nord</item>
+        <item >95-Nord-Est</item>
+        <item >95-Nord-Ouest</item>
+        <item >95-Ouest</item>
+        <item >95-Sud</item>
+        <item >95-Sud-Est</item>
+
+        <item >96-Heard and McDonald Islands</item>
+
+        <item >97-Atlantida</item>
+        <item >97-Choluteca</item>
+        <item >97-Colon</item>
+        <item >97-Comayagua</item>
+        <item >97-Copan</item>
+        <item >97-Cortes</item>
+        <item >97-Distrito Central</item>
+        <item >97-El Paraiso</item>
+        <item >97-Francisco Morazan</item>
+        <item >97-Gracias a Dios</item>
+        <item >97-Intibuca</item>
+        <item >97-Islas de la Bahia</item>
+        <item >97-La Paz</item>
+        <item >97-Lempira</item>
+        <item >97-Ocotepeque</item>
+        <item >97-Olancho</item>
+        <item >97-Santa Barbara</item>
+        <item >97-Valle</item>
+        <item >97-Yoro</item>
+
+        <item >98-Hong Kong</item>
+
+        <item >99-Bacs-Kiskun</item>
+        <item >99-Baranya</item>
+        <item >99-Bekes</item>
+        <item >99-Borsod-Abauj-Zemplen</item>
+        <item >99-Budapest</item>
+        <item >99-Csongrad</item>
+        <item >99-Fejer</item>
+        <item >99-Gyor-Moson-Sopron</item>
+        <item >99-Hajdu-Bihar</item>
+        <item >99-Heves</item>
+        <item >99-Jasz-Nagykun-Szolnok</item>
+        <item >99-Komarom-Esztergom</item>
+        <item >99-Nograd</item>
+        <item >99-Pest</item>
+        <item >99-Somogy</item>
+        <item >99-Szabolcs-Szatmar-Bereg</item>
+        <item >99-Tolna</item>
+        <item >99-Vas</item>
+        <item >99-Veszprem</item>
+        <item >99-Zala</item>
+
+        <item >100-Austurland</item>
+        <item >100-Gullbringusysla</item>
+        <item >100-Hofu borgarsva i</item>
+        <item >100-Nor urland eystra</item>
+        <item >100-Nor urland vestra</item>
+        <item >100-Su urland</item>
+        <item >100-Su urnes</item>
+        <item >100-Vestfir ir</item>
+        <item >100-Vesturland</item>
+
+        <item >101-Andaman and Nicobar Islands</item>
+        <item >101-Andhra Pradesh</item>
+        <item >101-Arunachal Pradesh</item>
+        <item >101-Assam</item>
+        <item >101-Bihar</item>
+        <item >101-Chandigarh</item>
+        <item >101-Chhattisgarh</item>
+        <item >101-Dadra and Nagar Haveli</item>
+        <item >101-Daman and Diu</item>
+        <item >101-Delhi</item>
+        <item >101-Goa</item>
+        <item >101-Gujarat</item>
+        <item >101-Haryana</item>
+        <item >101-Himachal Pradesh</item>
+        <item >101-Jammu and Kashmir</item>
+        <item >101-Jharkhand</item>
+        <item >101-Karnataka</item>
+        <item >101-Kenmore</item>
+        <item >101-Kerala</item>
+        <item >101-Lakshadweep</item>
+        <item >101-Madhya Pradesh</item>
+        <item >101-Maharashtra</item>
+        <item >101-Manipur</item>
+        <item >101-Meghalaya</item>
+        <item >101-Mizoram</item>
+        <item >101-Nagaland</item>
+        <item >101-Narora</item>
+        <item >101-Natwar</item>
+        <item >101-Odisha</item>
+        <item >101-Paschim Medinipur</item>
+        <item >101-Pondicherry</item>
+        <item >101-Punjab</item>
+        <item >101-Rajasthan</item>
+        <item >101-Sikkim</item>
+        <item >101-Tamil Nadu</item>
+        <item >101-Telangana</item>
+        <item >101-Tripura</item>
+        <item >101-Uttar Pradesh</item>
+        <item >101-Uttarakhand</item>
+        <item >101-Vaishali</item>
+        <item >101-West Bengal</item>
+
+        <item >102-Aceh</item>
+        <item >102-Bali</item>
+        <item >102-Bangka-Belitung</item>
+        <item >102-Banten</item>
+        <item >102-Bengkulu</item>
+        <item >102-Gandaria</item>
+        <item >102-Gorontalo</item>
+        <item >102-Jakarta</item>
+        <item >102-Jambi</item>
+        <item >102-Jawa Barat</item>
+        <item >102-Jawa Tengah</item>
+        <item >102-Jawa Timur</item>
+        <item >102-Kalimantan Barat</item>
+        <item >102-Kalimantan Selatan</item>
+        <item >102-Kalimantan Tengah</item>
+        <item >102-Kalimantan Timur</item>
+        <item >102-Kendal</item>
+        <item >102-Lampung</item>
+        <item >102-Maluku</item>
+        <item >102-Maluku Utara</item>
+        <item >102-Nusa Tenggara Barat</item>
+        <item >102-Nusa Tenggara Timur</item>
+        <item >102-Papua</item>
+        <item >102-Riau</item>
+        <item >102-Riau Kepulauan</item>
+        <item >102-Solo</item>
+        <item >102-Sulawesi Selatan</item>
+        <item >102-Sulawesi Tengah</item>
+        <item >102-Sulawesi Tenggara</item>
+        <item >102-Sulawesi Utara</item>
+        <item >102-Sumatera Barat</item>
+        <item >102-Sumatera Selatan</item>
+        <item >102-Sumatera Utara</item>
+        <item >102-Yogyakarta</item>
+
+        <item >103-Ardabil</item>
+        <item >103-Azarbayjan-e Bakhtari</item>
+        <item >103-Azarbayjan-e Khavari</item>
+        <item >103-Bushehr</item>
+        <item >103-Chahar Mahal-e Bakhtiari</item>
+        <item >103-Esfahan</item>
+        <item >103-Fars</item>
+        <item >103-Gilan</item>
+        <item >103-Golestan</item>
+        <item >103-Hamadan</item>
+        <item >103-Hormozgan</item>
+        <item >103-Ilam</item>
+        <item >103-Kerman</item>
+        <item >103-Kermanshah</item>
+        <item >103-Khorasan</item>
+        <item >103-Khuzestan</item>
+        <item >103-Kohgiluyeh-e Boyerahmad</item>
+        <item >103-Kordestan</item>
+        <item >103-Lorestan</item>
+        <item >103-Markazi</item>
+        <item >103-Mazandaran</item>
+        <item >103-Ostan-e Esfahan</item>
+        <item >103-Qazvin</item>
+        <item >103-Qom</item>
+        <item >103-Semnan</item>
+        <item >103-Sistan-e Baluchestan</item>
+        <item >103-Tehran</item>
+        <item >103-Yazd</item>
+        <item >103-Zanjan</item>
+
+        <item >104-Babil</item>
+        <item >104-Baghdad</item>
+        <item >104-Dahuk</item>
+        <item >104-Dhi Qar</item>
+        <item >104-Diyala</item>
+        <item >104-Erbil</item>
+        <item >104-Irbil</item>
+        <item >104-Karbala</item>
+        <item >104-Kurdistan</item>
+        <item >104-Maysan</item>
+        <item >104-Ninawa</item>
+        <item >104-Salah-ad-Din</item>
+        <item >104-Wasit</item>
+        <item >104-al-Anbar</item>
+        <item >104-al-Basrah</item>
+        <item >104-al-Muthanna</item>
+        <item >104-al-Qadisiyah</item>
+        <item >104-an-Najaf</item>
+        <item >104-as-Sulaymaniyah</item>
+        <item >104-at-Ta mim</item>
+
+        <item >105-Armagh</item>
+        <item >105-Carlow</item>
+        <item >105-Cavan</item>
+        <item >105-Clare</item>
+        <item >105-Cork</item>
+        <item >105-Donegal</item>
+        <item >105-Dublin</item>
+        <item >105-Galway</item>
+        <item >105-Kerry</item>
+        <item >105-Kildare</item>
+        <item >105-Kilkenny</item>
+        <item >105-Laois</item>
+        <item >105-Leinster</item>
+        <item >105-Leitrim</item>
+        <item >105-Limerick</item>
+        <item >105-Loch Garman</item>
+        <item >105-Longford</item>
+        <item >105-Louth</item>
+        <item >105-Mayo</item>
+        <item >105-Meath</item>
+        <item >105-Monaghan</item>
+        <item >105-Offaly</item>
+        <item >105-Roscommon</item>
+        <item >105-Sligo</item>
+        <item >105-Tipperary North Riding</item>
+        <item >105-Tipperary South Riding</item>
+        <item >105-Ulster</item>
+        <item >105-Waterford</item>
+        <item >105-Westmeath</item>
+        <item >105-Wexford</item>
+        <item >105-Wicklow</item>
+
+        <item >106-Beit Hanania</item>
+        <item >106-Ben Gurion Airport</item>
+        <item >106-Bethlehem</item>
+        <item >106-Caesarea</item>
+        <item >106-Centre</item>
+        <item >106-Gaza</item>
+        <item >106-Hadaron</item>
+        <item >106-Haifa District</item>
+        <item >106-Hamerkaz</item>
+        <item >106-Hazafon</item>
+        <item >106-Hebron</item>
+        <item >106-Jaffa</item>
+        <item >106-Jerusalem</item>
+        <item >106-Khefa</item>
+        <item >106-Kiryat Yam</item>
+        <item >106-Lower Galilee</item>
+        <item >106-Qalqilya</item>
+        <item >106-Talme Elazar</item>
+        <item >106-Tel Aviv</item>
+        <item >106-Tsafon</item>
+        <item >106-Umm El Fahem</item>
+        <item >106-Yerushalayim</item>
+
+        <item >107-Abruzzi</item>
+        <item >107-Abruzzo</item>
+        <item >107-Agrigento</item>
+        <item >107-Alessandria</item>
+        <item >107-Ancona</item>
+        <item >107-Arezzo</item>
+        <item >107-Ascoli Piceno</item>
+        <item >107-Asti</item>
+        <item >107-Avellino</item>
+        <item >107-Bari</item>
+        <item >107-Basilicata</item>
+        <item >107-Belluno</item>
+        <item >107-Benevento</item>
+        <item >107-Bergamo</item>
+        <item >107-Biella</item>
+        <item >107-Bologna</item>
+        <item >107-Bolzano</item>
+        <item >107-Brescia</item>
+        <item >107-Brindisi</item>
+        <item >107-Calabria</item>
+        <item >107-Campania</item>
+        <item >107-Cartoceto</item>
+        <item >107-Caserta</item>
+        <item >107-Catania</item>
+        <item >107-Chieti</item>
+        <item >107-Como</item>
+        <item >107-Cosenza</item>
+        <item >107-Cremona</item>
+        <item >107-Cuneo</item>
+        <item >107-Emilia-Romagna</item>
+        <item >107-Ferrara</item>
+        <item >107-Firenze</item>
+        <item >107-Florence</item>
+        <item >107-Forli-Cesena </item>
+        <item >107-Friuli-Venezia Giulia</item>
+        <item >107-Frosinone</item>
+        <item >107-Genoa</item>
+        <item >107-Gorizia</item>
+        <item >107-L Aquila</item>
+        <item >107-Lazio</item>
+        <item >107-Lecce</item>
+        <item >107-Lecco</item>
+        <item >107-Lecco Province</item>
+        <item >107-Liguria</item>
+        <item >107-Lodi</item>
+        <item >107-Lombardia</item>
+        <item >107-Lombardy</item>
+        <item >107-Macerata</item>
+        <item >107-Mantova</item>
+        <item >107-Marche</item>
+        <item >107-Messina</item>
+        <item >107-Milan</item>
+        <item >107-Modena</item>
+        <item >107-Molise</item>
+        <item >107-Molteno</item>
+        <item >107-Montenegro</item>
+        <item >107-Monza and Brianza</item>
+        <item >107-Naples</item>
+        <item >107-Novara</item>
+        <item >107-Padova</item>
+        <item >107-Parma</item>
+        <item >107-Pavia</item>
+        <item >107-Perugia</item>
+        <item >107-Pesaro-Urbino</item>
+        <item >107-Piacenza</item>
+        <item >107-Piedmont</item>
+        <item >107-Piemonte</item>
+        <item >107-Pisa</item>
+        <item >107-Pordenone</item>
+        <item >107-Potenza</item>
+        <item >107-Puglia</item>
+        <item >107-Reggio Emilia</item>
+        <item >107-Rimini</item>
+        <item >107-Roma</item>
+        <item >107-Salerno</item>
+        <item >107-Sardegna</item>
+        <item >107-Sassari</item>
+        <item >107-Savona</item>
+        <item >107-Sicilia</item>
+        <item >107-Siena</item>
+        <item >107-Sondrio</item>
+        <item >107-South Tyrol</item>
+        <item >107-Taranto</item>
+        <item >107-Teramo</item>
+        <item >107-Torino</item>
+        <item >107-Toscana</item>
+        <item >107-Trapani</item>
+        <item >107-Trentino-Alto Adige</item>
+        <item >107-Trento</item>
+        <item >107-Treviso</item>
+        <item >107-Udine</item>
+        <item >107-Umbria</item>
+        <item >107-Valle d Aosta</item>
+        <item >107-Varese</item>
+        <item >107-Veneto</item>
+        <item >107-Venezia</item>
+        <item >107-Verbano-Cusio-Ossola</item>
+        <item >107-Vercelli</item>
+        <item >107-Verona</item>
+        <item >107-Vicenza</item>
+        <item >107-Viterbo</item>
+
+        <item >108-Buxoro Viloyati</item>
+        <item >108-Clarendon</item>
+        <item >108-Hanover</item>
+        <item >108-Kingston</item>
+        <item >108-Manchester</item>
+        <item >108-Portland</item>
+        <item >108-Saint Andrews</item>
+        <item >108-Saint Ann</item>
+        <item >108-Saint Catherine</item>
+        <item >108-Saint Elizabeth</item>
+        <item >108-Saint James</item>
+        <item >108-Saint Mary</item>
+        <item >108-Saint Thomas</item>
+        <item >108-Trelawney</item>
+        <item >108-Westmoreland</item>
+
+        <item >109-Aichi</item>
+        <item >109-Akita</item>
+        <item >109-Aomori</item>
+        <item >109-Chiba</item>
+        <item >109-Ehime</item>
+        <item >109-Fukui</item>
+        <item >109-Fukuoka</item>
+        <item >109-Fukushima</item>
+        <item >109-Gifu</item>
+        <item >109-Gumma</item>
+        <item >109-Hiroshima</item>
+        <item >109-Hokkaido</item>
+        <item >109-Hyogo</item>
+        <item >109-Ibaraki</item>
+        <item >109-Ishikawa</item>
+        <item >109-Iwate</item>
+        <item >109-Kagawa</item>
+        <item >109-Kagoshima</item>
+        <item >109-Kanagawa</item>
+        <item >109-Kanto</item>
+        <item >109-Kochi</item>
+        <item >109-Kumamoto</item>
+        <item >109-Kyoto</item>
+        <item >109-Mie</item>
+        <item >109-Miyagi</item>
+        <item >109-Miyazaki</item>
+        <item >109-Nagano</item>
+        <item >109-Nagasaki</item>
+        <item >109-Nara</item>
+        <item >109-Niigata</item>
+        <item >109-Oita</item>
+        <item >109-Okayama</item>
+        <item >109-Okinawa</item>
+        <item >109-Osaka</item>
+        <item >109-Saga</item>
+        <item >109-Saitama</item>
+        <item >109-Shiga</item>
+        <item >109-Shimane</item>
+        <item >109-Shizuoka</item>
+        <item >109-Tochigi</item>
+        <item >109-Tokushima</item>
+        <item >109-Tokyo</item>
+        <item >109-Tottori</item>
+        <item >109-Toyama</item>
+        <item >109-Wakayama</item>
+        <item >109-Yamagata</item>
+        <item >109-Yamaguchi</item>
+        <item >109-Yamanashi</item>
+
+        <item >110-Grouville</item>
+        <item >110-Saint Brelade</item>
+        <item >110-Saint Clement</item>
+        <item >110-Saint Helier</item>
+        <item >110-Saint John</item>
+        <item >110-Saint Lawrence</item>
+        <item >110-Saint Martin</item>
+        <item >110-Saint Mary</item>
+        <item >110-Saint Peter</item>
+        <item >110-Saint Saviour</item>
+        <item >110-Trinity</item>
+
+        <item >111-Ajlun</item>
+        <item >111-Amman</item>
+        <item >111-Irbid</item>
+        <item >111-Jarash</item>
+        <item >111-Ma an</item>
+        <item >111-Madaba</item>
+        <item >111-al- Aqabah</item>
+        <item >111-al-Balqa</item>
+        <item >111-al-Karak</item>
+        <item >111-al-Mafraq</item>
+        <item >111-at-Tafilah</item>
+        <item >111-az-Zarqa</item>
+
+        <item >112-Akmecet</item>
+        <item >112-Akmola</item>
+        <item >112-Aktobe</item>
+        <item >112-Almati</item>
+        <item >112-Atirau</item>
+        <item >112-Batis Kazakstan</item>
+        <item >112-Burlinsky Region</item>
+        <item >112-Karagandi</item>
+        <item >112-Kostanay</item>
+        <item >112-Mankistau</item>
+        <item >112-Ontustik Kazakstan</item>
+        <item >112-Pavlodar</item>
+        <item >112-Sigis Kazakstan</item>
+        <item >112-Soltustik Kazakstan</item>
+        <item >112-Taraz</item>
+
+        <item >113-Central</item>
+        <item >113-Coast</item>
+        <item >113-Eastern</item>
+        <item >113-Nairobi</item>
+        <item >113-North Eastern</item>
+        <item >113-Nyanza</item>
+        <item >113-Rift Valley</item>
+        <item >113-Western</item>
+
+        <item >114-Abaiang</item>
+        <item >114-Abemana</item>
+        <item >114-Aranuka</item>
+        <item >114-Arorae</item>
+        <item >114-Banaba</item>
+        <item >114-Beru</item>
+        <item >114-Butaritari</item>
+        <item >114-Kiritimati</item>
+        <item >114-Kuria</item>
+        <item >114-Maiana</item>
+        <item >114-Makin</item>
+        <item >114-Marakei</item>
+        <item >114-Nikunau</item>
+        <item >114-Nonouti</item>
+        <item >114-Onotoa</item>
+        <item >114-Phoenix Islands</item>
+        <item >114-Tabiteuea North</item>
+        <item >114-Tabiteuea South</item>
+        <item >114-Tabuaeran</item>
+        <item >114-Tamana</item>
+        <item >114-Tarawa North</item>
+        <item >114-Tarawa South</item>
+        <item >114-Teraina</item>
+
+        <item >115-Chagangdo</item>
+        <item >115-Hamgyeongbukto</item>
+        <item >115-Hamgyeongnamdo</item>
+        <item >115-Hwanghaebukto</item>
+        <item >115-Hwanghaenamdo</item>
+        <item >115-Kaeseong</item>
+        <item >115-Kangweon</item>
+        <item >115-Nampo</item>
+        <item >115-Pyeonganbukto</item>
+        <item >115-Pyeongannamdo</item>
+        <item >115-Pyeongyang</item>
+        <item >115-Yanggang</item>
+
+        <item >116-Busan</item>
+        <item >116-Cheju</item>
+        <item >116-Chollabuk</item>
+        <item >116-Chollanam</item>
+        <item >116-Chungbuk</item>
+        <item >116-Chungcheongbuk</item>
+        <item >116-Chungcheongnam</item>
+        <item >116-Chungnam</item>
+        <item >116-Daegu</item>
+        <item >116-Gangwon-do</item>
+        <item >116-Goyang-si</item>
+        <item >116-Gyeonggi-do</item>
+        <item >116-Gyeongsang </item>
+        <item >116-Gyeongsangnam-do</item>
+        <item >116-Gwangyoksi</item>
+        <item >116-Incheon</item>
+        <item >116-Jeju-Si</item>
+        <item >116-Jeonbuk</item>
+        <item >116-Kangweon</item>
+        <item >116-Kwangju</item>
+        <item >116-Kyeonggi</item>
+        <item >116-Kyeongsangbuk</item>
+        <item >116-Kyeongsangnam</item>
+        <item >116-Kyonggi-do</item>
+        <item >116-Kyungbuk-Do</item>
+        <item >116-Kyunggi-Do</item>
+        <item >116-Kyunggi-do</item>
+        <item >116-Pusan</item>
+        <item >116-Seoul</item>
+        <item >116-Sudogwon</item>
+        <item >116-Taegu</item>
+        <item >116-Taejeon</item>
+        <item >116-Taejon-gwangyoksi</item>
+        <item >116-Ulsan</item>
+        <item >116-Wonju</item>
+
+        <item >117-Al Asimah</item>
+        <item >117-Hawalli</item>
+        <item >117-Mishref</item>
+        <item >117-Qadesiya</item>
+        <item >117-Safat</item>
+        <item >117-Salmiya</item>
+        <item >117-al-Ahmadi</item>
+        <item >117-al-Farwaniyah</item>
+        <item >117-al-Jahra</item>
+        <item >117-al-Kuwayt</item>
+
+        <item >118-Batken</item>
+        <item >118-Bishkek</item>
+        <item >118-Chui</item>
+        <item >118-Issyk-Kul</item>
+        <item >118-Jalal-Abad</item>
+        <item >118-Naryn</item>
+        <item >118-Osh</item>
+        <item >118-Talas</item>
+
+        <item >119-Attopu</item>
+        <item >119-Bokeo</item>
+        <item >119-Bolikhamsay</item>
+        <item >119-Champasak</item>
+        <item >119-Houaphanh</item>
+        <item >119-Khammouane</item>
+        <item >119-Luang Nam Tha</item>
+        <item >119-Luang Prabang</item>
+        <item >119-Oudomxay</item>
+        <item >119-Phongsaly</item>
+        <item >119-Saravan</item>
+        <item >119-Savannakhet</item>
+        <item >119-Sekong</item>
+        <item >119-Viangchan Prefecture</item>
+        <item >119-Viangchan Province</item>
+        <item >119-Xaignabury</item>
+        <item >119-Xiang Khuang</item>
+
+        <item >120-Aizkraukles</item>
+        <item >120-Aluksnes</item>
+        <item >120-Balvu</item>
+        <item >120-Bauskas</item>
+        <item >120-Cesu</item>
+        <item >120-Daugavpils</item>
+        <item >120-Daugavpils City</item>
+        <item >120-Dobeles</item>
+        <item >120-Gulbenes</item>
+        <item >120-Jekabspils</item>
+        <item >120-Jelgava</item>
+        <item >120-Jelgavas</item>
+        <item >120-Jurmala City</item>
+        <item >120-Kraslavas</item>
+        <item >120-Kuldigas</item>
+        <item >120-Liepaja</item>
+        <item >120-Liepajas</item>
+        <item >120-Limbazhu</item>
+        <item >120-Ludzas</item>
+        <item >120-Madonas</item>
+        <item >120-Ogres</item>
+        <item >120-Preilu</item>
+        <item >120-Rezekne</item>
+        <item >120-Rezeknes</item>
+        <item >120-Riga</item>
+        <item >120-Rigas</item>
+        <item >120-Saldus</item>
+        <item >120-Talsu</item>
+        <item >120-Tukuma</item>
+        <item >120-Valkas</item>
+        <item >120-Valmieras</item>
+        <item >120-Ventspils</item>
+        <item >120-Ventspils City</item>
+
+        <item >121-Beirut</item>
+        <item >121-Jabal Lubnan</item>
+        <item >121-Mohafazat Liban-Nord</item>
+        <item >121-Mohafazat Mont-Liban</item>
+        <item >121-Sidon</item>
+        <item >121-al-Biqa</item>
+        <item >121-al-Janub</item>
+        <item >121-an-Nabatiyah</item>
+        <item >121-ash-Shamal</item>
+
+        <item >122-Berea</item>
+        <item >122-Butha-Buthe</item>
+        <item >122-Leribe</item>
+        <item >122-Mafeteng</item>
+        <item >122-Maseru</item>
+        <item >122-Mohales Hoek</item>
+        <item >122-Mokhotlong</item>
+        <item >122-Qachas Nek</item>
+        <item >122-Quthing</item>
+        <item >122-Thaba-Tseka</item>
+
+        <item >123-Bomi</item>
+        <item >123-Bong</item>
+        <item >123-Grand Bassa</item>
+        <item >123-Grand Cape Mount</item>
+        <item >123-Grand Gedeh</item>
+        <item >123-Loffa</item>
+        <item >123-Margibi</item>
+        <item >123-Maryland and Grand Kru</item>
+        <item >123-Montserrado</item>
+        <item >123-Nimba</item>
+        <item >123-Rivercess</item>
+        <item >123-Sinoe</item>
+
+        <item>124-Ajdabiya</item>
+        <item>124-Fezzan</item>
+        <item>124-Banghazi</item>
+        <item>124-Darnah</item>
+        <item>124-Ghadamis</item>
+        <item>124-Gharyan</item>
+        <item>124-Misratah</item>
+        <item>124-Murzuq</item>
+        <item>124-Sabha</item>
+        <item>124-Sawfajjin</item>
+        <item>124-Surt</item>
+        <item>124-Tarabulus</item>
+        <item>124-Tarhunah</item>
+        <item>124-Tripolitania</item>
+        <item>124-Tubruq</item>
+        <item>124-Yafran</item>
+        <item>124-Zlitan</item>
+        <item>124-al-Aziziyah</item>
+        <item>124-al-Fatih</item>
+        <item>124-al-Jabal al-Akhdar</item>
+        <item>124-al-Jufrah</item>
+        <item>124-al-Khums</item>
+        <item>124-al-Kufrah</item>
+        <item>124-an-Nuqat al-Khams</item>
+        <item>124-ash-Shati</item>
+        <item>124-az-Zawiyah</item>
+
+        <item>125-Balzers</item>
+        <item>125-Eschen</item>
+        <item>125-Gamprin</item>
+        <item>125-Mauren</item>
+        <item>125-Planken</item>
+        <item>125-Ruggell</item>
+        <item>125-Schaan</item>
+        <item>125-Schellenberg</item>
+        <item>125-Triesen</item>
+        <item>125-Triesenberg</item>
+        <item>125-Vaduz</item>
+
+        <item>126-Alytaus</item>
+        <item>126-Anyksciai</item>
+        <item>126-Kauno</item>
+        <item>126-Klaipedos</item>
+        <item>126-Marijampoles</item>
+        <item>126-Panevezhio</item>
+        <item>126-Panevezys</item>
+        <item>126-Shiauliu</item>
+        <item>126-Taurages</item>
+        <item>126-Telshiu</item>
+        <item>126-Telsiai</item>
+        <item>126-Utenos</item>
+        <item>126-Vilniaus</item>
+
+        <item>127-Capellen</item>
+        <item>127-Clervaux</item>
+        <item>127-Diekirch</item>
+        <item>127-Echternach</item>
+        <item>127-Esch-sur-Alzette</item>
+        <item>127-Grevenmacher</item>
+        <item>127-Luxembourg</item>
+        <item>127-Mersch</item>
+        <item>127-Redange</item>
+        <item>127-Remich</item>
+        <item>127-Vianden</item>
+        <item>127-Wiltz</item>
+
+        <item>128-Macau</item>
+
+        <item>129-Berovo</item>
+        <item>129-Bitola</item>
+        <item>129-Brod</item>
+        <item>129-Debar</item>
+        <item>129-Delchevo</item>
+        <item>129-Demir Hisar</item>
+        <item>129-Gevgelija</item>
+        <item>129-Gostivar</item>
+        <item>129-Kavadarci</item>
+        <item>129-Kichevo</item>
+        <item>129-Kochani</item>
+        <item>129-Kratovo</item>
+        <item>129-Kriva Palanka</item>
+        <item>129-Krushevo</item>
+        <item>129-Kumanovo</item>
+        <item>129-Negotino</item>
+        <item>129-Ohrid</item>
+        <item>129-Prilep</item>
+        <item>129-Probishtip</item>
+        <item>129-Radovish</item>
+        <item>129-Resen</item>
+        <item>129-Shtip</item>
+        <item>129-Skopje</item>
+        <item>129-Struga</item>
+        <item>129-Strumica</item>
+        <item>129-Sveti Nikole</item>
+        <item>129-Tetovo</item>
+        <item>129-Valandovo</item>
+        <item>129-Veles</item>
+        <item>129-Vinica</item>
+
+        <item>130-Antananarivo</item>
+        <item>130-Antsiranana</item>
+        <item>130-Fianarantsoa</item>
+        <item>130-Mahajanga</item>
+        <item>130-Toamasina</item>
+        <item>130-Toliary</item>
+
+        <item>131-Balaka</item>
+        <item>131-Blantyre City</item>
+        <item>131-Chikwawa</item>
+        <item>131-Chiradzulu</item>
+        <item>131-Chitipa</item>
+        <item>131-Dedza</item>
+        <item>131-Dowa</item>
+        <item>131-Karonga</item>
+        <item>131-Kasungu</item>
+        <item>131-Lilongwe City</item>
+        <item>131-Machinga</item>
+        <item>131-Mangochi</item>
+        <item>131-Mchinji</item>
+        <item>131-Mulanje</item>
+        <item>131-Mwanza</item>
+        <item>131-Mzimba</item>
+        <item>131-Mzuzu City</item>
+        <item>131-Nkhata Bay</item>
+        <item>131-Nkhotakota</item>
+        <item>131-Nsanje</item>
+        <item>131-Ntcheu</item>
+        <item>131-Ntchisi</item>
+        <item>131-Phalombe</item>
+        <item>131-Rumphi</item>
+        <item>131-Salima</item>
+        <item>131-Thyolo</item>
+        <item>131-Zomba Municipality</item>
+
+        <item>132-Johor</item>
+        <item>132-Kedah</item>
+        <item>132-Kelantan</item>
+        <item>132-Kuala Lumpur</item>
+        <item>132-Labuan</item>
+        <item>132-Melaka</item>
+        <item>132-Negeri Johor</item>
+        <item>132-Negeri Sembilan</item>
+        <item>132-Pahang</item>
+        <item>132-Penang</item>
+        <item>132-Perak</item>
+        <item>132-Perlis</item>
+        <item>132-Pulau Pinang</item>
+        <item>132-Sabah</item>
+        <item>132-Sarawak</item>
+        <item>132-Selangor</item>
+        <item>132-Sembilan</item>
+        <item>132-Terengganu</item>
+
+        <item>133-Alif Alif</item>
+        <item>133-Alif Dhaal</item>
+        <item>133-Baa</item>
+        <item>133-Dhaal</item>
+        <item>133-Faaf</item>
+        <item>133-Gaaf Alif</item>
+        <item>133-Gaaf Dhaal</item>
+        <item>133-Ghaviyani</item>
+        <item>133-Haa Alif</item>
+        <item>133-Haa Dhaal</item>
+        <item>133-Kaaf</item>
+        <item>133-Laam</item>
+        <item>133-Lhaviyani</item>
+        <item>133-Male</item>
+        <item>133-Miim</item>
+        <item>133-Nuun</item>
+        <item>133-Raa</item>
+        <item>133-Shaviyani</item>
+        <item>133-Siin</item>
+        <item>133-Thaa</item>
+        <item>133-Vaav</item>
+
+        <item>134-Bamako</item>
+        <item>134-Gao</item>
+        <item>134-Kayes</item>
+        <item>134-Kidal</item>
+        <item>134-Koulikoro</item>
+        <item>134-Mopti</item>
+        <item>134-Segou</item>
+        <item>134-Sikasso</item>
+        <item>134-Tombouctou</item>
+
+        <item>135-Gozo and Comino</item>
+        <item>135-Inner Harbour</item>
+        <item>135-Northern</item>
+        <item>135-Outer Harbour</item>
+        <item>135-South Eastern</item>
+        <item>135-Valletta</item>
+        <item>135-Western</item>
+
+        <item>136-Castletown</item>
+        <item>136-Douglas</item>
+        <item>136-Laxey</item>
+        <item>136-Onchan</item>
+        <item>136-Peel</item>
+        <item>136-Port Erin</item>
+        <item>136-Port Saint Mary</item>
+        <item>136-Ramsey</item>
+
+        <item>137-Ailinlaplap</item>
+        <item>137-Ailuk</item>
+        <item>137-Arno</item>
+        <item>137-Aur</item>
+        <item>137-Bikini</item>
+        <item>137-Ebon</item>
+        <item>137-Enewetak</item>
+        <item>137-Jabat</item>
+        <item>137-Jaluit</item>
+        <item>137-Kili</item>
+        <item>137-Kwajalein</item>
+        <item>137-Lae</item>
+        <item>137-Lib</item>
+        <item>137-Likiep</item>
+        <item>137-Majuro</item>
+        <item>137-Maloelap</item>
+        <item>137-Mejit</item>
+        <item>137-Mili</item>
+        <item>137-Namorik</item>
+        <item>137-Namu</item>
+        <item>137-Rongelap</item>
+        <item>137-Ujae</item>
+        <item>137-Utrik</item>
+        <item>137-Wotho</item>
+        <item>137-Wotje</item>
+
+
+        <item>138-Fort-de-France</item>
+        <item>138-La Trinite</item>
+        <item>138-Le Marin</item>
+        <item>138-Saint-Pierre</item>
+
+        <item>139-Adrar</item>
+        <item>139-Assaba</item>
+        <item>139-Brakna</item>
+        <item>139-Dhakhlat Nawadibu</item>
+        <item>139-Hudh-al-Gharbi</item>
+        <item>139-Hudh-ash-Sharqi</item>
+        <item>139-Inshiri</item>
+        <item>139-Nawakshut</item>
+        <item>139-Qidimagha</item>
+        <item>139-Qurqul</item>
+        <item>139-Taqant</item>
+        <item>139-Tiris Zammur</item>
+        <item>139-Trarza</item>
+
+        <item>140-Black River</item>
+        <item>140-Eau Coulee</item>
+        <item>140-Flacq</item>
+        <item>140-Floreal</item>
+        <item>140-Grand Port</item>
+        <item>140-Moka</item>
+        <item>140-Pamplempousses</item>
+        <item>140-Plaines Wilhelm</item>
+        <item>140-Port Louis</item>
+        <item>140-Riviere du Rempart</item>
+        <item>140-Rodrigues</item>
+        <item>140-Rose Hill</item>
+        <item>140-Savanne</item>
+
+        <item>141-Mayotte</item>
+        <item>141-Pamanzi</item>
+
+        <item>142-Aguascalientes</item>
+        <item>142-Baja California</item>
+        <item>142-Baja California Sur</item>
+        <item>142-Campeche</item>
+        <item>142-Chiapas</item>
+        <item>142-Chihuahua</item>
+        <item>142-Coahuila</item>
+        <item>142-Colima</item>
+        <item>142-Distrito Federal</item>
+        <item>142-Durango</item>
+        <item>142-Estado de Mexico</item>
+        <item>142-Guanajuato</item>
+        <item>142-Guerrero</item>
+        <item>142-Hidalgo</item>
+        <item>142-Jalisco</item>
+        <item>142-Mexico</item>
+        <item>142-Michoacan</item>
+        <item>142-Morelos</item>
+        <item>142-Nayarit</item>
+        <item>142-Nuevo Leon</item>
+        <item>142-Oaxaca</item>
+        <item>142-Puebla</item>
+        <item>142-Queretaro</item>
+        <item>142-Quintana Roo</item>
+        <item>142-San Luis Potosi</item>
+        <item>142-Sinaloa</item>
+        <item>142-Sonora</item>
+        <item>142-Tabasco</item>
+        <item>142-Tamaulipas</item>
+        <item>142-Tlaxcala</item>
+        <item>142-Veracruz</item>
+        <item>142-Yucatan</item>
+        <item>142-Zacatecas</item>
+
+        <item>143-Chuuk</item>
+        <item>143-Kusaie</item>
+        <item>143-Pohnpei</item>
+        <item>143-Yap</item>
+
+        <item>144-Balti</item>
+        <item>144-Cahul</item>
+        <item>144-Chisinau</item>
+        <item>144-Chisinau Oras</item>
+        <item>144-Edinet</item>
+        <item>144-Gagauzia</item>
+        <item>144-Lapusna</item>
+        <item>144-Orhei</item>
+        <item>144-Soroca</item>
+        <item>144-Taraclia</item>
+        <item>144-Tighina</item>
+        <item>144-Transnistria</item>
+        <item>144-Ungheni</item>
+
+        <item>145-Fontvieille</item>
+        <item>145-La Condamine</item>
+        <item>145-Monaco-Ville</item>
+        <item>145-Monte Carlo</item>
+
+        <item>146-Arhangaj</item>
+        <item>146-Bajan-Olgij</item>
+        <item>146-Bajanhongor</item>
+        <item>146-Bulgan</item>
+        <item>146-Darhan-Uul</item>
+        <item>146-Dornod</item>
+        <item>146-Dornogovi</item>
+        <item>146-Dundgovi</item>
+        <item>146-Govi-Altaj</item>
+        <item>146-Govisumber</item>
+        <item>146-Hentij</item>
+        <item>146-Hovd</item>
+        <item>146-Hovsgol</item>
+        <item>146-Omnogovi</item>
+        <item>146-Orhon</item>
+        <item>146-Ovorhangaj</item>
+        <item>146-Selenge</item>
+        <item>146-Suhbaatar</item>
+        <item>146-Tov</item>
+        <item>146-Ulaanbaatar</item>
+        <item>146-Uvs</item>
+        <item>146-Zavhan</item>
+
+        <item>147-Montserrat</item>
+
+        <item>148-Agadir</item>
+        <item>148-Casablanca</item>
+        <item>148-Chaouia-Ouardigha</item>
+        <item>148-Doukkala-Abda</item>
+        <item>148-Fes-Boulemane</item>
+        <item>148-Gharb-Chrarda-Beni Hssen</item>
+        <item>148-Guelmim</item>
+        <item>148-Kenitra</item>
+        <item>148-Marrakech-Tensift-Al Haouz</item>
+        <item>148-Meknes-Tafilalet</item>
+        <item>148-Oriental</item>
+        <item>148-Oujda</item>
+        <item>148-Province de Tanger</item>
+        <item>148-Rabat-Sale-Zammour-Zaer</item>
+        <item>148-Sala Al Jadida</item>
+        <item>148-Settat</item>
+        <item>148-Souss Massa-Draa</item>
+        <item>148-Tadla-Azilal</item>
+        <item>148-Tangier-Tetouan</item>
+        <item>148-Taza-Al Hoceima-Taounate</item>
+        <item>148-Wilaya de Casablanca</item>
+        <item>148-Wilaya de Rabat Sale</item>
+
+        <item>149-Cabo Delgado</item>
+        <item>149-Gaza</item>
+        <item>149-Inhambane</item>
+        <item>149-Manica</item>
+        <item>149-Maputo</item>
+        <item>149-Maputo Provincia</item>
+        <item>149-Nampula</item>
+        <item>149-Niassa</item>
+        <item>149-Sofala</item>
+        <item>149-Tete</item>
+        <item>149-Zambezia</item>
+
+        <item>150-Ayeyarwady</item>
+        <item>150-Bago</item>
+        <item>150-Chin</item>
+        <item>150-Kachin</item>
+        <item>150-Kayah</item>
+        <item>150-Kayin</item>
+        <item>150-Magway</item>
+        <item>150-Mandalay</item>
+        <item>150-Mon</item>
+        <item>150-Nay Pyi Taw</item>
+        <item>150-Rakhine</item>
+        <item>150-Sagaing</item>
+        <item>150-Shan</item>
+        <item>150-Tanintharyi</item>
+        <item>150-Yangon</item>
+
+        <item>151-Caprivi</item>
+        <item>151-Erongo</item>
+        <item>151-Hardap</item>
+        <item>151-Karas</item>
+        <item>151-Kavango</item>
+        <item>151-Khomas</item>
+        <item>151-Kunene</item>
+        <item>151-Ohangwena</item>
+        <item>151-Omaheke</item>
+        <item>151-Omusati</item>
+        <item>151-Oshana</item>
+        <item>151-Oshikoto</item>
+        <item>151-Otjozondjupa</item>
+
+        <item>152-Yaren</item>
+
+        <item>153-Bagmati</item>
+        <item>153-Bheri</item>
+        <item>153-Dhawalagiri</item>
+        <item>153-Gandaki</item>
+        <item>153-Janakpur</item>
+        <item>153-Karnali</item>
+        <item>153-Koshi</item>
+        <item>153-Lumbini</item>
+        <item>153-Mahakali</item>
+        <item>153-Mechi</item>
+        <item>153-Narayani</item>
+        <item>153-Rapti</item>
+        <item>153-Sagarmatha</item>
+        <item>153-Seti</item>
+
+        <item>154-Bonaire</item>
+        <item>154-Curacao</item>
+        <item>154-Saba</item>
+        <item>154-Sint Eustatius</item>
+        <item>154-Sint Maarten</item>
+
+        <item>155-Amsterdam</item>
+        <item>155-Benelux</item>
+        <item>155-Drenthe</item>
+        <item>155-Flevoland</item>
+        <item>155-Friesland</item>
+        <item>155-Gelderland</item>
+        <item>155-Groningen</item>
+        <item>155-Limburg</item>
+        <item>155-Noord-Brabant</item>
+        <item>155-Noordb-Holland</item>
+        <item>155-Overijssel</item>
+        <item>155-South Holland</item>
+        <item>155-Utrecht</item>
+        <item>155-Zeeland</item>
+        <item>155-Zuid-Holland</item>
+
+        <item>156-Iles</item>
+        <item>156-Nord</item>
+        <item>156-Sud</item>
+
+        <item>157-Area Outside Region</item>
+        <item>157-Auckland</item>
+        <item>157-Bay of Plenty</item>
+        <item>157-Canterbury</item>
+        <item>157-Christchurch</item>
+        <item>157-Gisborne</item>
+        <item>157-Hawke s Bay</item>
+        <item>157-Manawatu-Wanganui</item>
+        <item>157-Marlborough</item>
+        <item>157-Nelson</item>
+        <item>157-Northland</item>
+        <item>157-Otago</item>
+        <item>157-Rodney</item>
+        <item>157-Southland</item>
+        <item>157-Taranaki</item>
+        <item>157-Tasman</item>
+        <item>157-Waikato</item>
+        <item>157-Wellington</item>
+        <item>157-West Coast</item>
+
+        <item>158-Atlantico Norte</item>
+        <item>158-Atlantico Sur</item>
+        <item>158-Boaco</item>
+        <item>158-Carazo</item>
+        <item>158-Chinandega</item>
+        <item>158-Chontales</item>
+        <item>158-Esteli</item>
+        <item>158-Granada</item>
+        <item>158-Jinotega</item>
+        <item>158-Leon</item>
+        <item>158-Madriz</item>
+        <item>158-Managua</item>
+        <item>158-Masaya</item>
+        <item>158-Matagalpa</item>
+        <item>158-Nueva Segovia</item>
+        <item>158-Rio San Juan</item>
+        <item>158-Rivas</item>
+
+        <item>159-Agadez</item>
+        <item>159-Diffa</item>
+        <item>159-Dosso</item>
+        <item>159-Maradi</item>
+        <item>159-Niamey</item>
+        <item>159-Tahoua</item>
+        <item>159-Tillabery</item>
+        <item>159-Zinder</item>
+        <item>160-Abia</item>
+        <item>160-Abuja Federal Capital Territor</item>
+        <item>160-Adamawa</item>
+        <item>160-Akwa Ibom</item>
+        <item>160-Anambra</item>
+        <item>160-Bauchi</item>
+        <item>160-Bayelsa</item>
+        <item>160-Benue</item>
+        <item>160-Borno</item>
+        <item>160-Cross River</item>
+        <item>160-Delta</item>
+        <item>160-Ebonyi</item>
+        <item>160-Edo</item>
+        <item>160-Ekiti</item>
+        <item>160-Enugu</item>
+        <item>160-Gombe</item>
+        <item>160-Imo</item>
+        <item>160-Jigawa</item>
+        <item>160-Kaduna</item>
+        <item>160-Kano</item>
+        <item>160-Katsina</item>
+        <item>160-Kebbi</item>
+        <item>160-Kogi</item>
+        <item>160-Kwara</item>
+        <item>160-Lagos</item>
+        <item>160-Nassarawa</item>
+        <item>160-Niger</item>
+        <item>160-Ogun</item>
+        <item>160-Ondo</item>
+        <item>160-Osun</item>
+        <item>160-Oyo</item>
+        <item>160-Plateau</item>
+        <item>160-Rivers</item>
+        <item>160-Sokoto</item>
+        <item>160-Taraba</item>
+        <item>160-Yobe</item>
+        <item>160-Zamfara</item>
+
+        <item>161-Niue</item>
+
+        <item>162-Norfolk Island</item>
+
+        <item>163-Northern Islands</item>
+        <item>163-Rota</item>
+        <item>163-Saipan</item>
+        <item>163-Tinian</item>
+
+        <item>164-Akershus</item>
+        <item>164-Aust Agder</item>
+        <item>164-Bergen</item>
+        <item>164-Buskerud</item>
+        <item>164-Finnmark</item>
+        <item>164-Hedmark</item>
+        <item>164-Hordaland</item>
+        <item>164-Moere og Romsdal</item>
+        <item>164-Nord Trondelag</item>
+        <item>164-Nordland</item>
+        <item>164-Oestfold</item>
+        <item>164-Oppland</item>
+        <item>164-Oslo</item>
+        <item>164-Rogaland</item>
+        <item>164-Soer Troendelag</item>
+        <item>164-Sogn og Fjordane</item>
+        <item>164-Stavern</item>
+        <item>164-Sykkylven</item>
+        <item>164-Telemark</item>
+        <item>164-Troms</item>
+        <item>164-Vest Agder</item>
+        <item>164-Vestfold</item>
+        <item>164-Ãstfold</item>
+
+        <item>165-Al Buraimi</item>
+        <item>165-Dhufar</item>
+        <item>165-Masqat</item>
+        <item>165-Musandam</item>
+        <item>165-Rusayl</item>
+        <item>165-Wadi Kabir</item>
+        <item>165-ad-Dakhiliyah</item>
+        <item>165-adh-Dhahirah</item>
+        <item>165-al-Batinah</item>
+        <item>165-ash-Sharqiyah</item>
+
+        <item>166-Baluchistan</item>
+        <item>166-Federal Capital Area</item>
+        <item>166-Federally administered Tribal</item>
+        <item>166-North-West Frontier</item>
+        <item>166-Northern Areas</item>
+        <item>166-Punjab</item>
+        <item>166-Sind</item>
+
+        <item>167-Aimeliik</item>
+        <item>167-Airai</item>
+        <item>167-Angaur</item>
+        <item>167-Hatobohei</item>
+        <item>167-Kayangel</item>
+        <item>167-Koror</item>
+        <item>167-Melekeok</item>
+        <item>167-garaard</item>
+        <item>167-Ngardmau</item>
+        <item>167-Ngaremlengui</item>
+        <item>167-Ngatpang</item>
+        <item>167-Ngchesar</item>
+        <item>167-Ngerchelong</item>
+        <item>167-Ngiwal</item>
+        <item>167-Peleliu</item>
+        <item>167-Sonsorol</item>
+
+
+        <item>168-Ariha</item>
+        <item>168-Bayt Lahm</item>
+        <item>168-Bethlehem</item>
+        <item>168-Dayr-al-Balah</item>
+        <item>168-Ghazzah</item>
+        <item>168-Ghazzah ash-Shamaliyah</item>
+        <item>168-Janin</item>
+        <item>168-Khan Yunis</item>
+        <item>168-Nabulus</item>
+        <item>168-Qalqilyah</item>
+        <item>168-Rafah</item>
+        <item>168-Ram Allah wal-Birah</item>
+        <item>168-Salfit</item>
+        <item>168-Tubas</item>
+        <item>168-Tulkarm</item>
+        <item>168-al-Khalil</item>
+        <item>168-al-Quds</item>
+
+        <item>169-Bocas del Toro</item>
+        <item>169-Chiriqui</item>
+        <item>169-Cocle</item>
+        <item>169-Colon</item>
+        <item>169-Darien</item>
+        <item>169-Embera</item>
+        <item>169-Herrera</item>
+        <item>169-Kuna Yala</item>
+        <item>169-Los Santos</item>
+        <item>169-Ngobe Bugle</item>
+        <item>169-Panama</item>
+        <item>169-Veraguas</item>
+
+        <item>170-East New Britain</item>
+        <item>170-East Sepik</item>
+        <item>170-Eastern Highlands</item>
+        <item>170-Enga</item>
+        <item>170-Fly River</item>
+        <item>170-Gulf</item>
+        <item>170-Madang</item>
+        <item>170-Manus</item>
+        <item>170-Milne Bay</item>
+        <item>170-Morobe</item>
+        <item>170-National Capital District</item>
+        <item>170-New Ireland</item>
+        <item>170-North Solomons</item>
+        <item>170-Oro</item>
+        <item>170-Sandaun</item>
+        <item>170-Simbu</item>
+        <item>170-Southern Highlands</item>
+        <item>170-West New Britain</item>
+        <item>170-Western Highlands</item>
+
+        <item>171-Alto Paraguay</item>
+        <item>171-Alto Parana</item>
+        <item>171-Amambay</item>
+        <item>171-Asuncion</item>
+        <item>171-Boqueron</item>
+        <item>171-Caaguazu</item>
+        <item>171-Caazapa</item>
+        <item>171-Canendiyu</item>
+        <item>171-Central</item>
+        <item>171-Concepcion</item>
+        <item>171-Cordillera</item>
+        <item>171-Guaira</item>
+        <item>171-Itapua</item>
+        <item>171-Misiones</item>
+        <item>171-Neembucu</item>
+        <item>171-Paraguari</item>
+        <item>171-Presidente Hayes</item>
+        <item>171-San Pedro</item>
+
+        <item>172-Amazonas</item>
+        <item>172-Ancash</item>
+        <item>172-Apurimac</item>
+        <item>172-Arequipa</item>
+        <item>172-Ayacucho</item>
+        <item>172-Cajamarca</item>
+        <item>172-Cusco</item>
+        <item>172-Huancavelica</item>
+        <item>172-Huanuco</item>
+        <item>172-Ica</item>
+        <item>172-Junin</item>
+        <item>172-La Libertad</item>
+        <item>172-Lambayeque</item>
+        <item>172-Lima y Callao</item>
+        <item>172-Loreto</item>
+        <item>172-Madre de Dios</item>
+        <item>172-Moquegua</item>
+        <item>172-Pasco</item>
+        <item>172-Piura</item>
+        <item>172-Puno</item>
+        <item>172-San Martin</item>
+        <item>172-Tacna</item>
+        <item>172-Tumbes</item>
+        <item>172-Ucayali</item>
+
+        <item>173-Batangas</item>
+        <item>173-Bicol</item>
+        <item>173-Bulacan</item>
+        <item>173-Cagayan</item>
+        <item>173-Caraga</item>
+        <item>173-Central Luzon</item>
+        <item>173-Central Mindanao</item>
+        <item>173-Central Visayas</item>
+        <item>173-Cordillera</item>
+        <item>173-Davao</item>
+        <item>173-Eastern Visayas</item>
+        <item>173-Greater Metropolitan Area</item>
+        <item>173-Ilocos</item>
+        <item>173-Laguna</item>
+        <item>173-Luzon</item>
+        <item>173-Mactan</item>
+        <item>173-Metropolitan Manila Area</item>
+        <item>173-Muslim Mindanao</item>
+        <item>173-Northern Mindanao</item>
+        <item>173-Southern Mindanao</item>
+        <item>173-Southern Tagalog</item>
+        <item>173-Western Mindanao</item>
+        <item>173-Western Visayas</item>
+
+        <item>174-Pitcairn Island</item>
+
+        <item>175-Biale Blota</item>
+        <item>175-Dobroszyce</item>
+        <item>175-Dolnoslaskie</item>
+        <item>175-Dziekanow Lesny</item>
+        <item>175-Hopowo</item>
+        <item>175-Kartuzy</item>
+        <item>175-Koscian</item>
+        <item>175-Krakow</item>
+        <item>175-Kujawsko Pomorskie</item>
+        <item>175-Lodzkie</item>
+        <item>175-Lubelskie</item>
+        <item>175-Lubuskie</item>
+        <item>175-Malomice</item>
+        <item>175-Malopolskie</item>
+        <item>175-Mazowieckie</item>
+        <item>175-Mirkow</item>
+        <item>175-Opolskie</item>
+        <item>175-Ostrowiec</item>
+        <item>175-Podkarpackie</item>
+        <item>175-Podlaskie</item>
+        <item>175-Polska</item>
+        <item>175-Pomorskie</item>
+        <item>175-Poznan</item>
+        <item>175-Pruszkow</item>
+        <item>175-Rymanowska</item>
+        <item>175-Rzeszow</item>
+        <item>175-Slaskie</item>
+        <item>175-Stare Pole</item>
+        <item>175-Swietokrzyskie</item>
+        <item>175-Warminsko-Mazurskie</item>
+        <item>175-Warsaw</item>
+        <item>175-Wejherowo</item>
+        <item>175-Wielkopolskie</item>
+        <item>175-Wroclaw</item>
+        <item>175-Zachodnio-Pomorskie</item>
+        <item>175-Zukowo</item>
+
+        <item>176-Abrantes</item>
+        <item>176-Acores</item>
+        <item>176-Alentejo</item>
+        <item>176-Algarve</item>
+        <item>176-Braga</item>
+        <item>176-Centro</item>
+        <item>176-Distrito de Leiria</item>
+        <item>176-Distrito de Viana do Castelo</item>
+        <item>176-Distrito de Vila Real</item>
+        <item>176-Distrito do Porto</item>
+        <item>176-Lisboa e Vale do Tejo</item>
+        <item>176-Madeira</item>
+        <item>176-Norte</item>
+        <item>176-Paivas</item>
+
+        <item>177-Arecibo</item>
+        <item>177-Bayamon</item>
+        <item>177-Carolina</item>
+        <item>177-Florida</item>
+        <item>177-Guayama</item>
+        <item>177-Humacao</item>
+        <item>177-Mayaguez-Aguadilla</item>
+        <item>177-Ponce</item>
+        <item>177-Salinas</item>
+        <item>177-San Juan</item>
+
+        <item>178-Doha</item>
+        <item>178-Jarian-al-Batnah</item>
+        <item>178-Umm Salal</item>
+        <item>178-ad-Dawhah</item>
+        <item>178-al-Ghuwayriyah</item>
+        <item>178-al-Jumayliyah</item>
+        <item>178-al-Khawr</item>
+        <item>178-al-Wakrah</item>
+        <item>178-ar-Rayyan</item>
+        <item>178-ash-Shamal</item>
+
+        <item>179-Saint-Benoit</item>
+        <item>179-Saint-Denis</item>
+        <item>179-Saint-Paul</item>
+        <item>179-Saint-Pierre</item>
+
+        <item>180-Alba</item>
+        <item>180-Arad</item>
+        <item>180-Arges</item>
+        <item>180-Bacau</item>
+        <item>180-Bihor</item>
+        <item>180-Bistrita-Nasaud</item>
+        <item>180-Botosani</item>
+        <item>180-Braila</item>
+        <item>180-Brasov</item>
+        <item>180-Bucuresti</item>
+        <item>180-Buzau</item>
+        <item>180-Calarasi</item>
+        <item>180-Caras-Severin</item>
+        <item>180-Cluj</item>
+        <item>180-Constanta</item>
+        <item>180-Covasna</item>
+        <item>180-Dambovita</item>
+        <item>180-Dolj</item>
+        <item>180-alati</item>
+        <item>180-Giurgiu</item>
+        <item>180-Gorj</item>
+        <item>180-Harghita</item>
+        <item>180-Hunedoara</item>
+        <item>180-Ialomita</item>
+        <item>180-Iasi</item>
+        <item>180-Ilfov</item>
+        <item>180-Maramures</item>
+        <item>180-Mehedinti</item>
+        <item>180-Mures</item>
+        <item>180-Neamt</item>
+        <item>180-Olt</item>
+        <item>180-Prahova</item>
+        <item>180-Salaj</item>
+        <item>180-Satu Mare</item>
+        <item>180-Sibiu</item>
+        <item>180-Sondelor</item>
+        <item>180-Suceava</item>
+        <item>180-Teleorman</item>
+        <item>180-Timis</item>
+        <item>180-Tulcea</item>
+        <item>180-Valcea</item>
+        <item>180-Vaslui</item>
+        <item>180-Vrancea</item>
+
+
+        <item>181-Adygeja</item>
+        <item>181-Aga</item>
+        <item>181-Alanija</item>
+        <item>181-Altaj</item>
+        <item>181-Amur</item>
+        <item>181-Arhangelsk</item>
+        <item>181-Astrahan</item>
+        <item>181-Bashkortostan</item>
+        <item>181-Belgorod</item>
+        <item>181-Brjansk</item>
+        <item>181-Burjatija</item>
+        <item>181-Chechenija</item>
+        <item>181-Cheljabinsk</item>
+        <item>181-Chita</item>
+        <item>181-Chukotka</item>
+        <item>181-Chuvashija</item>
+        <item>181-Dagestan</item>
+        <item>181-Evenkija</item>
+        <item>181-Gorno-Altaj</item>
+        <item>181-Habarovsk</item>
+        <item>181-Hakasija</item>
+        <item>181-Hanty-Mansija</item>
+        <item>181-Ingusetija</item>
+        <item>181-Irkutsk</item>
+        <item>181-Ivanovo</item>
+        <item>181-Jamalo-Nenets</item>
+        <item>181-Jaroslavl</item>
+        <item>181-Jevrej</item>
+        <item>181-Kabardino-Balkarija</item>
+        <item>181-Kaliningrad</item>
+        <item>181-Kalmykija</item>
+        <item>181-Kaluga</item>
+        <item>181-Kamchatka</item>
+        <item>181-Karachaj-Cherkessija</item>
+        <item>181-Karelija</item>
+        <item>181-Kemerovo</item>
+        <item>181-Khabarovskiy Kray</item>
+        <item>181-Kirov</item>
+        <item>181-Komi</item>
+        <item>181-Komi-Permjakija</item>
+        <item>181-Korjakija</item>
+        <item>181-Kostroma</item>
+        <item>181-Krasnodar</item>
+        <item>181-Krasnojarsk</item>
+        <item>181-Krasnoyarskiy Kray</item>
+        <item>181-Kurgan</item>
+        <item>181-Kursk</item>
+        <item>181-Leningrad</item>
+        <item>181-Lipeck</item>
+        <item>181-Magadan</item>
+        <item>181-Marij El</item>
+        <item>181-Mordovija</item>
+        <item>181-Moscow</item>
+        <item>181-Moskovskaja Oblast</item>
+        <item>181-Moskovskaya Oblast</item>
+        <item>181-Moskva</item>
+        <item>181-Murmansk</item>
+        <item>181-Nenets</item>
+        <item>181-Nizhnij Novgorod</item>
+        <item>181-Novgorod</item>
+        <item>181-Novokusnezk</item>
+        <item>181-Novosibirsk</item>
+        <item>181-Omsk</item>
+        <item>181-Orenburg</item>
+        <item>181-Orjol</item>
+        <item>181-Penza</item>
+        <item>181-Perm</item>
+        <item>181-Primorje</item>
+        <item>181-Pskov</item>
+        <item>181-Pskovskaya Oblast</item>
+        <item>181-Rjazan</item>
+        <item>181-Rostov</item>
+        <item>181-Saha</item>
+        <item>181-Sahalin</item>
+        <item>181-Samara</item>
+        <item>181-Samarskaya</item>
+        <item>181-Sankt-Peterburg</item>
+        <item>181-Saratov</item>
+        <item>181-Smolensk</item>
+        <item>181-Stavropol</item>
+        <item>181-Sverdlovsk</item>
+        <item>181-Tajmyrija</item>
+        <item>181-Tambov</item>
+        <item>181-Tatarstan</item>
+        <item>181-Tjumen</item>
+        <item>181-Tomsk</item>
+        <item>181-Tula</item>
+        <item>181-Tver</item>
+        <item>181-Tyva</item>
+        <item>181-Udmurtija</item>
+        <item>181-Uljanovsk</item>
+        <item>181-Ulyanovskaya Oblast</item>
+        <item>181-Ust-Orda</item>
+        <item>181-Vladimir</item>
+        <item>181-Volgograd</item>
+        <item>181-Vologda</item>
+        <item>181-Voronezh</item>
+
+        <item>182-Butare</item>
+        <item>182-Byumba</item>
+        <item>182-Cyangugu</item>
+        <item>182-Gikongoro</item>
+        <item>182-Gisenyi</item>
+        <item>182-Gitarama</item>
+        <item>182-Kibungo</item>
+        <item>182-Kibuye</item>
+        <item>182-Kigali-ngali</item>
+        <item>182-Ruhengeri</item>
+
+        <item>183-Ascension</item>
+        <item>183-Gough Island</item>
+        <item>183-Saint Helena</item>
+        <item>183-Tristan da Cunha</item>
+
+        <item>184-Christ Church Nichola Town</item>
+        <item>184-Saint Anne Sandy Point</item>
+        <item>184-Saint George Basseterre</item>
+        <item>184-Saint George Gingerland</item>
+        <item>184-Saint James Windward</item>
+        <item>184-Saint John Capesterre</item>
+        <item>184-Saint John Figtree</item>
+        <item>184-Saint Mary Cayon</item>
+        <item>184-Saint Paul Capesterre</item>
+        <item>184-Saint Paul Charlestown</item>
+        <item>184-Saint Peter Basseterre</item>
+        <item>184-Saint Thomas Lowland</item>
+        <item>184-Saint Thomas Middle Island</item>
+        <item>184-Trinity Palmetto Point</item>
+
+
+        <item>185-Anse-la-Raye</item>
+        <item>185-Canaries</item>
+        <item>185-Castries</item>
+        <item>185-Choiseul</item>
+        <item>185-Dennery</item>
+        <item>185-Gros Inlet</item>
+        <item>185-Laborie</item>
+        <item>185-Micoud</item>
+        <item>185-Soufriere</item>
+        <item>185-Vieux Fort</item>
+
+        <item>186-Miquelon-Langlade</item>
+        <item>186-Saint-Pierre</item>
+
+
+        <item>187-Charlotte</item>
+        <item>187-Grenadines</item>
+        <item>187-Saint Andrew</item>
+        <item>187-Saint David</item>
+        <item>187-Saint George</item>
+        <item>187-Saint Patrick</item>
+
+
+        <item>188-A ana</item>
+        <item>188-Aiga-i-le-Tai</item>
+        <item>188-Atua</item>
+        <item>188-Fa asaleleaga</item>
+        <item>188-Gaga emauga</item>
+        <item>188-Gagaifomauga</item>
+        <item>188-Palauli</item>
+        <item>188-Satupa itea</item>
+        <item>188-Tuamasaga</item>
+        <item>188-Va a-o-Fonoti</item>
+        <item>188-Vaisigano</item>
+
+        <item>189-Acquaviva</item>
+        <item>189-Borgo Maggiore</item>
+        <item>189-Chiesanuova</item>
+        <item>189-Domagnano</item>
+        <item>189-Faetano</item>
+        <item>189-Fiorentino</item>
+        <item>189-Montegiardino</item>
+        <item>189-San Marino</item>
+        <item>189-Serravalle</item>
+
+
+        <item>190-Agua Grande</item>
+        <item>190-Cantagalo</item>
+        <item>190-Lemba</item>
+        <item>190-Lobata</item>
+        <item>190-Me-Zochi</item>
+        <item>190-Pague</item>
+
+
+        <item>191-Al Khobar</item>
+        <item>191-Aseer</item>
+        <item>191-Ash Sharqiyah</item>
+        <item>191-Asir</item>
+        <item>191-Central Province</item>
+        <item>191-Eastern Province</item>
+        <item>191-Ha il</item>
+        <item>191-Jawf</item>
+        <item>191-Jizan</item>
+        <item>191-Makkah</item>
+        <item>191-Najran</item>
+        <item>191-Qasim</item>
+        <item>191-Tabuk</item>
+        <item>191-Western Province</item>
+        <item>191-al-Bahah</item>
+        <item>191-al-Hudud-ash-Shamaliyah</item>
+        <item>191-al-Madinah</item>
+        <item>191-ar-Riyad</item>
+
+
+        <item>192-Dakar</item>
+        <item>192-Diourbel</item>
+        <item>192-Fatick</item>
+        <item>192-Kaolack</item>
+        <item>192-Kolda</item>
+        <item>192-Louga</item>
+        <item>192-Saint-Louis</item>
+        <item>192-Tambacounda</item>
+        <item>192-Thies</item>
+        <item>192-Ziguinchor</item>
+
+
+        <item>193-Central Serbia</item>
+        <item>193-Kosovo and Metohija</item>
+        <item>193-Vojvodina</item>
+
+        <item>194-Anse Boileau</item>
+        <item>194-Anse Royale</item>
+        <item>194-Cascade</item>
+        <item>194-Takamaka</item>
+        <item>194-Victoria</item>
+
+
+        <item>195-Eastern</item>
+        <item>195-Northern</item>
+        <item>195-Southern</item>
+        <item>195-Western</item>
+
+        <item>196-Singapore</item>
+
+
+        <item>197-Banskobystricky</item>
+        <item>197-Bratislavsky</item>
+        <item>197-Kosicky</item>
+        <item>197-Nitriansky</item>
+        <item>197-Presovsky</item>
+        <item>197-Trenciansky</item>
+        <item>197-Trnavsky</item>
+        <item>197-Zilinsky</item>
+
+
+        <item>198-Benedikt</item>
+        <item>198-Gorenjska</item>
+        <item>198-Gorishka</item>
+        <item>198-Jugovzhodna Slovenija</item>
+        <item>198-Koroshka</item>
+        <item>198-Notranjsko-krashka</item>
+        <item>198-Obalno-krashka</item>
+        <item>198-Obcina Domzale</item>
+        <item>198-Obcina Vitanje</item>
+        <item>198-Osrednjeslovenska</item>
+        <item>198-Podravska</item>
+        <item>198-Pomurska</item>
+        <item>198-Savinjska</item>
+        <item>198-Slovenian Littoral</item>
+        <item>198-Spodnjeposavska</item>
+        <item>198-Zasavska</item>
+
+        <item>199-Pitcairn</item>
+
+        <item>200-Central</item>
+        <item>200-Choiseul</item>
+        <item>200-Guadalcanal</item>
+        <item>200-Isabel</item>
+        <item>200-Makira and Ulawa</item>
+        <item>200-Malaita</item>
+        <item>200-Rennell and Bellona</item>
+        <item>200-Temotu</item>
+        <item>200-Western</item>
+
+        <item>201-Awdal</item>
+        <item>201-Bakol</item>
+        <item>201-Banadir</item>
+        <item>201-Bari</item>
+        <item>201-Bay</item>
+        <item>201-Galgudug</item>
+        <item>201-Gedo</item>
+        <item>201-Hiran</item>
+        <item>201-Jubbada Hose</item>
+        <item>201-Jubbadha Dexe</item>
+        <item>201-Mudug</item>
+        <item>201-Nugal</item>
+        <item>201-Sanag</item>
+        <item>201-Shabellaha Dhexe</item>
+        <item>201-Shabellaha Hose</item>
+        <item>201-Togdher</item>
+        <item>201-Woqoyi Galbed</item>
+
+        <item>202-Eastern Cape</item>
+        <item>202-Free State</item>
+        <item>202-Gauteng</item>
+        <item>202-Kempton Park</item>
+        <item>202-Kramerville</item>
+        <item>202-KwaZulu Natal</item>
+        <item>202-Limpopo</item>
+        <item>202-Mpumalanga</item>
+        <item>202-North West</item>
+        <item>202-Northern Cape</item>
+        <item>202-Parow</item>
+        <item>202-Table View</item>
+        <item>202-Umtentweni</item>
+        <item>202-Western Cape</item>
+
+        <item>203-South Georgia</item>
+
+        <item>204-Central Equatoria</item>
+
+        <item>205-A Coruna</item>
+        <item>205-Alacant</item>
+        <item>205-Alava</item>
+        <item>205-Albacete</item>
+        <item>205-Almeria</item>
+        <item>205-Andalucia</item>
+        <item>205-Asturias</item>
+        <item>205-Avila</item>
+        <item>205-Badajoz</item>
+        <item>205-Balears</item>
+        <item>205-Barcelona</item>
+        <item>205-Bertamirans</item>
+        <item>205-Biscay</item>
+        <item>205-Burgos</item>
+        <item>205-Caceres</item>
+        <item>205-Cadiz</item>
+        <item>205-Cantabria</item>
+        <item>205-Castello</item>
+        <item>205-Catalunya</item>
+        <item>205-Ceuta</item>
+        <item>205-Ciudad Real</item>
+        <item>205-Comunidad Autonoma de Canarias</item>
+        <item>205-Comunidad Autonoma de Cataluna</item>
+        <item>205-Comunidad Autonoma de Galicia</item>
+        <item>205-Comunidad Autonoma de las Isla</item>
+        <item>205-Comunidad Autonoma del Princip</item>
+        <item>205-Comunidad Valenciana</item>
+        <item>205-Cordoba</item>
+        <item>205-Cuenca</item>
+        <item>205-Gipuzkoa</item>
+        <item>205-Girona</item>
+        <item>205-Granada</item>
+        <item>205-Guadalajara</item>
+        <item>205-Guipuzcoa</item>
+        <item>205-Huelva</item>
+        <item>205-Huesca</item>
+        <item>205-Jaen</item>
+        <item>205-La Rioja</item>
+        <item>205-Las Palmas</item>
+        <item>205-Leon</item>
+        <item>205-Lerida</item>
+        <item>205-Lleida</item>
+        <item>205-Lugo</item>
+        <item>205-Madrid</item>
+        <item>205-Malaga</item>
+        <item>205-Melilla</item>
+        <item>205-Murcia</item>
+        <item>205-Navarra</item>
+        <item>205-Ourense</item>
+        <item>205-Pais Vasco</item>
+        <item>205-Palencia</item>
+        <item>205-Pontevedra</item>
+        <item>205-Salamanca</item>
+        <item>205-Santa Cruz de Tenerife</item>
+        <item>205-Segovia</item>
+        <item>205-Sevilla</item>
+        <item>205-Soria</item>
+        <item>205-Tarragona</item>
+        <item>205-Tenerife</item>
+        <item>205-Teruel</item>
+        <item>205-Toledo</item>
+        <item>205-Valencia</item>
+        <item>205-Valladolid</item>
+        <item>205-Vizcaya</item>
+        <item>205-Zamora</item>
+        <item>205-Zaragoza</item>
+
+
+        <item>206-Amparai</item>
+        <item>206-Anuradhapuraya</item>
+        <item>206-Badulla</item>
+        <item>206-Boralesgamuwa</item>
+        <item>206-Colombo</item>
+        <item>206-Galla</item>
+        <item>206-Gampaha</item>
+        <item>206-Hambantota</item>
+        <item>206-Kalatura</item>
+        <item>206-Kegalla</item>
+        <item>206-Kilinochchi</item>
+        <item>206-Kurunegala</item>
+        <item>206-Madakalpuwa</item>
+        <item>206-Maha Nuwara</item>
+        <item>206-Malwana</item>
+        <item>206-Mannarama</item>
+        <item>206-Matale</item>
+        <item>206-Matara</item>
+        <item>206-Monaragala</item>
+        <item>206-Mullaitivu</item>
+        <item>206-North Eastern Province</item>
+        <item>206-North Western Province</item>
+        <item>206-Nuwara Eliya</item>
+        <item>206-Polonnaruwa</item>
+        <item>206-Puttalama</item>
+        <item>206-Ratnapuraya</item>
+        <item>206-Southern Province</item>
+        <item>206-Tirikunamalaya</item>
+        <item>206-Tuscany</item>
+        <item>206-Vavuniyawa</item>
+        <item>206-Western Province</item>
+        <item>206-Yapanaya</item>
+        <item>206-kadawatha</item>
+
+
+        <item>207-A ali-an-Nil</item>
+        <item>207-Bahr-al-Jabal</item>
+        <item>207-Central Equatoria</item>
+        <item>207-Gharb Bahr-al-Ghazal</item>
+        <item>207-Gharb Darfur</item>
+        <item>207-Gharb Kurdufan</item>
+        <item>207-Gharb-al-Istiwaiyah</item>
+        <item>207-Janub Darfur</item>
+        <item>207-Janub Kurdufan</item>
+        <item>207-Junqali</item>
+        <item>207-Kassala</item>
+        <item>207-Nahr-an-Nil</item>
+        <item>207-Shamal Bahr-al-Ghazal</item>
+        <item>207-Shamal Darfur</item>
+        <item>207-Shamal Kurdufan</item>
+        <item>207-Sharq-al-Istiwaiyah</item>
+        <item>207-Sinnar</item>
+        <item>207-Warab</item>
+        <item>207-Wilayat al Khartum</item>
+        <item>207-al-Bahr-al-Ahmar</item>
+        <item>207-al-Buhayrat</item>
+        <item>207-al-Jazirah</item>
+        <item>207-al-Khartum</item>
+        <item>207-al-Qadarif</item>
+        <item>207-al-Wahdah</item>
+        <item>207-an-Nil-al-Abyad</item>
+        <item>207-an-Nil-al-Azraq</item>
+        <item>207-ash-Shamaliyah</item>
+
+
+        <item>208-Brokopondo</item>
+        <item>208-Commewijne</item>
+        <item>208-Coronie</item>
+        <item>208-Marowijne</item>
+        <item>208-Nickerie</item>
+        <item>208-Para</item>
+        <item>208-Paramaribo</item>
+        <item>208-Saramacca</item>
+        <item>208-Wanica</item>
+
+        <item>209-Svalbard</item>
+
+        <item>210-Hhohho</item>
+        <item>210-Lubombo</item>
+        <item>210-Manzini</item>
+        <item>210-Shiselweni</item>
+
+        <item>211-Alvsborgs Lan</item>
+        <item>211-Angermanland</item>
+        <item>211-Blekinge</item>
+        <item>211-Bohuslan</item>
+        <item>211-Dalarna</item>
+        <item>211-Gavleborg</item>
+        <item>211-Gaza</item>
+        <item>211-Gotland</item>
+        <item>211-Halland</item>
+        <item>211-Jamtland</item>
+        <item>211-Jonkoping</item>
+        <item>211-Kalmar</item>
+        <item>211-Kristianstads</item>
+        <item>211-Kronoberg</item>
+        <item>211-Norrbotten</item>
+        <item>211-Orebro</item>
+        <item>211-Ostergotland</item>
+        <item>211-Saltsjo-Boo</item>
+        <item>211-Skane</item>
+        <item>211-Smaland</item>
+        <item>211-Sodermanland</item>
+        <item>211-Stockholm</item>
+        <item>211-Uppsala</item>
+        <item>211-Varmland</item>
+        <item>211-Vasterbotten</item>
+        <item>211-Vastergotland</item>
+        <item>211-Vasternorrland</item>
+        <item>211-Vastmanland</item>
+        <item>211-Vastra Gotaland</item>
+
+
+        <item>212-Aargau</item>
+        <item>212-Appenzell Inner-Rhoden</item>
+        <item>212-Appenzell-Ausser Rhoden</item>
+        <item>212-Basel-Landschaft</item>
+        <item>212-Basel-Stadt</item>
+        <item>212-Bern</item>
+        <item>212-Canton Ticino</item>
+        <item>212-Fribourg</item>
+        <item>212-Geneve</item>
+        <item>212-Glarus</item>
+        <item>212-Graubunden</item>
+        <item>212-Heerbrugg</item>
+        <item>212-Jura</item>
+        <item>212-Kanton Aargau</item>
+        <item>212-Luzern</item>
+        <item>212-Morbio Inferiore</item>
+        <item>212-Muhen</item>
+        <item>212-Neuchatel</item>
+        <item>212-Nidwalden</item>
+        <item>212-Obwalden</item>
+        <item>212-Sankt Gallen</item>
+        <item>212-Schaffhausen</item>
+        <item>212-Schwyz</item>
+        <item>212-Solothurn</item>
+        <item>212-Thurgau</item>
+        <item>212-Ticino</item>
+        <item>212-Uri</item>
+        <item>212-Valais</item>
+        <item>212-Vaud</item>
+        <item>212-Vauffelin</item>
+        <item>212-Zug</item>
+        <item>212-Zurich</item>
+
+
+        <item>213-Aleppo</item>
+        <item>213-Dar a</item>
+        <item>213-Dayr-az-Zawr</item>
+        <item>213-Dimashq</item>
+        <item>213-Halab</item>
+        <item>213-Hamah</item>
+        <item>213-Hims</item>
+        <item>213-Idlib</item>
+        <item>213-Madinat Dimashq</item>
+        <item>213-Tartus</item>
+        <item>213-al-Hasakah</item>
+        <item>213-al-Ladhiqiyah</item>
+        <item>213-al-Qunaytirah</item>
+        <item>213-ar-Raqqah</item>
+        <item>213-as-Suwayda</item>
+
+
+        <item>214-Changhwa</item>
+        <item>214-Chiayi Hsien</item>
+        <item>214-Chiayi Shih</item>
+        <item>214-Eastern Taipei</item>
+        <item>214-Hsinchu Hsien</item>
+        <item>214-Hsinchu Shih</item>
+        <item>214-Hualien</item>
+        <item>214-Ilan</item>
+        <item>214-Kaohsiung Hsien</item>
+        <item>214-Kaohsiung Shih</item>
+        <item>214-Keelung Shih</item>
+        <item>214-Kinmen</item>
+        <item>214-Miaoli</item>
+        <item>214-Nantou</item>
+        <item>214-Northern Taiwan</item>
+        <item>214-Penghu</item>
+        <item>214-Pingtung</item>
+        <item>214-Taichung</item>
+        <item>214-Taichung Hsien</item>
+        <item>214-Taichung Shih</item>
+        <item>214-Tainan Hsien</item>
+        <item>214-Tainan Shih</item>
+        <item>214-Taipei Hsien</item>
+        <item>214-Taipei Shih / Taipei Hsien</item>
+        <item>214-Taitung</item>
+        <item>214-Taoyuan</item>
+        <item>214-Yilan</item>
+        <item>214-Yun-Lin Hsien</item>
+        <item>214-Yunlin</item>
+
+
+        <item>215-Dushanbe</item>
+        <item>215-Gorno-Badakhshan</item>
+        <item>215-Karotegin</item>
+        <item>215-Khatlon</item>
+        <item>215-Sughd</item>
+
+        <item>216-Arusha</item>
+        <item>216-Dar es Salaam</item>
+        <item>216-Dodoma</item>
+        <item>216-Iringa</item>
+        <item>216-Kagera</item>
+        <item>216-Kigoma</item>
+        <item>216-Kilimanjaro</item>
+        <item>216-Lindi</item>
+        <item>216-Mara</item>
+        <item>216-Mbeya</item>
+        <item>216-Morogoro</item>
+        <item>216-Mtwara</item>
+        <item>216-Mwanza</item>
+        <item>216-Pwani</item>
+        <item>216-Rukwa</item>
+        <item>216-Ruvuma</item>
+        <item>216-Shinyanga</item>
+        <item>216-Singida</item>
+        <item>216-Tabora</item>
+        <item>216-Tanga</item>
+        <item>216-Zanzibar and Pemba</item>
+
+
+        <item>217-Amnat Charoen</item>
+        <item>217-Ang Thong</item>
+        <item>217-Bangkok</item>
+        <item>217-Buri Ram</item>
+        <item>217-Chachoengsao</item>
+        <item>217-Chai Nat</item>
+        <item>217-Chaiyaphum</item>
+        <item>217-Changwat Chaiyaphum</item>
+        <item>217-Chanthaburi</item>
+        <item>217-Chiang Mai</item>
+        <item>217-Chiang Rai</item>
+        <item>217-Chon Buri</item>
+        <item>217-Chumphon</item>
+        <item>217-Kalasin</item>
+        <item>217-Kamphaeng Phet</item>
+        <item>217-Kanchanaburi</item>
+        <item>217-Khon Kaen</item>
+        <item>217-Krabi</item>
+        <item>217-Krung Thep</item>
+        <item>217-Lampang</item>
+        <item>217-Lamphun</item>
+        <item>217-Loei</item>
+        <item>217-Lop Buri</item>
+        <item>217-Mae Hong Son</item>
+        <item>217-Maha Sarakham</item>
+        <item>217-Mukdahan</item>
+        <item>217-Nakhon Nayok</item>
+        <item>217-Nakhon Pathom</item>
+        <item>217-Nakhon Phanom</item>
+        <item>217-Nakhon Ratchasima</item>
+        <item>217-Nakhon Sawan</item>
+        <item>217-Nakhon Si Thammarat</item>
+        <item>217-Nan</item>
+        <item>217-Narathiwat</item>
+        <item>217-Nong Bua Lam Phu</item>
+        <item>217-Nong Khai</item>
+        <item>217-Nonthaburi</item>
+        <item>217-Pathum Thani</item>
+        <item>217-Pattani</item>
+        <item>217-Phangnga</item>
+        <item>217-Phatthalung</item>
+        <item>217-Phayao</item>
+        <item>217-Phetchabun</item>
+        <item>217-Phetchaburi</item>
+        <item>217-Phichit</item>
+        <item>217-Phitsanulok</item>
+        <item>217-Phra Nakhon Si Ayutthaya</item>
+        <item>217-Phrae</item>
+        <item>217-Phuket</item>
+        <item>217-Prachin Buri</item>
+        <item>217-Prachuap Khiri Khan</item>
+        <item>217-Ranong</item>
+        <item>217-Ratchaburi</item>
+        <item>217-Rayong</item>
+        <item>217-Roi Et</item>
+        <item>217-Sa Kaeo</item>
+        <item>217-Sakon Nakhon</item>
+        <item>217-Samut Prakan</item>
+        <item>217-Samut Sakhon</item>
+        <item>217-Samut Songkhran</item>
+        <item>217-Saraburi</item>
+        <item>217-Satun</item>
+        <item>217-Si Sa Ket</item>
+        <item>217-Sing Buri</item>
+        <item>217-Songkhla</item>
+        <item>217-Sukhothai</item>
+        <item>217-Suphan Buri</item>
+        <item>217-Surat Thani</item>
+        <item>217-Surin</item>
+        <item>217-Tak</item>
+        <item>217-Trang</item>
+        <item>217-Trat</item>
+        <item>217-Ubon Ratchathani</item>
+        <item>217-Udon Thani</item>
+        <item>217-Uthai Thani</item>
+        <item>217-Uttaradit</item>
+        <item>217-Yala</item>
+        <item>217-Yasothon</item>
+
+
+        <item>218-Centre</item>
+        <item>218-Kara</item>
+        <item>218-Maritime</item>
+        <item>218-Plateaux</item>
+        <item>218-Savanes</item>
+
+
+        <item>219-Atafu</item>
+        <item>219-Fakaofo</item>
+        <item>219-Nukunonu</item>
+
+        <item>220-Eua</item>
+        <item>220-Ha apai</item>
+        <item>220-Niuas</item>
+        <item>220-Tongatapu</item>
+        <item>220-Vava u</item>
+
+
+        <item>221-Arima-Tunapuna-Piarco</item>
+        <item>221-Caroni</item>
+        <item>221-Chaguanas</item>
+        <item>221-Couva-Tabaquite-Talparo</item>
+        <item>221-Diego Martin</item>
+        <item>221-Glencoe</item>
+        <item>221-Penal Debe</item>
+        <item>221-Point Fortin</item>
+        <item>221-Port of Spain</item>
+        <item>221-Princes Town</item>
+        <item>221-Saint George</item>
+        <item>221-San Fernando</item>
+        <item>221-San Juan</item>
+        <item>221-Sangre Grande</item>
+        <item>221-Siparia</item>
+        <item>221-Tobago</item>
+
+        <item>222-Aryanah</item>
+        <item>222-Bajah</item>
+        <item>222-Bin Arus</item>
+        <item>222-Binzart</item>
+        <item>222-Gouvernorat de Ariana</item>
+        <item>222-Gouvernorat de Nabeul</item>
+        <item>222-Gouvernorat de Sousse</item>
+        <item>222-Hammamet Yasmine</item>
+        <item>222-Jundubah</item>
+        <item>222-Madaniyin</item>
+        <item>222-Manubah</item>
+        <item>222-Monastir</item>
+        <item>222-Nabul</item>
+        <item>222-Qabis</item>
+        <item>222-Qafsah</item>
+        <item>222-Qibili</item>
+        <item>222-Safaqis</item>
+        <item>222-Sfax</item>
+        <item>222-Sidi Bu Zayd</item>
+        <item>222-Silyanah</item>
+        <item>222-Susah</item>
+        <item>222-Tatawin</item>
+        <item>222-Tawzar</item>
+        <item>222-Tunis</item>
+        <item>222-Zaghwan</item>
+        <item>222-al-Kaf</item>
+        <item>222-al-Mahdiyah</item>
+        <item>222-al-Munastir</item>
+        <item>222-al-Qasrayn</item>
+        <item>222-al-Qayrawan</item>
+
+
+        <item>223-Adana</item>
+        <item>223-Adıyaman</item>
+        <item>223-Afyon</item>
+        <item>223-Ağrı</item>
+        <item>223-Aksaray</item>
+        <item>223-Amasya</item>
+        <item>223-Ankara</item>
+        <item>223-Antalya</item>
+        <item>223-Ardahan</item>
+        <item>223-Artvin</item>
+        <item>223-Aydın</item>
+        <item>223-Balıkesir</item>
+        <item>223-Bartın</item>
+        <item>223-Batman</item>
+        <item>223-Bayburt</item>
+        <item>223-Bilecik</item>
+        <item>223-Bingöl</item>
+        <item>223-Bitlis</item>
+        <item>223-Bolu</item>
+        <item>223-Burdur</item>
+        <item>223-Bursa</item>
+        <item>223-Çanakkale</item>
+        <item>223-Çankırı</item>
+        <item>223-Çorum</item>
+        <item>223-Denizli</item>
+        <item>223-Diyarbakır</item>
+        <item>223-Düzce</item>
+        <item>223-Edirne</item>
+        <item>223-Elazığ</item>
+        <item>223-Erzincan</item>
+        <item>223-Erzurum</item>
+        <item>223-Eskişehir</item>
+        <item>223-Gaziantep</item>
+        <item>223-Giresun</item>
+        <item>223-Gümüşhane</item>
+        <item>223-Hakkari</item>
+        <item>223-Hatay</item>
+        <item>223-Mersin</item>
+        <item>223-Iğdır</item>
+        <item>223-Isparta</item>
+        <item>223-İstanbul</item>
+        <item>223-İzmir</item>
+        <item>223-Kahramanmaraş</item>
+        <item>223-Karabük</item>
+        <item>223-Karaman</item>
+        <item>223-Kars</item>
+        <item>223-Kastamonu</item>
+        <item>223-Kayseri</item>
+        <item>223-Kilis</item>
+        <item>223-Kırıkkale</item>
+        <item>223-Kırklareli</item>
+        <item>223-Kırşehir</item>
+        <item>223-Kocaeli</item>
+        <item>223-Konya</item>
+        <item>223-Kütahya</item>
+        <item>223-Malatya</item>
+        <item>223-Manisa</item>
+        <item>223-Mardin</item>
+        <item>223-Muğla</item>
+        <item>223-Muş</item>
+        <item>223-Nevşehir</item>
+        <item>223-Niğde</item>
+        <item>223-Ordu</item>
+        <item>223-Osmaniye</item>
+        <item>223-Rize</item>
+        <item>223-Sakarya</item>
+        <item>223-Samsun</item>
+        <item>223-Şanlıurfa</item>
+        <item>223-Siirt</item>
+        <item>223-Sinop</item>
+        <item>223-Şırnak</item>
+        <item>223-Sivas</item>
+        <item>223-Tekirdağ</item>
+        <item>223-Tokat</item>
+        <item>223-Trabzon</item>
+        <item>223-Tunceli</item>
+        <item>223-Uşak</item>
+        <item>223-Van</item>
+        <item>223-Yalova</item>
+        <item>223-Yozgat</item>
+        <item>223-Zonguldak</item>
+
+        <item>224-Ahal</item>
+        <item>224-Asgabat</item>
+        <item>224-Balkan</item>
+        <item>224-Dasoguz</item>
+        <item>224-Lebap</item>
+        <item>224-Mari</item>
+
+        <item>225-Grand Turk</item>
+        <item>225-South Caicos and East Caicos</item>
+
+        <item>226-Funafuti</item>
+        <item>226-Nanumanga</item>
+        <item>226-Nanumea</item>
+        <item>226-Niutao</item>
+        <item>226-Nui</item>
+        <item>226-Nukufetau</item>
+        <item>226-Nukulaelae</item>
+        <item>226-Vaitupu</item>
+
+        <item>227-Central</item>
+        <item>227-Eastern</item>
+        <item>227-Northern</item>
+        <item>227-Western</item>
+
+        <item>228-Cherkas ka</item>
+        <item>228-Chernihivs ka</item>
+        <item>228-Chernivets ka</item>
+        <item>228-Crimea</item>
+        <item>228-Dnipropetrovska</item>
+        <item>228-Donets ka</item>
+        <item>228-Ivano-Frankivs ka</item>
+        <item>228-Kharkiv</item>
+        <item>228-Kharkov</item>
+        <item>228-Khersonska</item>
+        <item>228-Khmel nyts ka</item>
+        <item>228-Kirovohrad</item>
+        <item>228-Krym</item>
+        <item>228-Kyyiv</item>
+        <item>228-Kyyivs ka</item>
+        <item>228-L vivs ka</item>
+        <item>228-Luhans ka</item>
+        <item>228-Mykolayivs ka</item>
+        <item>228-Odes ka</item>
+        <item>228-Odessa</item>
+        <item>228-Poltavs ka</item>
+        <item>228-Rivnens ka</item>
+        <item>228-Sevastopol</item>
+        <item>228-Sums ka</item>
+        <item>228-Ternopil s ka</item>
+        <item>228-Volyns ka</item>
+        <item>228-Vynnyts ka</item>
+        <item>228-Zakarpats ka</item>
+        <item>228-Zaporizhia</item>
+        <item>228-Zhytomyrs ka</item>
+
+        <item>229-Abu Zabi</item>
+        <item>229-Ajman</item>
+        <item>229-Dubai</item>
+        <item>229-Ras al-Khaymah</item>
+        <item>229-Sharjah</item>
+        <item>229-Sharjha</item>
+        <item>229-Umm al Qaywayn</item>
+        <item>229-al-Fujayrah</item>
+        <item>229-ash-Shariqah</item>
+
+
+        <item>230-Aberdeen</item>
+        <item>230-Aberdeenshire</item>
+        <item>230-Argyll</item>
+        <item>230-Armagh</item>
+        <item>230-Bedfordshire</item>
+        <item>230-Belfast</item>
+        <item>230-Berkshire</item>
+        <item>230-Birmingham</item>
+        <item>230-Brechin</item>
+        <item>230-Bridgnorth</item>
+        <item>230-Bristol</item>
+        <item>230-Buckinghamshire</item>
+        <item>230-Cambridge</item>
+        <item>230-Cambridgeshire</item>
+        <item>230-Channel Islands</item>
+        <item>230-Cheshire</item>
+        <item>230-Cleveland</item>
+        <item>230-Co Fermanagh</item>
+        <item>230-Conwy</item>
+        <item>230-Cornwall</item>
+        <item>230-Coventry</item>
+        <item>230-Craven Arms</item>
+        <item>230-Cumbria</item>
+        <item>230-Denbighshire</item>
+        <item>230-Derby</item>
+        <item>230-Derbyshire</item>
+        <item>230-Devon</item>
+        <item>230-Dial Code Dungannon</item>
+        <item>230-Didcot</item>
+        <item>230-Dorset</item>
+        <item>230-Dunbartonshire</item>
+        <item>230-Durham</item>
+        <item>230-East Dunbartonshire</item>
+        <item>230-East Lothian</item>
+        <item>230-East Midlands</item>
+        <item>230-East Sussex</item>
+        <item>230-East Yorkshire</item>
+        <item>230-England</item>
+        <item>230-Essex</item>
+        <item>230-Fermanagh</item>
+        <item>230-Fife</item>
+        <item>230-Flintshire</item>
+        <item>230-Fulham</item>
+        <item>230-Gainsborough</item>
+        <item>230-Glocestershire</item>
+        <item>230-Gwent</item>
+        <item>230-Hampshire</item>
+        <item>230-Hants</item>
+        <item>230-Herefordshire</item>
+        <item>230-Hertfordshire</item>
+        <item>230-Ireland</item>
+        <item>230-Isle Of Man</item>
+        <item>230-Isle of Wight</item>
+        <item>230-Kenford</item>
+        <item>230-Kent</item>
+        <item>230-Kilmarnock</item>
+        <item>230-Lanarkshire</item>
+        <item>230-Lancashire</item>
+        <item>230-Leicestershire</item>
+        <item>230-Lincolnshire</item>
+        <item>230-Llanymynech</item>
+        <item>230-London</item>
+        <item>230-Ludlow</item>
+        <item>230-Manchester</item>
+        <item>230-Mayfair</item>
+        <item>230-Merseyside</item>
+        <item>230-Mid Glamorgan</item>
+        <item>230-Middlesex</item>
+        <item>230-Mildenhall</item>
+        <item>230-Monmouthshire</item>
+        <item>230-Newton Stewart</item>
+        <item>230-Norfolk</item>
+        <item>230-North Humberside</item>
+        <item>230-North Yorkshire</item>
+        <item>230-Northamptonshire</item>
+        <item>230-Northants</item>
+        <item>230-Northern Ireland</item>
+        <item>230-Northumberland</item>
+        <item>230-Nottinghamshire</item>
+        <item>230-Oxford</item>
+        <item>230-Powys</item>
+        <item>230-Roos-shire</item>
+        <item>230-SUSSEX</item>
+        <item>230-Sark</item>
+        <item>230-Scotland</item>
+        <item>230-Scottish Borders</item>
+        <item>230-Shropshire</item>
+        <item>230-Somerset</item>
+        <item>230-South Glamorgan</item>
+        <item>230-South Wales</item>
+        <item>230-South Yorkshire</item>
+        <item>230-Southwell</item>
+        <item>230-Staffordshire</item>
+        <item>230-Strabane</item>
+        <item>230-Suffolk</item>
+        <item>230-Surrey</item>
+        <item>230-Sussex</item>
+        <item>230-Twickenham</item>
+        <item>230-Tyne and Wear</item>
+        <item>230-Tyrone</item>
+        <item>230-Utah</item>
+        <item>230-Wales</item>
+        <item>230-Warwickshire</item>
+        <item>230-West Lothian</item>
+        <item>230-West Midlands</item>
+        <item>230-West Sussex</item>
+        <item>230-West Yorkshire</item>
+        <item>230-Whissendine</item>
+        <item>230-Wiltshire</item>
+        <item>230-Wokingham</item>
+        <item>230-Worcestershire</item>
+        <item>230-Wrexham</item>
+        <item>230-Wurttemberg</item>
+        <item>230-Yorkshire</item>
+
+
+        <item>231-Alabama</item>
+        <item>231-Alaska</item>
+        <item>231-Arizona</item>
+        <item>231-Arkansas</item>
+        <item>231-Byram</item>
+        <item>231-California</item>
+        <item>231-Cokato</item>
+        <item>231-Colorado</item>
+        <item>231-Connecticut</item>
+        <item>231-Delaware</item>
+        <item>231-District of Columbia</item>
+        <item>231-Florida</item>
+        <item>231-Georgia</item>
+        <item>231-Hawaii</item>
+        <item>231-Idaho</item>
+        <item>231-Illinois</item>
+        <item>231-Indiana</item>
+        <item>231-Iowa</item>
+        <item>231-Kansas</item>
+        <item>231-Kentucky</item>
+        <item>231-Louisiana</item>
+        <item>231-Lowa</item>
+        <item>231-Maine</item>
+        <item>231-Maryland</item>
+        <item>231-Massachusetts</item>
+        <item>231-Medfield</item>
+        <item>231-Michigan</item>
+        <item>231-Minnesota</item>
+        <item>231-Mississippi</item>
+        <item>231-Missouri</item>
+        <item>231-Montana</item>
+        <item>231-Nebraska</item>
+        <item>231-Nevada</item>
+        <item>231-New Hampshire</item>
+        <item>231-New Jersey</item>
+        <item>231-New Jersy</item>
+        <item>231-New Mexico</item>
+        <item>231-New York</item>
+        <item>231-North Carolina</item>
+        <item>231-North Dakota</item>
+        <item>231-Ohio</item>
+        <item>231-Oklahoma</item>
+        <item>231-Ontario</item>
+        <item>231-Oregon</item>
+        <item>231-Pennsylvania</item>
+        <item>231-Ramey</item>
+        <item>231-Rhode Island</item>
+        <item>231-South Carolina</item>
+        <item>231-South Dakota</item>
+        <item>231-Sublimity</item>
+        <item>231-Tennessee</item>
+        <item>231-Texas</item>
+        <item>231-Trimble</item>
+        <item>231-Utah</item>
+        <item>231-Vermont</item>
+        <item>231-Virginia</item>
+        <item>231-Washington</item>
+        <item>231-West Virginia</item>
+        <item>231-Wisconsin</item>
+        <item>231-Wyoming</item>
+
+        <item>232-United States Minor Outlying I</item>
+        <item>233-Artigas</item>
+        <item>233-Canelones</item>
+        <item>233-Cerro Largo</item>
+        <item>233-Colonia</item>
+        <item>233-Durazno</item>
+        <item>233-FLorida</item>
+        <item>233-Flores</item>
+        <item>233-Lavalleja</item>
+        <item>233-Maldonado</item>
+        <item>233-Montevideo</item>
+        <item>233-Paysandu</item>
+        <item>233-Rio Negro</item>
+        <item>233-Rivera</item>
+        <item>233-Rocha</item>
+        <item>233-Salto</item>
+        <item>233-San Jose</item>
+        <item>233-Soriano</item>
+        <item>233-Tacuarembo</item>
+        <item>233-Treinta y Tres</item>
+
+        <item>234-Andijon</item>
+        <item>234-Buhoro</item>
+        <item>234-Buxoro Viloyati</item>
+        <item>234-Cizah</item>
+        <item>234-Fargona</item>
+        <item>234-Horazm</item>
+        <item>234-Kaskadar</item>
+        <item>234-Korakalpogiston</item>
+        <item>234-Namangan</item>
+        <item>234-Navoi</item>
+        <item>234-Samarkand</item>
+        <item>234-Sirdare</item>
+        <item>234-Surhondar</item>
+        <item>234-Toskent</item>
+
+
+        <item>235-Malampa</item>
+        <item>235-Penama</item>
+        <item>235-Sanma</item>
+        <item>235-Shefa</item>
+        <item>235-Tafea</item>
+        <item>235-Torba</item>
+
+
+        <item>236-Vatican City State</item>
+
+
+        <item>237-Amazonas</item>
+        <item>237-Anzoategui</item>
+        <item>237-Apure</item>
+        <item>237-Aragua</item>
+        <item>237-Barinas</item>
+        <item>237-Bolivar</item>
+        <item>237-Carabobo</item>
+        <item>237-Cojedes</item>
+        <item>237-Delta Amacuro</item>
+        <item>237-Distrito Federal</item>
+        <item>237-Falcon</item>
+        <item>237-Guarico</item>
+        <item>237-Lara</item>
+        <item>237-Merida</item>
+        <item>237-Miranda</item>
+        <item>237-Monagas</item>
+        <item>237-Nueva Esparta</item>
+        <item>237-Portuguesa</item>
+        <item>237-Sucre</item>
+        <item>237-Tachira</item>
+        <item>237-Trujillo</item>
+        <item>237-Vargas</item>
+        <item>237-Yaracuy</item>
+        <item>237-Zulia</item>
+
+        <item>238-Bac Giang</item>
+        <item>238-Binh Dinh</item>
+        <item>238-Binh Duong</item>
+        <item>238-Da Nang</item>
+        <item>238-Dong Bang Song Cuu Long</item>
+        <item>238-Dong Bang Song Hong</item>
+        <item>238-Dong Nai</item>
+        <item>238-Dong Nam Bo</item>
+        <item>238-Duyen Hai Mien Trung</item>
+        <item>238-Hanoi</item>
+        <item>238-Hung Yen</item>
+        <item>238-Khu Bon Cu</item>
+        <item>238-Long An</item>
+        <item>238-Mien Nui Va Trung Du</item>
+        <item>238-Thai Nguyen</item>
+        <item>238-Thanh Pho Ho Chi Minh</item>
+        <item>238-Thu Do Ha Noi</item>
+        <item>238-Tinh Can Tho</item>
+        <item>238-Tinh Da Nang</item>
+        <item>238-Tinh Gia Lai</item>
+
+        <item>239-Anegada</item>
+        <item>239-Jost van Dyke</item>
+        <item>239-Tortola</item>
+
+
+        <item>240-Saint Croix</item>
+        <item>240-Saint John</item>
+        <item>240-Saint Thomas</item>
+
+
+        <item>241-Alo</item>
+        <item>241-Singave</item>
+        <item>241-Wallis</item>
+
+        <item>242-Bu Jaydur</item>
+        <item>242-Wad-adh-Dhahab</item>
+        <item>242-al-Ayun</item>
+        <item>242-as-Samarah</item>
+
+        <item>243-Adan</item>
+        <item>243-Abyan</item>
+        <item>243-Dhamar</item>
+        <item>243-Hadramaut</item>
+        <item>243-Hajjah</item>
+        <item>243-Hudaydah</item>
+        <item>243-Ibb</item>
+        <item>243-Lahij</item>
+        <item>243-Ma rib</item>
+        <item>243-Madinat San a</item>
+        <item>243-Sa dah</item>
+        <item>243-Sana</item>
+        <item>243-Shabwah</item>
+        <item>243-Ta izz</item>
+        <item>243-al-Bayda</item>
+        <item>243-al-Hudaydah</item>
+        <item>243-al-Jawf</item>
+        <item>243-al-Mahrah</item>
+        <item>243-al-Mahwit</item>
+
+        <item>244-Central Serbia</item>
+        <item>244-Kosovo and Metohija</item>
+        <item>244-Montenegro</item>
+        <item>244-Republic of Serbia</item>
+        <item>244-Serbia</item>
+        <item>244-Vojvodina</item>
+
+        <item>245-Central</item>
+        <item>245-Copperbelt</item>
+        <item>245-Eastern</item>
+        <item>245-Luapala</item>
+        <item>245-Lusaka</item>
+        <item>245-North-Western</item>
+        <item>245-Northern</item>
+        <item>245-Southern</item>
+        <item>245-Western</item>
+
+        <item>246-Bulawayo</item>
+        <item>246-Harare</item>
+        <item>246-Manicaland</item>
+        <item>246-Mashonaland Central</item>
+        <item>246-Mashonaland East</item>
+        <item>246-Mashonaland West</item>
+        <item>246-Masvingo</item>
+        <item>246-Matabeleland North</item>
+        <item>246-Matabeleland South</item>
+        <item>246-Midlands</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,4 @@
+#Wed Jul 29 14:54:52 EET 2020
+base.0=C\:\\Users\\Hp\\Desktop\\STF\\tasarimJ\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="text1"  tools:ignore="ExtraTranslation,MissingTranslation">تسجيل الدخول</string>
+    <string name="phone"  tools:ignore="ExtraTranslation,MissingTranslation">رقم الهاتف</string>
+    <string name="password" tools:ignore="ExtraTranslation,MissingTranslation">الشيفرة</string>
+    <string name="login" tools:ignore="ExtraTranslation,MissingTranslation">دخول</string>
+    <string name="kayitYap"  tools:ignore="ExtraTranslation,MissingTranslation">تسجيل</string>
+    <string name="şifremiUnuttum" tools:ignore="ExtraTranslation,MissingTranslation">اليبلس </string>
+</resources>

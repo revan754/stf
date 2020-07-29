@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relative_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/_20sdp"
+    android:layout_marginTop="@dimen/_8sdp"
+    android:layout_marginRight="@dimen/_20sdp"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/linear1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100">
+            <ImageView
+                android:id="@+id/sebeke"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_14sdp"
+                android:background="@drawable/arzali"
+                android:layout_weight="5"
+                android:layout_marginLeft="@dimen/_4sdp"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:id="@+id/alertMessage"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_4sdp"
+                android:layout_weight="70"
+                android:textSize="@dimen/_13sdp"
+                android:text="@string/uyariMesaji"
+                android:textColor="@color/beyaz2"
+                android:textAllCaps="true"
+                android:layout_marginTop="@dimen/_2sdp"
+                />
+
+            <TextView
+                android:id="@+id/saat"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="25"
+                android:text="@string/simdi"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:gravity="right"
+                android:textColor="@color/beyaz3"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linear1"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:visibility="visible"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/notification1"
+                android:text="Notification Title"
+                android:textColor="@color/beyaz3"
+                android:textStyle="bold"
+                android:layout_marginLeft="@dimen/_4sdp"
+                >
+
+            </TextView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearSure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:layout_below="@+id/linear2"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/_4sdp"
+                android:text="Filter clogged device 1"
+                android:textColor="@color/beyaz3"
+                android:id="@+id/notification2">
+
+            </TextView>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

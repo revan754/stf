@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="text1"  tools:ignore="ExtraTranslation,MissingTranslation">login</string>
+    <string name="phone"  tools:ignore="ExtraTranslation,MissingTranslation">Phone Number</string>
+    <string name="password" tools:ignore="ExtraTranslation,MissingTranslation">Password</string>
+    <string name="login" tools:ignore="ExtraTranslation,MissingTranslation">Login</string>
+    <string name="kayitYap"  tools:ignore="ExtraTranslation,MissingTranslation">Sign Up</string>
+    <string name="şifremiUnuttum" tools:ignore="ExtraTranslation,MissingTranslation">Forget Password</string>
+    <!-- sign up-->
+    <string name="isimSuyisim" tools:ignore="ExtraTranslation,MissingTranslation">Name Surname</string>
+    <string name="telefonNum"  tools:ignore="ExtraTranslation,MissingTranslation">Phone Number</string>
+    <string name="kayitOl" tools:ignore="MissingTranslation">Sign Up</string>
+    <string name="mail" tools:ignore="ExtraTranslation,MissingTranslation">E-Mail</string>
+    <string name="passwordTekrar"  tools:ignore="ExtraTranslation,MissingTranslation">Retry Password</string>
+    <string name="ileri" tools:ignore="ExtraTranslation,MissingTranslation">Next</string>
+    <string name="telefonNumarasiEksik" tools:ignore="MissingTranslation">Please enter the phone number completely</string>
+
+    <!-- add device-->
+    <string name="sayin" tools:ignore="ExtraTranslation,MissingTranslation">Welcome</string>
+    <string name="cihazId" tools:ignore="ExtraTranslation,MissingTranslation">Device Id</string>
+    <string name="cihazAdi" tools:ignore="MissingTranslation">Device Name</string>
+
+    <string name="eklenenCihazListesi"  tools:ignore="ExtraTranslation,MissingTranslation">Added Device Information</string>
+    <string name="cihazEkle" tools:ignore="ExtraTranslation,MissingTranslation">Add Device</string>
+    <string name="kayidiTamamla"  tools:ignore="ExtraTranslation,MissingTranslation">Complete Registration</string>
+
+    <!-- device list-->
+    <string name="bildirim"  tools:ignore="ExtraTranslation,MissingTranslation">Notification</string>
+    <string name="uyariMesaji"  tools:ignore="ExtraTranslation,MissingTranslation">Alert Messages</string>
+    <string name="cihaz"  tools:ignore="ExtraTranslation,MissingTranslation">Device</string>
+    <string name="calismaZamani"  tools:ignore="ExtraTranslation,MissingTranslation">Working Time</string>
+    <string name="sonYikamaZamani"  tools:ignore="ExtraTranslation,MissingTranslation">Last Washing Time</string>
+    <string name="saat"  tools:ignore="ExtraTranslation,MissingTranslation">Hour</string>
+    <string name="simdi" tools:ignore="MissingTranslation">Now</string>
+
+    <!--  device details-->
+    <string name="calisiyor" tools:ignore="MissingTranslation">Working</string>
+    <string name="batariye" tools:ignore="MissingTranslation">Battery</string>
+    <string name="sarjDurumu" tools:ignore="MissingTranslation">Charge Status</string>
+    <string name="filtreAyarlari" tools:ignore="MissingTranslation">Filter Setting</string>
+    <string name="icBasinc" tools:ignore="MissingTranslation">İn Pressure</string>
+    <string name="disBasinc" tools:ignore="MissingTranslation">Out Pressure</string>
+    <string name="calismaSuresi" tools:ignore="MissingTranslation">Working Time</string>
+    <string name="calismaDetayi" tools:ignore="MissingTranslation">Work Detail</string>
+    <string name="gecmisSaat" tools:ignore="MissingTranslation">Hours Ego</string>
+    <string name="sonBildirimler" tools:ignore="MissingTranslation">Last Notification</string>
+
+    <!--  work details-->
+    <string name="cihazAyarlari" tools:ignore="MissingTranslation">Device Setting</string>
+    <string name="donanimSürümü" tools:ignore="MissingTranslation">Firmware Version</string>
+    <string name="sonGuncellem" tools:ignore="MissingTranslation">Last Update</string>
+    <string name="cihazDurumu" tools:ignore="MissingTranslation">Device Status</string>
+    <string name="bagli" tools:ignore="MissingTranslation">Connected</string>
+    <string name="cihaziOku" tools:ignore="MissingTranslation">Read Device</string>
+
+    <!-- washing Setting -->
+    <string name="numaraliCihaz" tools:ignore="MissingTranslation">. Device</string>
+    <string name="yikamaAyarlari" tools:ignore="MissingTranslation">Washing Settings</string>
+    <string name="basincAyari" tools:ignore="MissingTranslation">Pressure Adjustment</string>
+    <string name="yikamaTarihi" tools:ignore="MissingTranslation">Washing Datetime</string>
+    <string name="yikamaSaati" tools:ignore="MissingTranslation">Washing Time</string>
+    <string name="ayarlariKaydet" tools:ignore="MissingTranslation">Save Setting</string>
+
+    <!--  user page-->
+    <string name="sifreIslemleri" tools:ignore="MissingTranslation">Password Operations</string>
+    <string name="sifreyiOnayla" tools:ignore="MissingTranslation">Confirm Password</string>
+    <string name="iletisimIslemleri" tools:ignore="MissingTranslation">Communication Operations</string>
+
+
+
+    <!--   Alert Dialog Text-->
+    <string name="cihazGirinUyari" tools:ignore="MissingTranslation">Please Enter Device Id</string>
+    <string name="bosAlanUyarisi" tools:ignore="MissingTranslation">Please Fill In The Empty Fields</string>
+    <string name="kullaniciSifreYanlisUyari" tools:ignore="MissingTranslation">Username Or Password Incorrect</string>
+    <string name="ulkeSecUyari" tools:ignore="MissingTranslation">Please Select a Country</string>
+    <string name="sehirSecUyari" tools:ignore="MissingTranslation">Please Select a Province</string>
+    <string name="ulke" tools:ignore="MissingTranslation">Country</string>
+    <string name="sehir" tools:ignore="MissingTranslation">Province</string>
+    <string name="ayniSifreUyari" tools:ignore="MissingTranslation">Please Enter The Same Password</string>
+    <string name="hataUyari" tools:ignore="MissingTranslation">Something Went Wrong! Try Again</string>
+    <string name="cikisYap" tools:ignore="MissingTranslation">Log Out</string>
+    <string name="sifreDegistir" tools:ignore="MissingTranslation">Change Password</string>
+    <string name="baslanmadi" tools:ignore="MissingTranslation">Not Started</string>
+    <string name="sarjOlmuyor" tools:ignore="MissingTranslation">It\'s Not Charging</string>
+    <string name="sarjOluyor" tools:ignore="MissingTranslation">Charging</string>
+
+
+</resources>

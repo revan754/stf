@@ -1,0 +1,4 @@
+include ':app'
+rootProject.name='tasarimJ'
+include ':libs:actionbarsherlock'
+include ':tasarimJ'

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/libs/actionbarsherlock/actionbarsherlock.iml" filepath="$PROJECT_DIR$/libs/actionbarsherlock/actionbarsherlock.iml" group="tasarimJ/libs/actionbarsherlock" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="tasarimJ/app" />
+      <module fileurl="file://$PROJECT_DIR$/libs/libs.iml" filepath="$PROJECT_DIR$/libs/libs.iml" group="tasarimJ/libs" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/tasarimJ.iml" filepath="$PROJECT_DIR$/.idea/tasarimJ.iml" group="tasarimJ" />
+      <module fileurl="file://$PROJECT_DIR$/tasarimJ/tasarimJ-tasarimJ.iml" filepath="$PROJECT_DIR$/tasarimJ/tasarimJ-tasarimJ.iml" group="tasarimJ/tasarimJ" />
+    </modules>
+  </component>
+</project>
