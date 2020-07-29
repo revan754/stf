@@ -54,7 +54,7 @@
             android:layout_marginLeft="@dimen/_4sdp"
             android:layout_marginRight="@dimen/_4sdp"
             android:layout_weight="0.5"
-            android:background="@drawable/adsoyad"
+            android:background="@drawable/adsoyadd"
             android:scaleType="center" />
 
         <EditText
@@ -339,7 +339,6 @@
         android:layout_marginTop="@dimen/_64sdp"
         android:textColor="@color/beyaz2"
         />
-
 
         <ImageView
             android:layout_width="match_parent"

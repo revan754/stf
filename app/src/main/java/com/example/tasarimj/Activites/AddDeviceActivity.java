@@ -2,6 +2,7 @@ package com.example.tasarimj.Activites;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ListView;
@@ -16,6 +17,7 @@ import com.example.tasarimj.Services.User1;
 import com.example.tasarimj.Services.UserSignUp;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -24,9 +26,10 @@ import retrofit2.Response;
 public class AddDeviceActivity extends AppCompatActivity implements View.OnClickListener {
 
     private EditText deviceId;
-    private ArrayList<String> itemModelDevice;
+    private ArrayList<String> itemModelDevice, item2;
     private CustomAdapter2 customAdapter;
     private ListView listView;
+    private List<String> deviceList;
     private String name, email, phone, country, province, password;
     private TextView textName;
 
@@ -40,10 +43,12 @@ public class AddDeviceActivity extends AppCompatActivity implements View.OnClick
     public void inits() {
         deviceId = findViewById(R.id.deviceIdd);
         textName = findViewById(R.id.name);
+        listView = findViewById(R.id.deviceList);
 
         itemModelDevice = new ArrayList<>();
         customAdapter = new CustomAdapter2(getApplicationContext(), itemModelDevice);
-        //listView.setAdapter(customAdapter);
+        listView.setEmptyView(findViewById(R.id.deviceList));
+        listView.setAdapter(customAdapter);
         name = getIntent().getStringExtra("name");
         email = getIntent().getStringExtra("email");
         phone = getIntent().getStringExtra("phone");
@@ -55,11 +60,13 @@ public class AddDeviceActivity extends AppCompatActivity implements View.OnClick
     }
 
     public void completeSignUp() {
+        StringBuilder devices = new StringBuilder();
 
         if (itemModelDevice.size() < 1) {
             Toast.makeText(this, getResources().getString(R.string.cihazGirinUyari), Toast.LENGTH_LONG).show();
         } else {
 
+            item2 = itemModelDevice;
             Call<UserSignUp> call = APIClient.getInstance().getApi().userSignUp(
                     new User1(0, name, email,
                             phone, 0, 0, password, itemModelDevice));
@@ -72,7 +79,6 @@ public class AddDeviceActivity extends AppCompatActivity implements View.OnClick
 
                     if (response.isSuccessful()) {
 
-                        assert userResponse != null;
                         if (userResponse.getSuccess().toString().equals("true")) {
                             Intent intent = new Intent(AddDeviceActivity.this, LoginActivity.class);
                             startActivity(intent);

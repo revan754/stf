@@ -10,16 +10,6 @@
     >
 
 
-    <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-
-        <LinearLayout
-            android:id="@+id/linear1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:weightSum="100">
-
             <TextView
                 android:id="@+id/device"
                 android:layout_width="0dp"
@@ -32,9 +22,5 @@
                 android:textColor="@color/beyaz2"
                 android:layout_marginTop="@dimen/_2sdp"
                 />
-
-        </LinearLayout>
-    </RelativeLayout>
-
 
 </LinearLayout>

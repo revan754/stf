@@ -1,9 +1,12 @@
 package com.example.tasarimj.Activites;
 
 import android.annotation.SuppressLint;
+import android.app.Dialog;
 import android.content.Intent;
+import android.media.Image;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -32,7 +35,7 @@ public class DeviceDetailActivity extends AppCompatActivity implements View.OnCl
     private TextView battary, filterSetting, inPressure, outPressure, workingTime, lastWashingTime, sarjDurumu, cihazNo;
     private String position, DeviceId;
     private User user;
-
+    private ImageView setting;
     private List<DeviceIdInfo> mDeviceList;
 
     @Override
@@ -53,7 +56,7 @@ public class DeviceDetailActivity extends AppCompatActivity implements View.OnCl
 
     public void inits() {
         user = SharedManager.getInstance(this).getUser();
-
+        setting = findViewById(R.id.setting);
         battary = findViewById(R.id.sarjDurumu);
         filterSetting = findViewById(R.id.filtreSetting);
         inPressure = findViewById(R.id.inPressure);
@@ -111,7 +114,30 @@ public class DeviceDetailActivity extends AppCompatActivity implements View.OnCl
 
     }
 
+    public void showMenu()
 
+{
+    final Dialog dialog = new Dialog(DeviceDetailActivity.this);
+    dialog.setTitle("Input Box");
+    dialog.setContentView(R.layout.menudialog);
+
+    final TextView signUp = dialog.findViewById(R.id.signUpCikis);
+    final TextView sifreDegistir = dialog.findViewById(R.id.passwordChange);
+
+    signUp.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            SharedManager.getInstance(DeviceDetailActivity.this).clear();
+            Intent login = new Intent(DeviceDetailActivity.this, LoginActivity.class);
+            login.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+            startActivity(login);
+            dialog.dismiss();
+        }
+    });
+    dialog.show();
+
+
+}
     /**
      * This implemented method is to listen the click on view
      *
@@ -135,11 +161,8 @@ public class DeviceDetailActivity extends AppCompatActivity implements View.OnCl
                 startActivity(workDetail);
 
                 break;
-            case R.id.back:
-                Intent deviceList = new Intent(getApplicationContext(), DeviceListActivity.class);
-                deviceList.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                startActivity(deviceList);
-                finish();
+            case R.id.setting:
+              showMenu();
                 break;
         }
     }

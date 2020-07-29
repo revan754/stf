@@ -1676,7 +1676,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
-drawable adsoyad
+drawable adsoyadd
 drawable alert
 drawable arzali
 drawable avd_hide_password
@@ -1741,6 +1741,7 @@ drawable pil
 drawable saat
 drawable sebeke
 drawable sehir
+drawable setting
 drawable sifre
 drawable signout
 drawable telefonn
@@ -1781,7 +1782,6 @@ id all
 id always
 id async
 id auto
-id back
 id barrier
 id bataryaText
 id beginning
@@ -1793,6 +1793,7 @@ id calisiyorImage
 id calismaDurumu
 id calismaSuresi
 id cancel_action
+id card
 id center
 id center_horizontal
 id center_vertical
@@ -1800,7 +1801,6 @@ id chains
 id checkbox
 id chronometer
 id cihazAdi
-id cihazAdiText
 id cihazAyari
 id cihazDurumu
 id cihazNo
@@ -1824,6 +1824,7 @@ id design_menu_item_text
 id design_navigation_view
 id device
 id deviceIdd
+id deviceList
 id deviceName
 id dimensions
 id direct
@@ -1981,6 +1982,7 @@ id search_voice_btn
 id sebeke
 id select_dialog_listview
 id selected
+id setting
 id shortcut
 id showCustom
 id showHome
@@ -2004,7 +2006,6 @@ id src_over
 id standard
 id start
 id status_bar_latest_event_content
-id stf
 id stretch
 id submenuarrow
 id submit_area
@@ -2014,7 +2015,6 @@ id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tarih
 id tarlaMevki
-id tarlaMevkiiText
 id text
 id text2
 id text3
