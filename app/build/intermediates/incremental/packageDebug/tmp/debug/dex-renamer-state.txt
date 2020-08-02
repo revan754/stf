@@ -1,4 +1,4 @@
-#Sun Aug 02 12:57:08 EET 2020
+#Sun Aug 02 15:47:37 EET 2020
 base.0=C\:\\Users\\Hp\\Desktop\\STF\\com.ae.hydrostat\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

@@ -24,12 +24,12 @@
         "source": "C:\\Users\\Hp\\Desktop\\STF\\com.ae.hydrostat\\app\\src\\main\\res\\mipmap-hdpi\\arzali.png"
     },
     {
-        "merged": "C:\\Users\\Hp\\Desktop\\STF\\com.ae.hydrostat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_setting.png.flat",
-        "source": "C:\\Users\\Hp\\Desktop\\STF\\com.ae.hydrostat\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\setting.png"
-    },
-    {
         "merged": "C:\\Users\\Hp\\Desktop\\STF\\com.ae.hydrostat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_menu.png.flat",
         "source": "C:\\Users\\Hp\\Desktop\\STF\\com.ae.hydrostat\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\menu.png"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\Desktop\\STF\\com.ae.hydrostat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_setting.png.flat",
+        "source": "C:\\Users\\Hp\\Desktop\\STF\\com.ae.hydrostat\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\setting.png"
     },
     {
         "merged": "C:\\Users\\Hp\\Desktop\\STF\\com.ae.hydrostat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_setting.png.flat",
@@ -64,20 +64,20 @@
         "source": "C:\\Users\\Hp\\Desktop\\STF\\com.ae.hydrostat\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\menu.png"
     },
     {
-        "merged": "C:\\Users\\Hp\\Desktop\\STF\\com.ae.hydrostat\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_signup.xml.flat",
-        "source": "C:\\Users\\Hp\\Desktop\\STF\\com.ae.hydrostat\\app\\src\\main\\res\\layout\\activity_signup.xml"
-    },
-    {
-        "merged": "C:\\Users\\Hp\\Desktop\\STF\\com.ae.hydrostat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\Hp\\Desktop\\STF\\com.ae.hydrostat\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
+        "merged": "C:\\Users\\Hp\\Desktop\\STF\\com.ae.hydrostat\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Hp\\Desktop\\STF\\com.ae.hydrostat\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\Hp\\Desktop\\STF\\com.ae.hydrostat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_down2.xml.flat",
         "source": "C:\\Users\\Hp\\Desktop\\STF\\com.ae.hydrostat\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\down2.xml"
     },
     {
-        "merged": "C:\\Users\\Hp\\Desktop\\STF\\com.ae.hydrostat\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Hp\\Desktop\\STF\\com.ae.hydrostat\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Hp\\Desktop\\STF\\com.ae.hydrostat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\Hp\\Desktop\\STF\\com.ae.hydrostat\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\Desktop\\STF\\com.ae.hydrostat\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_signup.xml.flat",
+        "source": "C:\\Users\\Hp\\Desktop\\STF\\com.ae.hydrostat\\app\\src\\main\\res\\layout\\activity_signup.xml"
     },
     {
         "merged": "C:\\Users\\Hp\\Desktop\\STF\\com.ae.hydrostat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_person_black_24dp.png.flat",
@@ -574,10 +574,6 @@
     {
         "merged": "C:\\Users\\Hp\\Desktop\\STF\\com.ae.hydrostat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ok.png.flat",
         "source": "C:\\Users\\Hp\\Desktop\\STF\\com.ae.hydrostat\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ok.png"
-    },
-    {
-        "merged": "C:\\Users\\Hp\\Desktop\\STF\\com.ae.hydrostat\\app\\build\\intermediates\\res\\merged\\debug\\drawable_adsoyad2.png.flat",
-        "source": "C:\\Users\\Hp\\Desktop\\STF\\com.ae.hydrostat\\app\\src\\main\\res\\drawable\\adsoyad2.png"
     },
     {
         "merged": "C:\\Users\\Hp\\Desktop\\STF\\com.ae.hydrostat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_password.png.flat",

@@ -19,6 +19,7 @@
             android:layout_height="match_parent"
             android:layout_gravity="center"
             android:gravity="center"
+            android:layout_marginLeft="@dimen/_40sdp"
             android:fontFamily="@font/montserrat_light"
             android:text="1 Numaralı Cihaz"
             android:textColor="@color/beyaz"

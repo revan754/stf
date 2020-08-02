@@ -23,7 +23,7 @@
                 android:id="@+id/sebeke"
                 android:layout_width="0dp"
                 android:layout_height="@dimen/_14sdp"
-                android:background="@drawable/arzali"
+                android:background="@drawable/alert"
                 android:layout_weight="5"
                 android:layout_marginLeft="@dimen/_4sdp"
                 android:layout_gravity="center"
