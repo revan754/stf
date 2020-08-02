@@ -23,7 +23,7 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
         <activity
-            android:name="com.example.tasarimj.Activites.Splash"
+            android:name="com.example.hydrostat.Activites.Splash"
             android:screenOrientation="fullSensor"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
             <intent-filter>
@@ -33,45 +33,45 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.tasarimj.Activites.LoginActivity"
+            android:name="com.example.hydrostat.Activites.LoginActivity"
             android:configChanges="locale|orientation"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:windowSoftInputMode="adjustPan|adjustResize" />
         <activity
-            android:name="com.example.tasarimj.Activites.SignUpActivity"
+            android:name="com.example.hydrostat.Activites.SignUpActivity"
             android:configChanges="locale|orientation"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:windowSoftInputMode="adjustPan|adjustResize" />
         <activity
-            android:name="com.example.tasarimj.Activites.UserActivity"
+            android:name="com.example.hydrostat.Activites.UserActivity"
             android:configChanges="locale|orientation"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
-            android:name="com.example.tasarimj.Activites.AddDeviceActivity"
+            android:name="com.example.com.example.hydrostat.Activites.AddDeviceActivity"
             android:configChanges="locale|orientation"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:windowSoftInputMode="adjustPan|adjustResize" />
         <activity
-            android:name="com.example.tasarimj.Activites.WorkDetailActivity"
+            android:name="com.example.hydrostat.Activites.WorkDetailActivity"
             android:configChanges="locale|orientation"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
-            android:name="com.example.tasarimj.Activites.WashingSettingActivity"
+            android:name="com.example.hydrostat.Activites.WashingSettingActivity"
             android:configChanges="locale|orientation"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
-            android:name="com.example.tasarimj.Activites.DeviceListActivity"
+            android:name="com.example.hydrostat.Activites.DeviceListActivity"
             android:configChanges="locale|orientation"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
-            android:name="com.example.tasarimj.Activites.DeviceDetailActivity"
+            android:name="com.example.hydrostat.Activites.DeviceDetailActivity"
             android:configChanges="locale|orientation"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />

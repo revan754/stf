@@ -20,6 +20,7 @@
                 android:textSize="@dimen/_16sdp"
                 android:text="20.01.2020"
                 android:textColor="@color/beyaz2"
+                android:fontFamily="@font/montserrat_regular"
                 android:layout_marginTop="@dimen/_2sdp"
                 />
 

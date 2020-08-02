@@ -28,18 +28,19 @@
                 android:layout_marginLeft="@dimen/_4sdp"
                 android:layout_gravity="center"
                 />
+
             <TextView
                 android:id="@+id/alertMessage"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/_4sdp"
-                android:layout_weight="70"
-                android:textSize="@dimen/_13sdp"
-                android:text="@string/uyariMesaji"
-                android:textColor="@color/beyaz2"
-                android:textAllCaps="true"
                 android:layout_marginTop="@dimen/_2sdp"
-                />
+                android:layout_weight="70"
+                android:text="@string/uyariMesaji"
+                android:textAllCaps="true"
+                android:fontFamily="@font/montserrat_regular"
+                android:textColor="@color/beyaz"
+                android:textSize="@dimen/_13sdp" />
 
             <TextView
                 android:id="@+id/saat"
@@ -49,7 +50,8 @@
                 android:text="@string/simdi"
                 android:layout_marginTop="@dimen/_2sdp"
                 android:gravity="right"
-                android:textColor="@color/beyaz3"
+                android:textColor="@color/beyaz"
+                android:fontFamily="@font/montserrat_regular"
                 />
         </LinearLayout>
 
@@ -66,7 +68,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/notification1"
                 android:text="Notification Title"
-                android:textColor="@color/beyaz3"
+                android:fontFamily="@font/montserrat_bold"
+                android:textColor="@color/beyaz"
                 android:textStyle="bold"
                 android:layout_marginLeft="@dimen/_4sdp"
                 >
@@ -90,7 +93,9 @@
                 android:layout_height="match_parent"
                 android:layout_marginLeft="@dimen/_4sdp"
                 android:text="Filter clogged device 1"
-                android:textColor="@color/beyaz3"
+                android:fontFamily="@font/montserrat_regular"
+
+                android:textColor="@color/beyaz"
                 android:id="@+id/notification2">
 
             </TextView>

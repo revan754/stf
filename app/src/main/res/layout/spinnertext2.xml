@@ -8,5 +8,7 @@
     android:gravity="center_vertical"
     android:textColor="@color/backgroundBlue"
     android:background="@color/edittextColor"
+    android:fontFamily="@font/montserrat_regular"
+
     android:text="Province"
     />

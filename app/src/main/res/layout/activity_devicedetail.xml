@@ -6,32 +6,32 @@
     android:layout_height="match_parent"
     android:background="@color/backgroundBlue"
     android:orientation="vertical">
-
-
-
     <LinearLayout
         android:id="@+id/linear"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:weightSum="9">
-
+        android:layout_height="@dimen/_32sdp"
+        android:weightSum="5">
 
         <TextView
             android:id="@+id/cihazNo"
             android:layout_width="0dp"
+            android:layout_weight="4.5"
             android:layout_height="match_parent"
-            android:layout_weight="8"
             android:layout_gravity="center"
             android:gravity="center"
+            android:fontFamily="@font/montserrat_light"
             android:text="1 Numaralı Cihaz"
-            android:textColor="@color/beyaz2"
+            android:textColor="@color/beyaz"
             android:textSize="@dimen/_16sdp" />
+
 
         <ImageView
             android:id="@+id/setting"
             android:layout_width="0dp"
-            android:layout_height="@dimen/_38sdp"
-            android:layout_weight="1"
+            android:layout_height="@dimen/_22sdp"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:layout_weight="0.5"
             android:background="@drawable/setting"
             android:onClick="onClick">
 
@@ -43,8 +43,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/linear"
-        android:orientation="horizontal"
-        android:gravity="center">
+        android:gravity="center"
+        android:orientation="horizontal">
 
 
         <ImageView
@@ -52,30 +52,29 @@
             android:layout_width="@dimen/_16sdp"
             android:layout_height="@dimen/_16sdp"
             android:background="@drawable/calisiyor"
-            android:onClick="onClick"
-           />
+            android:onClick="onClick" />
 
         <TextView
-                android:id="@+id/calismaDurumu"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
+            android:id="@+id/calismaDurumu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:layout_marginLeft="@dimen/_8sdp"
-                android:gravity="center"
-                android:text="Filtre Çalışıyor"
-                android:textColor="@color/beyaz2"
-                android:textSize="@dimen/_16sdp"/>
+            android:gravity="center"
+            android:text="Filtre Çalışıyor"
+            android:textColor="@color/beyaz"
+            android:textSize="@dimen/_16sdp"
+            android:fontFamily="@font/montserrat_bold" />
 
 
     </LinearLayout>
 
 
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/linearDurum"
         android:layout_above="@id/logo"
+        android:layout_below="@+id/linearDurum"
         android:orientation="vertical"
         android:weightSum="6">
 
@@ -99,109 +98,114 @@
                     android:layout_marginLeft="@dimen/_16sdp"
                     android:layout_marginTop="@dimen/_14sdp"
                     android:layout_marginRight="@dimen/_16sdp"
-                    android:background="@color/backgroundBlue"
                     android:layout_weight="2"
+                    android:background="@color/backgroundBlue"
                     android:weightSum="80">
 
 
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="40"
+                        android:background="@color/backgroundBlue"
+                        android:orientation="vertical"
+                        android:weightSum="6">
+
+                        <TextView
+                            android:id="@+id/bataryaText"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.5"
+                            android:gravity="center"
+                            android:text="@string/batariye"
+                            android:fontFamily="@font/montserrat_regular"
+                            android:textColor="@color/beyaz" />
+
+                        <TextView
+                            android:id="@+id/sarjDurumu"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_below="@id/bataryaText"
+                            android:layout_gravity="center"
+                            android:layout_weight="3"
+                            android:fontFamily="@font/montserrat_regular"
+                            android:gravity="center"
+                            android:text="%84"
+                            android:textColor="@color/beyaz"
+                            android:textSize="@dimen/_26sdp" />
+
+                        <TextView
+                            android:id="@+id/sarjOlma"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_below="@+id/sarjDurumu"
+                            android:layout_marginBottom="@dimen/_2sdp"
+                            android:layout_weight="1.5"
+                            android:gravity="center"
+                            android:fontFamily="@font/montserrat_regular"
+                            android:text="@string/sarjDurumu"
+                            android:textColor="@color/beyaz" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/filtreSettingCard"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="40"
+                        android:onClick="onClick"
+                        android:orientation="horizontal">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:gravity="center_horizontal">
+
                             <LinearLayout
-                                android:layout_width="0dp"
-                                android:layout_weight="40"
+                                android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:orientation="vertical"
-                                android:background="@color/backgroundBlue"
                                 android:weightSum="6">
 
                                 <TextView
-                                    android:id="@+id/bataryaText"
+                                    android:id="@+id/fSettingtxt"
                                     android:layout_width="match_parent"
                                     android:layout_height="0dp"
-                                    android:layout_gravity="center"
                                     android:layout_weight="1.5"
                                     android:gravity="center"
-                                    android:text="@string/batariye"
-                                    android:textColor="@color/beyaz2" />
+                                    android:fontFamily="@font/montserrat_regular"
+                                    android:text="Basınç Farkı"
+                                    android:textColor="@color/beyaz" />
 
                                 <TextView
-                                    android:id="@+id/sarjDurumu"
+                                    android:id="@+id/filtreSetting"
                                     android:layout_width="match_parent"
                                     android:layout_height="0dp"
-                                    android:layout_below="@id/bataryaText"
-                                    android:layout_gravity="center"
+                                    android:layout_below="@+id/fSettingtxt"
                                     android:layout_weight="3"
                                     android:gravity="center"
-                                    android:text="%84"
-                                    android:textColor="@color/beyaz2"
+                                    android:fontFamily="@font/montserrat_regular"
+                                    android:text="0.5"
+                                    android:textColor="@color/beyaz"
                                     android:textSize="@dimen/_26sdp" />
 
                                 <TextView
-                                    android:id="@+id/sarjOlma"
                                     android:layout_width="match_parent"
                                     android:layout_height="0dp"
-                                    android:layout_below="@+id/sarjDurumu"
+                                    android:layout_below="@+id/fSetting"
                                     android:layout_marginBottom="@dimen/_2sdp"
                                     android:layout_weight="1.5"
                                     android:gravity="center"
-                                    android:text="@string/sarjDurumu"
-                                    android:textColor="@color/beyaz2" />
+                                    android:text="mBar"
+                                    android:fontFamily="@font/montserrat_regular"
+                                    android:textColor="@color/beyaz" />
                             </LinearLayout>
+                        </RelativeLayout>
 
 
-                        <LinearLayout
-                            android:layout_width="0dp"
-                            android:layout_weight="40"
-                            android:layout_height="match_parent"
-                            android:orientation="horizontal"
-                            android:onClick="onClick"
-                            android:id="@+id/filtreSettingCard">
-
-                            <RelativeLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_gravity="center"
-                                android:gravity="center_horizontal">
-
-                                <LinearLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:orientation="vertical"
-                                    android:weightSum="6">
-
-                                    <TextView
-                                        android:id="@+id/fSettingtxt"
-                                        android:layout_width="match_parent"
-                                        android:layout_height="0dp"
-                                        android:layout_weight="1.5"
-                                        android:gravity="center"
-                                        android:text="Basınç Farkı"
-                                        android:textColor="@color/beyaz2" />
-
-                                    <TextView
-                                        android:id="@+id/filtreSetting"
-                                        android:layout_width="match_parent"
-                                        android:layout_height="0dp"
-                                        android:layout_below="@+id/fSettingtxt"
-                                        android:layout_weight="3"
-                                        android:gravity="center"
-                                        android:text="0.5"
-                                        android:textColor="@color/beyaz2"
-                                        android:textSize="@dimen/_26sdp" />
-
-                                    <TextView
-                                        android:layout_width="match_parent"
-                                        android:layout_height="0dp"
-                                        android:layout_below="@+id/fSetting"
-                                        android:layout_marginBottom="@dimen/_2sdp"
-                                        android:layout_weight="1.5"
-                                        android:gravity="center"
-                                        android:text="mBar"
-                                        android:textColor="@color/beyaz2" />
-                                </LinearLayout>
-                            </RelativeLayout>
-
-
-
-                        </LinearLayout>
+                    </LinearLayout>
 
                 </LinearLayout>
 
@@ -217,103 +221,107 @@
                     android:weightSum="100">
 
 
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="50"
+                        android:background="@color/backgroundBlue"
+                        android:gravity="center_horizontal">
 
-                        <RelativeLayout
-                            android:layout_width="0dp"
-                            android:layout_weight="50"
+                        <LinearLayout
+                            android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:layout_gravity="center"
-                            android:background="@color/backgroundBlue"
-                            android:gravity="center_horizontal">
+                            android:orientation="vertical"
+                            android:weightSum="6">
 
-                            <LinearLayout
+                            <TextView
+                                android:id="@+id/inprestxt"
                                 android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:orientation="vertical"
-                                android:weightSum="6">
+                                android:layout_height="0dp"
+                                android:layout_weight="1.5"
+                                android:gravity="center"
+                                android:fontFamily="@font/montserrat_regular"
+                                android:text="Çıkış Basıncı"
+                                android:textColor="@color/beyaz"
 
-                                <TextView
-                                    android:id="@+id/inprestxt"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="0dp"
-                                    android:layout_weight="1.5"
-                                    android:gravity="center"
-                                    android:text="Çıkış Basıncı"
-                                    android:textColor="@color/beyaz2"
+                                />
 
-                                    />
+                            <TextView
+                                android:id="@+id/inPressure"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_below="@+id/inprestxt"
+                                android:layout_weight="3"
+                                android:gravity="center"
+                                android:text="0.3"
+                                android:fontFamily="@font/montserrat_regular"
+                                android:textColor="@color/beyaz"
+                                android:textSize="@dimen/_26sdp" />
 
-                                <TextView
-                                    android:id="@+id/inPressure"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="0dp"
-                                    android:layout_below="@+id/inprestxt"
-                                    android:layout_weight="3"
-                                    android:gravity="center"
-                                    android:text="0.3"
-                                    android:textColor="@color/beyaz2"
-                                    android:textSize="@dimen/_26sdp" />
-
-                                <TextView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="0dp"
-                                    android:layout_below="@+id/inPressure"
-                                    android:layout_marginBottom="@dimen/_2sdp"
-                                    android:layout_weight="1.5"
-                                    android:gravity="center"
-                                    android:text="mBar"
-                                    android:textColor="@color/beyaz2" />
-                            </LinearLayout>
-                        </RelativeLayout>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_below="@+id/inPressure"
+                                android:layout_marginBottom="@dimen/_2sdp"
+                                android:layout_weight="1.5"
+                                android:gravity="center"
+                                android:text="mBar"
+                                android:fontFamily="@font/montserrat_regular"
+                                android:textColor="@color/beyaz" />
+                        </LinearLayout>
+                    </RelativeLayout>
 
 
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="50"
+                        android:background="@color/backgroundBlue"
+                        android:gravity="center_horizontal">
 
-                        <RelativeLayout
-                            android:layout_width="0dp"
-                            android:layout_weight="50"
+                        <LinearLayout
+                            android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:layout_gravity="center"
-                            android:gravity="center_horizontal"
-                            android:background="@color/backgroundBlue">
+                            android:orientation="vertical"
 
-                            <LinearLayout
+                            android:weightSum="6">
+
+                            <TextView
+                                android:id="@+id/prestxt"
                                 android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:orientation="vertical"
+                                android:layout_height="0dp"
+                                android:layout_weight="1.5"
+                                android:gravity="center"
+                                android:text="Giriş Basıncı"
+                                android:fontFamily="@font/montserrat_regular"
+                                android:textColor="@color/beyaz" />
 
-                                android:weightSum="6">
+                            <TextView
+                                android:id="@+id/outPressure"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_below="@+id/prestxt"
+                                android:layout_weight="3"
+                                android:gravity="center"
+                                android:fontFamily="@font/montserrat_regular"
+                                android:text="0.1"
+                                android:textColor="@color/beyaz"
+                                android:textSize="@dimen/_26sdp" />
 
-                                <TextView
-                                    android:id="@+id/prestxt"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="0dp"
-                                    android:layout_weight="1.5"
-                                    android:gravity="center"
-                                    android:text="Giriş Basıncı"
-                                    android:textColor="@color/beyaz2" />
-
-                                <TextView
-                                    android:id="@+id/outPressure"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="0dp"
-                                    android:layout_below="@+id/prestxt"
-                                    android:layout_weight="3"
-                                    android:gravity="center"
-                                    android:text="0.1"
-                                    android:textColor="@color/beyaz2"
-                                    android:textSize="@dimen/_26sdp" />
-
-                                <TextView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="0dp"
-                                    android:layout_below="@+id/outPressure"
-                                    android:layout_marginBottom="@dimen/_2sdp"
-                                    android:layout_weight="1.5"
-                                    android:gravity="center"
-                                    android:text="mBar"
-                                    android:textColor="@color/beyaz2" />
-                            </LinearLayout>
-                        </RelativeLayout>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_below="@+id/outPressure"
+                                android:layout_marginBottom="@dimen/_2sdp"
+                                android:layout_weight="1.5"
+                                android:gravity="center"
+                                android:text="mBar"
+                                android:fontFamily="@font/montserrat_regular"
+                                android:textColor="@color/beyaz" />
+                        </LinearLayout>
+                    </RelativeLayout>
 
                 </LinearLayout>
 
@@ -331,76 +339,76 @@
                     android:weightSum="100">
 
 
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="50"
+                        android:background="@color/backgroundBlue"
+                        android:gravity="center_horizontal">
 
-                        <RelativeLayout
-                            android:layout_width="0dp"
-                            android:layout_weight="50"
+                        <LinearLayout
+                            android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:layout_gravity="center"
-                            android:background="@color/backgroundBlue"
-                            android:gravity="center_horizontal">
+                            android:orientation="vertical"
 
-                            <LinearLayout
+                            android:weightSum="6">
+
+                            <TextView
                                 android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:orientation="vertical"
+                                android:layout_height="0dp"
+                                android:layout_weight="1.5"
+                                android:gravity="center"
+                                android:text="Çalışma Süresi"
+                                android:textColor="@color/beyaz"
+                                android:fontFamily="@font/montserrat_regular"
+                                />
 
-                                android:weightSum="6">
+                            <TextView
+                                android:id="@+id/workTime"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_below="@+id/workTime"
+                                android:layout_marginTop="@dimen/_4sdp"
+                                android:layout_weight="3"
+                                android:gravity="center"
+                                android:text="2"
+                                android:fontFamily="@font/montserrat_regular"
+                                android:textColor="@color/beyaz"
+                                android:textSize="@dimen/_26sdp" />
 
-                                <TextView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="0dp"
-                                    android:layout_weight="1.5"
-                                    android:gravity="center"
-                                    android:text="Çalışma Süresi"
-                                    android:textColor="@color/beyaz2"
-
-                                    />
-
-                                <TextView
-                                    android:id="@+id/workTime"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="0dp"
-                                    android:layout_below="@+id/workTime"
-                                    android:layout_marginTop="@dimen/_4sdp"
-                                    android:layout_weight="3"
-                                    android:gravity="center"
-                                    android:text="2"
-                                    android:textColor="@color/beyaz2"
-                                    android:textSize="@dimen/_26sdp" />
-
-                                <TextView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="0dp"
-                                    android:layout_below="@+id/wTime"
-                                    android:layout_marginBottom="@dimen/_2sdp"
-                                    android:layout_weight="1.5"
-                                    android:gravity="center"
-                                    android:text="@string/gecmisSaat"
-                                    android:textColor="@color/beyaz2" />
-                            </LinearLayout>
-                        </RelativeLayout>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_below="@+id/wTime"
+                                android:layout_marginBottom="@dimen/_2sdp"
+                                android:layout_weight="1.5"
+                                android:gravity="center"
+                                android:fontFamily="@font/montserrat_regular"
+                                android:text="@string/gecmisSaat"
+                                android:textColor="@color/beyaz" />
+                        </LinearLayout>
+                    </RelativeLayout>
 
 
+                    <RelativeLayout
+                        android:id="@+id/workDetail"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="50"
+                        android:background="@color/backgroundBlue"
+                        android:gravity="center_horizontal"
+                        android:onClick="onClick"
 
-                        <RelativeLayout
-                            android:layout_width="0dp"
-                            android:layout_weight="50"
-                            android:layout_height="match_parent"
-                            android:layout_gravity="center"
-                            android:background="@color/backgroundBlue"
-                            android:gravity="center_horizontal"
-                            android:id="@+id/workDetail"
-                            android:onClick="onClick"
-
-                            >
+                        >
 
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_gravity="center"
-                            android:weightSum="6"
-                            android:orientation="vertical">
+                            android:orientation="vertical"
+                            android:weightSum="6">
 
 
                             <TextView
@@ -411,21 +419,23 @@
                                 android:layout_weight="1.5"
                                 android:gravity="center"
                                 android:text="Manual Yıkama Başlat"
-                                android:textColor="@color/beyaz2"
+                                android:textColor="@color/beyaz"
                                 android:textSize="@dimen/_12sdp"
-                                tools:ignore="Suspicious0dp" />
+                                tools:ignore="Suspicious0dp"
+                                android:fontFamily="@font/montserrat_regular"
+                                />
 
                             <ImageView
                                 android:layout_width="64dp"
                                 android:layout_height="0dp"
-                                android:layout_weight="4.5"
-                                tools:ignore="Suspicious0dp"
                                 android:layout_gravity="center"
-                                android:background="@drawable/signout">
+                                android:layout_weight="4.5"
+                                android:background="@drawable/signout"
+                                tools:ignore="Suspicious0dp">
 
                             </ImageView>
                         </LinearLayout>
-                        </RelativeLayout>
+                    </RelativeLayout>
                 </LinearLayout>
             </LinearLayout>
         </RelativeLayout>
@@ -456,7 +466,6 @@
                 android:layout_marginTop="@dimen/_6sdp"
                 android:layout_marginRight="@dimen/_16sdp"
                 android:weightSum="10"
-
                 >
 
                 <TextView
@@ -464,9 +473,9 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="5"
                     android:text="Son Yıkama"
-                    android:textColor="@color/beyaz2"
+                    android:textColor="@color/beyaz"
                     android:textSize="@dimen/_14sdp"
-
+                    android:fontFamily="@font/montserrat_regular"
                     />
 
                 <TextView
@@ -475,8 +484,9 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="5"
                     android:text="29.01.2020 14:00"
-                    android:textColor="@color/beyaz2"
+                    android:textColor="@color/beyaz"
                     android:textSize="@dimen/_14sdp"
+                    android:fontFamily="@font/montserrat_regular"
 
                     />
             </LinearLayout>
@@ -499,8 +509,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_below="@+id/view2"
-                android:layout_marginTop="@dimen/_8sdp"
-                android:layout_centerHorizontal="true">
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_8sdp">
 
 
                 <RelativeLayout
@@ -522,13 +532,13 @@
         </RelativeLayout>
 
     </LinearLayout>
+
     <ImageView
+        android:id="@+id/logo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/logo"
-        android:id="@+id/logo"
-        />
+        android:background="@drawable/logo" />
 
 </RelativeLayout>

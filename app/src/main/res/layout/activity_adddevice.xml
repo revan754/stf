@@ -33,6 +33,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/sayin"
                     android:textColor="@color/beyaz2"
+                    android:fontFamily="@font/montserrat_light"
                     android:textSize="@dimen/_14sdp" />
 
                 <TextView
@@ -42,6 +43,7 @@
                     android:layout_marginLeft="@dimen/_3sdp"
                     android:text="Salim"
                     android:textColor="@color/beyaz2"
+                    android:fontFamily="@font/montserrat_light"
                     android:textSize="@dimen/_14sdp" />
             </LinearLayout>
 
@@ -80,7 +82,7 @@
                     android:inputType="number"
                     android:textColor="@color/backgroundBlue"
                     android:textColorHint="@color/backgroundBlue"
-
+                    android:fontFamily="@font/montserrat_regular"
                     android:textCursorDrawable="@color/gri"
                     android:textSize="@dimen/_12sdp" />
             </LinearLayout>
@@ -119,7 +121,7 @@
                     android:inputType="number"
                     android:textColor="@color/backgroundBlue"
                     android:textColorHint="@color/backgroundBlue"
-
+                    android:fontFamily="@font/montserrat_regular"
                     android:textCursorDrawable="@color/gri"
                     android:textSize="@dimen/_12sdp" />
             </LinearLayout>
@@ -136,6 +138,7 @@
                 android:onClick="onClick"
                 android:text="@string/cihazEkle"
                 android:textAllCaps="false"
+                android:fontFamily="@font/montserrat_medium"
                 android:textColor="@color/beyaz2"
                 android:textSize="@dimen/_12sdp">
 
@@ -181,6 +184,7 @@
                             android:layout_marginLeft="@dimen/_8sdp"
                             android:text="@string/eklenenCihazListesi"
                             android:textColor="@color/beyaz2"
+                            android:fontFamily="@font/montserrat_regular"
                             android:textSize="@dimen/_12sdp"/>
 
                         <View
@@ -220,6 +224,7 @@
                 android:text="@string/kayidiTamamla"
                 android:textAllCaps="false"
                 android:textColor="@color/beyaz2"
+                android:fontFamily="@font/montserrat_medium"
                 android:textSize="@dimen/_14sdp" />
         </RelativeLayout>
 

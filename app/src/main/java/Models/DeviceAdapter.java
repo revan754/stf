@@ -13,8 +13,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.tasarimj.R;
-import com.example.tasarimj.adapter.DeviceProduct;
+import com.example.hydrostat.R;
+import com.example.hydrostat.adapter.DeviceProduct;
 
 import java.util.List;
 

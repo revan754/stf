@@ -28,7 +28,7 @@
     android:layout_marginRight="@dimen/_50sdp"
     android:gravity="left"
      android:textAllCaps="true"
-
+     android:fontFamily="@font/montserrat_thin"
      android:text="@string/text1"
     android:textColor="@color/beyaz"
     android:textSize="@dimen/_36sdp"/>
@@ -56,21 +56,21 @@
         <EditText
             android:id="@+id/edit_phonee"
             android:layout_width="0dp"
-            android:layout_weight="7.5"
-            android:layout_height="@dimen/_32sdp"
+            android:layout_height="49dp"
             android:layout_below="@id/linear3"
-            android:inputType="number"
-            android:maxLength="11"
+            android:layout_gravity="center"
             android:layout_marginLeft="@dimen/_2sdp"
+            android:layout_weight="7.5"
             android:background="@android:color/transparent"
             android:cursorVisible="true"
             android:hint="@string/phone"
+            android:inputType="number"
+            android:maxLength="11"
             android:textColor="@color/backgroundBlue"
             android:textColorHint="@color/backgroundBlue"
             android:textCursorDrawable="@color/backgroundBlue"
-            android:layout_gravity="center"
             android:textSize="@dimen/_12sdp"
-            />
+            android:fontFamily="@font/montserrat_regular"/>
 
 
     </LinearLayout>
@@ -115,6 +115,7 @@
             android:textCursorDrawable="@color/backgroundBlue"
             android:layout_gravity="center"
             android:textSize="@dimen/_12sdp"
+            android:fontFamily="@font/montserrat_regular"
 
             />
     </LinearLayout>
@@ -133,6 +134,7 @@
         android:backgroundTint="@color/butonColor"
         android:onClick="onClick"
         android:text="@string/login"
+        android:fontFamily="@font/montserrat_medium"
         android:textSize="@dimen/_12sdp"
         android:textAllCaps="false"
         android:textColor="@color/beyaz"/>
@@ -156,6 +158,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/_8sdp"
             android:text="@string/kayitYap"
+            android:fontFamily="@font/montserrat_medium"
             android:layout_gravity="center"
             android:textColor="@color/beyaz" />
 
@@ -169,6 +172,7 @@
             android:layout_height="wrap_content"
             android:layout_marginRight="@dimen/_8sdp"
             android:text="@string/şifremiUnuttum"
+            android:fontFamily="sans-serif-medium"
             android:textColor="@color/beyaz" />
 
     </LinearLayout>
@@ -181,6 +185,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:background="@drawable/logo"
+        android:fontFamily="@font/montserrat_medium"
         />
 </RelativeLayout>
 </ScrollView>

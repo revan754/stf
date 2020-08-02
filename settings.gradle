@@ -1,4 +1,4 @@
 include ':app'
-rootProject.name='tasarimJ'
+rootProject.name='com.ae.hydrostat'
 include ':libs:actionbarsherlock'
-include ':tasarimJ'
+include ':com.ae.hydrostat'

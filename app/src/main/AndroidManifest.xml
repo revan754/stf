@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     tools:overrideLibrary="com.intuit.sdp"
-    package="com.example.tasarimj">
+    package="com.example.hydrostat">
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-sdk tools:overrideLibrary="android.support.v17.leanback"/>
     <application
@@ -51,7 +51,7 @@
             android:configChanges="locale|orientation"
             tools:ignore="LockedOrientationActivity" />
         <activity
-            android:name=".Activites.AddDeviceActivity"
+            android:name="com.example.com.example.hydrostat.Activites.AddDeviceActivity"
             android:screenOrientation="portrait"
             android:configChanges="locale|orientation"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
@@ -82,6 +82,7 @@
             android:screenOrientation="portrait"
             android:configChanges="locale|orientation"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+
             tools:ignore="LockedOrientationActivity" />
     </application>
 

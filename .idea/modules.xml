@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/libs/actionbarsherlock/actionbarsherlock.iml" filepath="$PROJECT_DIR$/libs/actionbarsherlock/actionbarsherlock.iml" group="tasarimJ/libs/actionbarsherlock" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="tasarimJ/app" />
-      <module fileurl="file://$PROJECT_DIR$/libs/libs.iml" filepath="$PROJECT_DIR$/libs/libs.iml" group="tasarimJ/libs" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/tasarimJ.iml" filepath="$PROJECT_DIR$/.idea/tasarimJ.iml" group="tasarimJ" />
-      <module fileurl="file://$PROJECT_DIR$/tasarimJ/tasarimJ-tasarimJ.iml" filepath="$PROJECT_DIR$/tasarimJ/tasarimJ-tasarimJ.iml" group="tasarimJ/tasarimJ" />
+      <module fileurl="file://$PROJECT_DIR$/com.ae.hydrostat/STF-com.ae.hydrostat-com.ae.hydrostat.iml" filepath="$PROJECT_DIR$/com.ae.hydrostat/STF-com.ae.hydrostat-com.ae.hydrostat.iml" group="com.ae.hydrostat/com.ae.hydrostat" />
+      <module fileurl="file://$PROJECT_DIR$/libs/actionbarsherlock/actionbarsherlock.iml" filepath="$PROJECT_DIR$/libs/actionbarsherlock/actionbarsherlock.iml" group="com.ae.hydrostat/libs/actionbarsherlock" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="com.ae.hydrostat/app" />
+      <module fileurl="file://$PROJECT_DIR$/com.ae.hydrostat.iml" filepath="$PROJECT_DIR$/com.ae.hydrostat.iml" group="com.ae.hydrostat" />
+      <module fileurl="file://$PROJECT_DIR$/libs/libs.iml" filepath="$PROJECT_DIR$/libs/libs.iml" group="com.ae.hydrostat/libs" />
     </modules>
   </component>
 </project>

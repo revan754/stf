@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Hp\\Desktop\\STF\\tasarimJ\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en\\values-en.xml",
+            "outputFile": "C:\\Users\\Hp\\Desktop\\STF\\com.ae.hydrostat\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en\\values-en.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Hp\\Desktop\\STF\\tasarimJ\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "source": "C:\\Users\\Hp\\Desktop\\STF\\com.ae.hydrostat\\app\\src\\main\\res\\values-en\\strings.xml",
                     "from": {
                         "startLines": "61,78,52,58,82,37,27,72,36,43,42,30,29,20,48,51,23,71,19,53,80,41,49,22,39,44,79,40,14,66,9,24,11,6,73,5,12,56,4,13,3,32,38,83,84,18,77,75,81,64,65,33,45,50,31,10,15,2,76,74,28,57,60,59,7",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

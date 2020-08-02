@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/kAyarlari"
+        android:icon="@drawable/adsoyadd"
+        android:title="Kullanıcı Ayarları"
+
+        />
+
+    <item
+        android:id="@+id/cAyarlari"
+        android:icon="@drawable/telefonn"
+        android:title="Cihaz Ayarları"
+        />
+    <item
+        android:id="@+id/kCikis"
+        android:icon="@drawable/signout_black"
+        android:title="Kullanıcı Çıkışı"
+        />
+</menu>

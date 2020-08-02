@@ -6,6 +6,8 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+
+
     </style>
 
     <style name="EditText" parent="Widget.AppCompat.EditText">
@@ -20,7 +22,19 @@
         <item name="android:textColor">@color/backgroundBlue</item>
         <item name="android:popupBackground">@color/black</item>
     </style>
-   <!-- <style name="spinnerTheme">
-        <item name="android:textColor">@color/red</item>
-    </style>-->
+
+
+    <style name="PopupMenu" parent="Widget.AppCompat.PopupMenu">
+        <item name="android:itemBackground">@drawable/popup</item>
+        <item name="android:textColor">@color/edittextColor</item>
+
+
+    </style>
+    <!--<style name="PopupMenu" parent="Widget.AppCompat.PopupMenu">
+        <item name="android:popupBackground">@color/butonColor</item>
+        <item name="android:textColor">@color/beyaz</item>
+
+    </style>
+    -->
+
 </resources>

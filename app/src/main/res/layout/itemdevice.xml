@@ -5,22 +5,21 @@
     android:id="@+id/relative_layout"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginTop="@dimen/_16sdp"
-    android:layout_marginRight="@dimen/_8sdp"
     android:layout_marginLeft="@dimen/_8sdp"
-    >
+    android:layout_marginTop="@dimen/_16sdp"
+    android:layout_marginRight="@dimen/_8sdp">
 
 
     <de.hdodenhof.circleimageview.CircleImageView
-        xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/daireImage"
         android:layout_width="@dimen/_50sdp"
+        android:alpha="1"
         android:layout_height="match_parent"
-        android:src="@drawable/calisiyor"
+        android:layout_gravity="center"
         android:layout_marginTop="@dimen/_8sdp"
         android:layout_marginBottom="@dimen/_8sdp"
-        android:layout_gravity="center"
-        />
+        android:src="@drawable/calisiyor" />
+
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
@@ -36,22 +35,21 @@
             <TextView
                 android:id="@+id/cihazAdi"
                 android:layout_width="0dp"
-                android:layout_weight="55"
                 android:layout_height="wrap_content"
-                android:text="Karabağ Gravel"
-                android:textColor="@color/beyaz"
+                android:fontFamily="@font/montserrat_bold"
                 android:layout_marginTop="@dimen/_2sdp"
-                />
+                android:layout_weight="55"
+                android:text="Karabağ Gravel"
+                android:textColor="@color/beyaz" />
 
             <ImageView
                 android:id="@+id/sebeke"
                 android:layout_width="0dp"
                 android:layout_height="@dimen/_16sdp"
-                android:background="@drawable/sebeke"
-                android:layout_weight="3"
-                android:layout_marginLeft="@dimen/_4sdp"
                 android:layout_gravity="center"
-                />
+                android:layout_marginLeft="@dimen/_4sdp"
+                android:layout_weight="3"
+                android:background="@drawable/sebeke" />
 
             <ImageView
                 android:id="@+id/pil"
@@ -63,32 +61,34 @@
                 android:background="@drawable/pil" />
 
         </LinearLayout>
+
         <LinearLayout
             android:id="@+id/linear2"
             android:layout_width="match_parent"
-            android:weightSum="100"
             android:layout_height="wrap_content"
             android:layout_below="@+id/linear1"
-            android:visibility="visible">
+            android:visibility="visible"
+            android:weightSum="100">
+
             <TextView
                 android:id="@+id/cihazNo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TK536577"
-                android:textStyle="bold"
                 android:layout_below="@+id/linear1"
-                android:textColor="@color/beyaz3"
+                android:text="TK536577"
+                android:textColor="@color/beyaz"
+                android:fontFamily="@font/montserrat_regular"
                 android:textSize="@dimen/_10sdp"
-                />
+             />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/numaraliCihaz"
-                android:textSize="@dimen/_10sdp"
-                android:textColor="@color/beyaz3"
                 android:layout_marginLeft="@dimen/_4sdp"
-                />
+                android:text="@string/numaraliCihaz"
+                android:textColor="@color/beyaz"
+                android:fontFamily="@font/montserrat_regular"
+                android:textSize="@dimen/_10sdp" />
 
 
         </LinearLayout>
@@ -96,27 +96,27 @@
         <LinearLayout
             android:id="@+id/linearSure"
             android:layout_width="match_parent"
-            android:weightSum="100"
             android:layout_height="wrap_content"
-            android:visibility="visible"
             android:layout_below="@+id/linear2"
-            >
+            android:visibility="visible"
+            android:weightSum="100">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="@dimen/_10sdp"
                 android:text="@string/calismaSuresi"
-                android:textColor="@color/beyaz3"/>
+                android:fontFamily="@font/montserrat_regular"
+                android:textColor="@color/beyaz"
+                android:textSize="@dimen/_10sdp" />
 
             <TextView
+                android:id="@+id/calismaSuresi"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/calismaSuresi"
                 android:text="20"
-                android:textSize="@dimen/_10sdp"
-                android:textColor="@color/beyaz3"
-                />
+                android:fontFamily="@font/montserrat_regular"
+                android:textColor="@color/beyaz"
+                android:textSize="@dimen/_10sdp" />
 
         </LinearLayout>
 
